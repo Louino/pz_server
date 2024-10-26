@@ -1,5 +1,6 @@
 function SpawnRegions()
 	return {
+		/*
 		{ name = "Riverside, KY", file = "media/maps/Riverside, KY/spawnpoints.lua" },
 		{ name = "Hopewell, KY", file = "media/maps/Hopewell, KY/spawnpoints.lua" },
 		{ name = "Westoutskirts-shippingCo", file = "media/maps/Westoutskirts-shippingCo/spawnpoints.lua" },
@@ -53,7 +54,9 @@ function SpawnRegions()
 		{ name = "Hilltop", file = "media/maps/Hilltop/spawnpoints.lua" },
 		{ name = "Homepie", file = "media/maps/Homepie/spawnpoints.lua" },
 		{ name = "Irvington Road", file = "media/maps/Irvington Road/spawnpoints.lua" },
+		*/
 		{ name = "Irvington, KY", file = "media/maps/Irvington, KY/spawnpoints.lua" },
+		/*
 		{ name = "Jasperville", file = "media/maps/Jasperville/spawnpoints.lua" },
 		{ name = "Kingsmouth", file = "media/maps/Kingsmouth/spawnpoints.lua" },
 		{ name = "lvinternationalairport", file = "media/maps/lvinternationalairport/spawnpoints.lua" },
@@ -135,5 +138,7 @@ function SpawnRegions()
 		{ name = "Winchester, KY", file = "media/maps/Winchester, KY/spawnpoints.lua" },
 		{ name = "EastTownofRiverside", file = "media/maps/EastTownofRiverside/spawnpoints.lua" },
 		{ name = "coryerdon", file = "media/maps/coryerdon/spawnpoints.lua" },
+		{ name = "vehicle_interior", file = "media/maps/vehicle_interior/spawnpoints.lua" },
+		 */
 	}
 end

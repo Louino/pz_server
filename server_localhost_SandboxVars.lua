@@ -258,7 +258,7 @@ SandboxVars = {
     -- Quand > 0, le butin ne réapparaîtra pas dans les zones qui ont été visitées durant ce nombre d'heures en jeu. Minimum=0 Maximum=2147483647 Par défaut=0
     SeenHoursPreventLootRespawn = 0,
     -- Une liste de types d'objets séparés par des virgules, qui seront supprimés après HoursForWorldItemRemoval
-    WorldItemRemovalList = "Base.Hat,Base.Glasses,Base.Maggots",
+    WorldItemRemovalList = "Base.Hat,Base.Glasses,Base.Maggots,EHE.EvacuationFlyer,EHE.EmergencyFlyer,EHE.QuarantineFlyer,EHE.PreventionFlyer,EHE.NoticeFlyer",
     -- Nombres d'heures écoulées depuis qu'un objet ait été jeté au sol avant d'être retiré. Les éléments au sol seront supprimés lors du prochain chargement de cette partie de la carte. Zéro signifie que les éléments ne seront pas supprimés. Minimum=0,00 Maximum=2147483647,00 Par défaut=24,00
     HoursForWorldItemRemoval = 24.0,
     -- Si activé, tous les objets qui ne sont pas dans la liste des objets retirés seront supprimés.
@@ -299,7 +299,7 @@ SandboxVars = {
     -- 1 = Jamais
     -- 2 = Une fois
     -- 3 = De temps en temps
-    Helicopter = 2,
+    Helicopter = 1,
     -- Fréquence des meta-évènements (coups de feu, cris, aboiements...) attirant les zombies. Par défaut=De temps en temps
     -- 1 = Jamais
     -- 2 = De temps en temps
@@ -613,5 +613,824 @@ SandboxVars = {
         RallyGroupSeparation = 15,
         -- Distance à laquelle les membres d'un groupe restent proches du chef de groupe. Minimum=1 Maximum=10 Par défaut=3
         RallyGroupRadius = 3,
+    },
+    DAMN = {
+        AllowVanillaVehicleDismantling = true,
+        AllowVanillaWorldItemDismantling = true,
+        AllowPowerChadSpawns = true,
+        AllowManlyMANSpawns = true,
+        AllowGreatScottSpawns = true,
+        AlLAV300Spawns = true,
+        AllowfUNSpawns = true,
+        AllowMrBusSpawns = true,
+        AllowChonkerSpawns = true,
+        AllowCashcowSpawns = true,
+        AllowMcBoxySpawns = true,
+    },
+    PlumbHelper = {
+        WelcomeSeparator = false,
+        Utilities = true,
+    },
+    A26 = {
+        EnumDebugLevels = 2,
+        EnumShowWeaponInfo = 1,
+        BoolSkipRemovals = false,
+        BoolVisualEffects = true,
+        BoolShowHitDamage = false,
+        BoolShowHitRange = false,
+        BoolDisplayAmmoCounter = true,
+        BoolDisplayMovementGauge = true,
+        EnumEjectSpentCasings = 11,
+        EnumEmergencyReload = 2,
+        EnumAutoMagType = 1,
+        EnumNVControl = 2,
+        EnumAutoToggleLaser = 1,
+        EnumLightRunTime = 6,
+        EnumTorchBurnTime = 5,
+        EnumTorchIgniteTarget = 5,
+        BoolAutoThrown = false,
+        BoolLightSaberReal = false,
+        EnumFixedWeaponOffset = 6,
+        BoolDynamicRecoilSystem = true,
+        EnumDynamicRangeSystem = 1,
+        BoolResetSightPicture = true,
+        BoolVehiclePenalty = false,
+        BoolFireArmsNeverBreak = false,
+        EnumFirearmJam = 4,
+        EnumAttachementsBreakOnMelee = 5,
+        EnumAttachmentsBreakOnFire = 5,
+        EnumArrowBreak = 5,
+        EnumArcheryDamage = 6,
+        EnumFirearmDamage = 6,
+        EnumMeleeDamage = 6,
+        EnumLauncherRangeMultiplier = 1,
+        EnumHeavyWeaponMovement = 1,
+        BoolZombieBodyParts = false,
+        EnumSoundSuppression = 3,
+        EnumSoundLinearBase = 1,
+        BoolUseVanillaShotSounds = false,
+        EnumTypeBOW = 6,
+        EnumTypeFLAME = 2,
+        EnumTypeGREN = 3,
+        EnumTypeMINI = 2,
+        EnumTypeLMG = 4,
+        EnumTypeSEMI = 6,
+        EnumTypeAUTO = 6,
+        EnumTypeSMG = 6,
+        EnumTypeLEVER = 3,
+        EnumTypeREV = 4,
+        EnumTypePUMP = 5,
+        EnumTypeBOLT = 4,
+        EnumTypeBREAK = 3,
+        EnumOriginUSA = 11,
+        EnumOriginSOV = 11,
+        EnumOriginKOR = 11,
+        EnumOriginPAC = 11,
+        EnumOriginCZE = 11,
+        EnumOriginEUR = 11,
+        EnumOriginISR = 11,
+        EnumOriginREST = 11,
+        EnumCaliber50BMG = 6,
+        EnumCaliber4gShot = 2,
+        EnumCaliber10gShot = 2,
+        EnumCaliber12gShot = 6,
+        EnumCaliber20gShot = 2,
+        EnumCaliber3006SPG = 4,
+        EnumCaliber308WIN = 5,
+        EnumCaliber762x54mmR = 4,
+        EnumCaliber545x39mm = 5,
+        EnumCaliber762x39mm = 6,
+        EnumCaliber556x45mm = 6,
+        EnumCaliber223REM = 4,
+        EnumCaliber45LC410g = 3,
+        EnumCaliber4570 = 3,
+        EnumCaliber44MAG = 4,
+        EnumCaliber45ACP = 6,
+        EnumCaliber38SPC = 5,
+        EnumCaliber9mm = 6,
+        EnumCaliber57x28mm = 4,
+        EnumCaliber380ACP = 5,
+        EnumCaliber22LR = 6,
+        EnumCaliber177BB = 6,
+        EnumAttachementSuppressor = 2,
+        EnumAttachementOptics = 2,
+        EnumAttachementLightLaser = 2,
+        EnumAttachementAllOther = 2,
+        EnumAmmoCan = 2,
+        EnumAmmoBox = 6,
+        EnumPolyCan = 2,
+        EnumStdMag = 4,
+        EnumExtMag = 3,
+        EnumDrumMag = 2,
+        EnumMeleeKnifeLarge = 3,
+        EnumMeleeKnifeSmall = 4,
+        EnumMeleeSword = 2,
+        EnumMeleeAxe = 3,
+        EnumMeleeBlunt = 4,
+        EnumMeleeSpear = 2,
+        EnumPowerTool = 11,
+        EnumReloadingItems = 4,
+        EnumRandomCases = 2,
+        EnumZombieCCW = 2,
+        EnumVLR = 11,
+        EnumArmor = 6,
+        EnumPost1992Production = 5,
+        EnumMILRegion = 8,
+        EnumCIVxLEO = 1,
+        EnumCIVxMIL = 1,
+        EnumLEOxCIV = 1,
+        EnumLEOxMIL = 1,
+        EnumMILxNON = 1,
+        EnumSECxNON = 1,
+        EnumHNTxNON = 1,
+        EnumSURxNON = 1,
+        EnumGUNRollGUN = 2,
+        EnumGUNRollAMMO = 2,
+        EnumGUNRollPART = 2,
+        EnumGUNRollARMOR = 2,
+        EnumLEORollGUN = 2,
+        EnumLEORollAMMO = 2,
+        EnumLEORollPART = 2,
+        EnumLEORollARMOR = 2,
+        EnumMILRollGUN = 2,
+        EnumMILRollAMMO = 2,
+        EnumMILRollPART = 2,
+        EnumMILRollARMOR = 2,
+        EnumSECRollGUN = 2,
+        EnumSECRollAMMO = 2,
+        EnumSECRollPART = 2,
+        EnumSECRollARMOR = 2,
+        EnumSURRollGUN = 2,
+        EnumSURRollAMMO = 2,
+        EnumSURRollPART = 2,
+        EnumSURRollARMOR = 2,
+        EnumHNTRollGUN = 2,
+        EnumHNTRollAMMO = 2,
+        EnumHNTRollPART = 2,
+        EnumHNTRollARMOR = 2,
+        EnumCIVx = 1,
+        EnumLEOx = 5,
+        EnumMILx = 1,
+        EnumSECx = 1,
+        EnumHNTx = 7,
+        EnumSURx = 3,
+        BoolCIVammo = true,
+        BoolLEOammo = true,
+        BoolMILammo = true,
+        BoolSECammo = true,
+        BoolHNTammo = true,
+        BoolSURammo = true,
+    },
+    SOMW = {
+        CondLowerChanceMultiplier = 1,
+    },
+    MoreSmokes = {
+        Loot = 2,
+        Moodle = true,
+        -- Minimum=1 Maximum=10 Par défaut=2
+        Kits = 2,
+        -- Minimum=1 Maximum=10 Par défaut=2
+        Magazines = 2,
+        RareMagazines = false,
+        -- Minimum=1 Maximum=10 Par défaut=2
+        Seeds = 2,
+        YesCannabis = true,
+        -- Minimum=1 Maximum=10 Par défaut=2
+        Cannabis = 2,
+        YesTobacco = true,
+        -- Minimum=1 Maximum=10 Par défaut=2
+        Tobacco = 2,
+        -- Minimum=1 Maximum=10 Par défaut=2
+        Edibles = 2,
+        -- Minimum=1 Maximum=10 Par défaut=2
+        Glassware = 2,
+        -- Minimum=1 Maximum=50 Par défaut=2
+        Munchies = 2,
+        -- Minimum=1 Maximum=50 Par défaut=2
+        StonerPerk = 2,
+        -- Minimum=1 Maximum=50 Par défaut=2
+        Paranoid = 2,
+        -- Minimum=0 Maximum=5 Par défaut=0
+        CultivationBonus = 0,
+        -- Minimum=1 Maximum=50 Par défaut=2
+        StonedIncreaseMulti = 2,
+        -- Minimum=1 Maximum=50 Par défaut=2
+        StonedDecreaseMulti = 2,
+        TimerInfo = true,
+        -- Minimum=1 Maximum=20 Par défaut=10
+        DryCureChange = 10,
+        -- Minimum=0 Maximum=10 Par défaut=2
+        HarvestAdd = 2,
+        -- Minimum=12 Maximum=250 Par défaut=90
+        GrowTimer = 90,
+        -- Minimum=12 Maximum=250 Par défaut=90
+        RotTimer = 90,
+    },
+    Collections = {
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        RequiredBooks = 1.0,
+        ComicsSection = false,
+        AnthroComics = true,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        AnthroComicSpawnRate = 1.0,
+        Manga = true,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        MangaSpawnRate = 1.0,
+        ContemporaryComics = true,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        ContemporaryComicsSpawnRate = 1.0,
+        VintageComics = true,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        VintageComicsSpawnRate = 1.0,
+        ComicBox = true,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        ComicBoxSpawnRate = 1.0,
+        MedalsSection = false,
+        Medals = true,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        MedalsSpawnRate = 1.0,
+        MedalsRare = true,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        MedalsRareSpawnRate = 1.0,
+        MedalsSilly = true,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        MedalsSillySpawnRate = 1.0,
+        CansSection = false,
+        Cans = true,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        CansSpawnRate = 1.0,
+        HeadwearSection = false,
+        Helm = true,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        HelmSpawnRate = 1.0,
+        Hat = true,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        HatSpawnRate = 1.0,
+    },
+    newcontainersnc = {
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        ammocan30 = 1.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        ammocan50 = 1.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        basket = 1.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        basket_forage = 1.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        beveragejug = 1.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        breadbox = 1.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        canteen = 1.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        canteenmilitary = 1.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        canvastote = 1.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        cardboard_large = 1.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        cardboard_medium = 1.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        cardboard_small = 1.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        cdbinder = 1.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        cdcase = 1.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        coffeecan = 1.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        componentkit = 1.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        cookiejar = 1.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        cutleryroll = 1.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        dishtub = 1.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        donutbox = 1.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        fakerock = 1.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        filefolder = 1.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        fishingcreel = 1.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        flask = 1.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        foragepouch = 1.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        halfgaljug = 1.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        hardwareorganizer = 1.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        jewelrybox = 1.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        jugempty = 1.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        kindlingbox = 1.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        kidsflask = 1.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        lockbox = 1.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        milkcrate = 1.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        milkcratelong = 1.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        petcarrier = 1.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        piggybank = 1.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        pitcherempty_01 = 1.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        pitcherempty_02 = 1.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        pizzabox = 1.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        plastictote_large = 1.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        plastictote_medium = 1.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        plastictote_small = 1.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        plasticware = 1.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        plasticware_small = 1.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        plasticware_tall = 1.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        roadsidekit = 1.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        roughbox = 1.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        sandwichbagbox = 1.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        sandwichbag = 1.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        shoebox = 1.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        shoppingbasket = 1.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        spicerack = 1.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        spiffokeeper = 1.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        tacklebox = 1.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        tackleboxlarge = 1.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        tissuebox = 1.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        travelkit = 1.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        trunkorganizer = 1.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        woodcarrier = 1.0,
+    },
+    zReV2 = {
+        -- Minimum=10 Maximum=30000 Par défaut=200
+        SpecZombieSpawnChance = 200,
+        -- Minimum=0 Maximum=100 Par défaut=10
+        DefaultVaccineSpawnChance = 10,
+        -- Minimum=0 Maximum=100 Par défaut=30
+        ScalpelTweezersSpawnChance = 30,
+        -- Minimum=0 Maximum=100 Par défaut=30
+        TubeOrSyringeOrFlaskSpawnChance = 30,
+        -- Minimum=0 Maximum=100 Par défaut=30
+        TongsSpawnChance = 30,
+        -- Minimum=20 Maximum=60 Par défaut=30
+        chanceToNormal = 30,
+        -- Minimum=5 Maximum=30 Par défaut=10
+        chanceToRare = 10,
+        -- Minimum=0,00 Maximum=2,00 Par défaut=1,00
+        BookInWorldSpawnChance = 1.0,
+        AntibodyPower = 2,
+        -- Minimum=6 Maximum=24 Par défaut=12
+        AntibodyPower2 = 12,
+        ResearchType = 3,
+        -- Minimum=4 Maximum=30 Par défaut=10
+        ResearchRand = 10,
+        -- Minimum=6 Maximum=16 Par défaut=8
+        ResearchReduceHealth = 8,
+        -- Minimum=15 Maximum=50 Par défaut=42
+        ResearchMinHealthNotification = 42,
+    },
+    PompsItems = {
+        ZombieLoot = true,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        ZombieLootSpawnRate = 1.0,
+        StallionMilk = true,
+        EasterStuff = true,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        CandySpawnRate = 1.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        SnacksSpawnRate = 1.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        CannedGoodsSpawnRate = 1.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        RefrigeratedGoodsSpawnRate = 1.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        FrozenGoodsSpawnRate = 1.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        MiscSpawnRate = 1.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        DrinksSpawnRate = 1.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        EnergyDrinkSpawnRate = 1.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        LiquorSpawnRate = 1.0,
+        Littering = true,
+    },
+    SapphCooking = {
+        NonPerishableChance = 3,
+        PerishableChance = 3,
+        MagazineChance = 3,
+        MREChance = 3,
+        KitchenUtensilsChance = 3,
+        AlcoholChance = 3,
+        ZombieLootSpawn = 3,
+    },
+    BLTRandomZombies = {
+        -- Minimum=0,00 Maximum=100,00 Par défaut=2,00
+        Crawler = 2.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=15,00
+        Shambler = 15.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=78,00
+        FastShambler = 78.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=5,00
+        Sprinter = 5.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=0,00
+        Fragile = 0.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=100,00
+        NormalTough = 100.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=0,00
+        Tough = 0.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=0,00
+        Smart = 0.0,
+        -- Minimum=1000 Maximum=60000 Par défaut=7500
+        Frequency = 7500,
+    },
+    AirbobbelzLoot = {
+        -- Minimum=0 Maximum=100000000 Par défaut=100
+        GlobalMultiplier = 100,
+        -- Minimum=0 Maximum=100 Par défaut=20
+        ChanceMaxCondition = 20,
+        -- Minimum=0 Maximum=100 Par défaut=10
+        MinimumCondition = 10,
+        -- Minimum=0 Maximum=100 Par défaut=20
+        ChanceMaxDrainable = 20,
+        -- Minimum=0 Maximum=100 Par défaut=20
+        MinimumDrainable = 20,
+        -- Minimum=0 Maximum=100000000 Par défaut=100
+        OutfitMultiplier = 100,
+        -- Minimum=0 Maximum=100000000 Par défaut=100
+        BagContentsMultiplier = 100,
+        -- Minimum=0 Maximum=1000 Par défaut=12
+        GunLooseBulletsRolls = 12,
+        -- Minimum=0 Maximum=1000 Par défaut=100
+        GunLooseBulletsMultiplier = 100,
+        -- Minimum=0 Maximum=100000000 Par défaut=100
+        AmmoMultiplier = 100,
+        -- Minimum=0 Maximum=100000000 Par défaut=100
+        AmmoBoxMultiplier = 100,
+        -- Minimum=0 Maximum=100000000 Par défaut=100
+        MeleeMultiplier = 100,
+        -- Minimum=0 Maximum=100000000 Par défaut=100
+        PistolMultiplier = 100,
+        -- Minimum=0 Maximum=100000000 Par défaut=100
+        LongGunMultiplier = 100,
+        -- Minimum=0 Maximum=100000000 Par défaut=100
+        OtherGunsMultiplier = 100,
+        -- Minimum=0 Maximum=100000000 Par défaut=100
+        CannedFoodMultiplier = 100,
+        -- Minimum=0 Maximum=100000000 Par défaut=100
+        OtherFoodMultiplier = 100,
+        -- Minimum=0 Maximum=100000000 Par défaut=100
+        ResourceMultiplier = 100,
+        -- Minimum=0 Maximum=100000000 Par défaut=100
+        BagMultiplier = 100,
+        -- Minimum=0 Maximum=100000000 Par défaut=100
+        GunBagMultiplier = 100,
+        -- Minimum=0 Maximum=100000000 Par défaut=100
+        JunkMultiplier = 100,
+        -- Minimum=0 Maximum=100000000 Par défaut=100
+        ExtraMultiplier = 100,
+        ExtraRollEach = "",
+        ExtraRollOne1 = "",
+        ExtraRollOne2 = "",
+        ExtraRollOne3 = "",
+        RemoveItems = "",
+    },
+    HNDLBR = {
+        -- Minimum=0,01 Maximum=5,00 Par défaut=0,15
+        PrepperChance = 0.15,
+        PrepperWeaponPack = 1,
+        DoomsdayPrepper = true,
+    },
+    BardInteractiveMusic = {
+        -- Minimum=1 Maximum=10000 Par défaut=40
+        SoundRange = 40,
+    },
+    Blackouts = {
+        -- Minimum=0 Maximum=100 Par défaut=10
+        Chance = 10,
+        -- Minimum=0 Maximum=100 Par défaut=25
+        Recovery = 25,
+        WeatherEvent = true,
+        RampUp = false,
+        -- Minimum=1 Maximum=744 Par défaut=168
+        InitialCooldown = 168,
+        -- Minimum=1 Maximum=744 Par défaut=1
+        Duration = 1,
+        -- Minimum=1 Maximum=744 Par défaut=24
+        Cooldown = 24,
+        -- Minimum=0 Maximum=4015 Par défaut=0
+        Override = 0,
+    },
+    ExpandedHeli = {
+        -- Minimum=0 Maximum=999 Par défaut=0
+        StartDay = 0,
+        -- Minimum=1 Maximum=999 Par défaut=90
+        SchedulerDuration = 90,
+        ContinueScheduling = false,
+        ContinueSchedulingLateGameOnly = true,
+        WeatherImpactsEvents = true,
+        -- Minimum=0,00 Maximum=1000,00 Par défaut=1,00
+        CrashChanceMulti = 1.0,
+        AirRaidSirenEvent = true,
+        Frequency_jet = 3,
+        Frequency_police = 3,
+        Frequency_news_chopper = 3,
+        Frequency_military = 3,
+        Frequency_FEMA_drop = 3,
+        Frequency_samaritan_drop = 3,
+        Frequency_survivor_heli = 3,
+        Frequency_raiders = 3,
+    },
+    FunctionalAppliances = {
+        BeerKegsChance = 3,
+        BeerKegsFilledAmount = 3,
+        SyrupsChance = 3,
+        SyrupsFilledAmount = 3,
+        FATheatreChance = 3,
+        FAFreshTheatreChance = 3,
+        FADeepFryerOil = 3,
+        FAZombieItemsSpawn = true,
+        FAPayPhonesAttractZombies = true,
+        FASapphsCookingTheatreChance = 3,
+        FASapphsCookingFreshTheatreChance = 3,
+        FACCSTheatreChance = 3,
+        FA24HRWallClocks = false,
+        FAEnableSiloGenerators = true,
+        FAGeneratorMagazineSpawnChance = 3,
+        FAAutoPowerOnChance = 3,
+        FAFuelTankFilledAmount = 5,
+        FAConditionAmount = 5,
+    },
+    Plumbing = {
+        -- Minimum=0,00 Maximum=100,00 Par défaut=0,01
+        PumpFilterUsage = 0.014,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=0,00
+        PumpEfficiencyLoss = 0.004,
+        -- Minimum=1 Maximum=100 Par défaut=12
+        PumpMaxWater = 12,
+    },
+    SleepWithFriends = {
+        RTorIG = 1,
+        SleepLength = "2.0",
+        EndurMulti = "2.0",
+        AutoWake = 1,
+    },
+    HTC_EHE_MilitaryDrop = {
+        -- Minimum=1 Maximum=8640 Par défaut=168
+        TimeBetweenCall = 168,
+        -- Minimum=1,00 Maximum=200,00 Par défaut=151,40
+        Frequency = 151.4,
+        -- Minimum=0 Maximum=1000 Par défaut=30
+        MaxZSpawn = 30,
+        -- Minimum=0 Maximum=1000 Par défaut=3
+        MinZSpawn = 3,
+        noteDropRate = 4,
+        onlyArmyAndPoliceCorpse = true,
+        -- Minimum=0 Maximum=100 Par défaut=6
+        rollsLootBox = 6,
+    },
+    KYRRealWeatherMod = {
+        -- Minimum=20 Maximum=65 Par défaut=40
+        LatitudeVariation = 40,
+        -- Minimum=0 Maximum=50 Par défaut=35
+        Maxtemp = 35,
+        -- Minimum=-170 Maximum=0 Par défaut=-15
+        Mintemp = -15,
+        -- Minimum=7 Maximum=40 Par défaut=9
+        SeasonVariation = 9,
+    },
+    FWOFitness = {
+        InitialPerkBonus = true,
+        currentExerciseRegularityBonus = true,
+        -- Minimum=0 Maximum=100 Par défaut=25
+        currentExerciseOffset = 25,
+        -- Minimum=0,01 Maximum=100,00 Par défaut=5,00
+        currentExerciseRate = 5.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=6,00
+        AverageExerciseRegularityBonus = 6.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=0,30
+        LevelBonus = 0.3,
+        SpaceOutExercise = true,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=0,90
+        SpaceOutExerciseNegative = 0.9,
+        RestedBonus = true,
+        -- Minimum=0,00 Maximum=10,00 Par défaut=0,90
+        RestedBonusNegative = 0.9,
+        -- Minimum=0,01 Maximum=10,00 Par défaut=1,00
+        XPMultiplier = 1.0,
+        -- Minimum=0,00 Maximum=10,00 Par défaut=1,00
+        PassiveMultiplier = 1.0,
+        -- Minimum=0,00 Maximum=10,00 Par défaut=1,00
+        BoredomMultiplier = 1.0,
+        -- Minimum=0,00 Maximum=10,00 Par défaut=1,00
+        UnhappynessMultiplier = 1.0,
+        DropBags = false,
+        KeepBagsOn = false,
+    },
+    FWOWorkingTreadmill = {
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        StrengthXPMultiply = 1.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        SprintingXPMultiply = 1.0,
+        TreadmillDropBags = false,
+        BenchpressDropBags = false,
+        BenchTreadKeepBagsOn = false,
+    },
+    RebalancedCalorieBurning = {
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        CalorieMultiplier = 1.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        IdleMultiplier = 1.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        WalkingMultiplier = 1.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        RunningMultiplier = 1.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        SprintingMultiplier = 1.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        AsleepMultiplier = 1.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        SittingMultiplier = 1.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        TimedActionMultiplier = 1.0,
+        -- Minimum=0,00 Maximum=100,00 Par défaut=1,00
+        CarryMultiplier = 1.0,
+    },
+    ZombiesHearYourMicrophone = {
+        respectEnableVOIP = true,
+        visualRadius = false,
+        -- Minimum=1,50 Maximum=100,00 Par défaut=1,50
+        multiplier = 1.5,
+        -- Minimum=0,00 Maximum=1,00 Par défaut=0,66
+        sneakReduce = 0.66,
+        skillsInfluence = 1,
+        traitsInfluence = 1,
+    },
+    TrueMusicRadio = {
+        TMRRadiosAttractZombies = false,
+        TMRTerminalEjectsMusic = true,
+        TMRMusicTerminalFilledAmount = 5,
+        TMRExcludeThemeSongs = true,
+        TMRRadioWeatherBroadcast = true,
+        TMRRadioSongAnnouncements = true,
+        TMRRadioHordeNightBroadcast = true,
+        -- Minimum=88000 Maximum=108000 Par défaut=94000
+        TMRChannel1 = 94000,
+        -- Minimum=88000 Maximum=108000 Par défaut=94200
+        TMRChannel2 = 94200,
+        -- Minimum=88000 Maximum=108000 Par défaut=94400
+        TMRChannel3 = 94400,
+        -- Minimum=88000 Maximum=108000 Par défaut=94600
+        TMRChannel4 = 94600,
+        -- Minimum=88000 Maximum=108000 Par défaut=94800
+        TMRChannel5 = 94800,
+    },
+    addMecanicSound = {
+        -- Minimum=1 Maximum=20 Par défaut=10
+        timeMultiplier = 10,
+    },
+    MoreImmersiveVehicles = {
+        -- Minimum=0 Maximum=100 Par défaut=5
+        ParkOpenedDoorChance = 5,
+        -- Minimum=0 Maximum=100 Par défaut=10
+        ParkOpenedTrunkDoorChance = 10,
+        -- Minimum=0 Maximum=100 Par défaut=5
+        ParkOpenedWindowChance = 5,
+        -- Minimum=0 Maximum=100 Par défaut=35
+        RoadOpenedDoorChance = 35,
+        -- Minimum=0 Maximum=100 Par défaut=45
+        RoadOpenedTrunkDoorChance = 45,
+        -- Minimum=0 Maximum=100 Par défaut=20
+        RoadOpenedWindowChance = 20,
+    },
+    interiorLock = {
+        KeepMainDoorLockableWithoutKey = true,
+        RandomKeyIdToInsideDoors = false,
+        UnlockRoomDoorsWhenFirstPlayerSpawn = true,
+        GiveRoomKeysWhenFirstPlayerSpawn = false,
+        GiveHouseKeysWhenFirstPlayerSpawn = false,
+    },
+    FoodPickiness = {
+        -- Minimum=-100 Maximum=100 Par défaut=0
+        BasePickiness = 0,
+        -- Minimum=-100 Maximum=100 Par défaut=0
+        BaseRepulsivenessLimit = 0,
+        -- Minimum=0 Maximum=100 Par défaut=1
+        DailyOffset = 1,
+        -- Minimum=0 Maximum=100 Par défaut=20
+        ConsumptionOffset = 20,
+        -- Minimum=1 Maximum=100 Par défaut=50
+        HungerMultiplier = 50,
+    },
+    FancyHandwork = {
+        -- Minimum=0 Maximum=11 Par défaut=3
+        ExperiencedAim = 3,
+        -- Minimum=0,01 Maximum=60,00 Par défaut=1,00
+        TurnDelaySec = 1.0,
+        DisableTurn = 2,
+        TurnBehavior = 2,
+        HideDoorProgressBar = false,
+        HideVehicleWalkProgressBar = false,
+    },
+    BrutalHandwork = {
+        DualWieldMelee = false,
+        EnableUnarmed = true,
+        AlwaysUnarmed = false,
+    },
+    TOC = {
+        -- Minimum=1 Maximum=10 Par défaut=1
+        CicatrizationSpeed = 1,
+        -- Minimum=0 Maximum=5 Par défaut=1
+        WoundDirtynessMultiplier = 1,
+        -- Minimum=1 Maximum=3 Par défaut=2
+        SurgeonAbilityImportance = 2,
+        EnableZombieAmputations = false,
+        -- Minimum=0 Maximum=10 Par défaut=4
+        ZombieAmputationDamageThreshold = 4,
+        -- Minimum=0 Maximum=100 Par défaut=25
+        ZombieAmputationDamageChance = 25,
+    },
+    RVInterior = {
+        -- Minimum=0 Maximum=100 Par défaut=20
+        SafeZombieDistance = 20,
+        NotWhenChased = true,
+    },
+    CF8KSweeper = {
+        AllowTiles = true,
+        SpriteWhitelist = "brokenglass_1_;trash_01_;d_trash_;street_decoration_01_26;street_decoration_01_27;damaged_objects_01_26;damaged_objects_01_27;damaged_objects_01_18;damaged_objects_01_19;damaged_objects_01_20;damaged_objects_01_21",
+        AllowBlood = true,
+        AllowGrime = true,
+        AllowAshes = true,
+        AllowItems = true,
+        AllowCorpses = true,
+    },
+    RespawnInCarMod = {
+        ForceToRespawnInCarEvenIfNewPlayer = false,
+        FullProtectDuringRespawn = false,
+    },
+    AvatarMOD = {
+        -- Minimum=0 Maximum=365 Par défaut=0
+        AutoCleanAvatarsItemsFromDisconnectionTimeElapsed = 0,
+        -- Minimum=0 Maximum=9999 Par défaut=10
+        AvatarWeight = 10,
+        OptionnalInfosOnAvatar = true,
+        CrashOrAltF4InfosOnPlayerConnect = false,
+        AvatarOnlyOneInInventory = true,
+        RemoveAllAvatarFromInventoryIfYouDie = false,
+        GlobalCarryActionFunction = true,
+        -- Minimum=0 Maximum=2 Par défaut=1
+        CarryAvatarAllowedFromPlayerWL = 1,
+        TakeAvatarFromSafehouseIsNotYoursIsProhibited = true,
+        TakeAvatarFromFactionIsNotYoursIsProhibited = false,
+        GlobalItemActionFunction = false,
+        -- Minimum=0 Maximum=100 Par défaut=50
+        inventoryWeightLimitOfAvatar = 50,
+        -- Minimum=0 Maximum=100 Par défaut=7
+        itemWeightLimitGiveToAvatar = 7,
+        -- Minimum=0 Maximum=10000 Par défaut=100
+        GiveTakeItemTimeDelay = 100,
+        -- Minimum=0 Maximum=100000 Par défaut=0
+        ActionItemIsAllowedFromDisconectionTimeElapsed = 0,
+        -- Minimum=0 Maximum=2 Par défaut=2
+        GiveTakeItemAllowedFromPlayerWL = 2,
+        TakeGiveAvatarItemFromSafehouseIsNotYoursIsProhibited = true,
+        TakeGiveAvatarItemFromFactionIsNotYoursIsProhibited = true,
+    },
+    Prisonner = {
+        Inspect = true,
+    },
+    InventoryTetris = {
+        EnableSearch = false,
+        -- Minimum=1 Maximum=250 Par défaut=45
+        SearchTime = 45,
+        -- Minimum=0 Maximum=8 Par défaut=0
+        BonusGridSize = 0,
+        EnableGravity = false,
     },
 }
