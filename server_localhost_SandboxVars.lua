@@ -70,7 +70,7 @@ SandboxVars = {
     -- 5 = 0-1 ann�e
     -- 6 = 0-5 ann�es
     -- 7 = 2-6 mois
-    WaterShut = 2,
+    WaterShut = 3,
     -- Par d�faut=0-30 jours
     -- 1 = Imm�diate
     -- 2 = 0-30 jours
@@ -79,11 +79,11 @@ SandboxVars = {
     -- 5 = 0-1 ann�e
     -- 6 = 0-5 ann�es
     -- 7 = 2-6 mois
-    ElecShut = 2,
+    ElecShut = 3,
     -- Minimum=-1 Maximum=2147483647 Par d�faut=14
-    WaterShutModifier = 14,
+    WaterShutModifier = 28,
     -- Minimum=-1 Maximum=2147483647 Par d�faut=14
-    ElecShutModifier = 14,
+    ElecShutModifier = 34,
     -- Par d�faut=Rare
     -- 1 = None (not recommended)
     -- 2 = Insanely Rare
@@ -1199,7 +1199,7 @@ SandboxVars = {
     },
     SleepWithFriends = {
         RTorIG = 1,
-        SleepLength = "2.0",
+        SleepLength = "3.0",
         EndurMulti = "2.0",
         AutoWake = 1,
     },
