@@ -441,7 +441,7 @@ SandboxVars = {
     -- 8 = Full
     FuelStationGas = 5,
     -- How gas-hungry vehicles on the map are. Minimum=0,00 Maximum=100,00 Default=1,00
-    CarGasConsumption = 2.5,
+    CarGasConsumption = 4,
     -- Default=Rare
     -- 1 = Never
     -- 2 = Extremely Rare
@@ -500,7 +500,7 @@ SandboxVars = {
     Map = {
         AllowMiniMap = false,
         AllowWorldMap = true,
-        MapAllKnown = true,
+        MapAllKnown = false,
     },
     ZombieLore = {
         -- Controls the zombie movement rate. Default=Fast Shamblers
