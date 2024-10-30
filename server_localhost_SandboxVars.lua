@@ -1,269 +1,269 @@
 SandboxVars = {
     VERSION = 5,
-    -- Changing this sets the "Population Multiplier" advanced option. Default=Normal
-    -- 1 = Insane
-    -- 2 = Very High
-    -- 3 = High
+    -- Changer ceci active l'option avanc�e \Multiplicateur de Population\. Par d�faut=Normal
+    -- 1 = Hardcore
+    -- 2 = Tr�s �lev�
+    -- 3 = �lev�
     -- 4 = Normal
-    -- 5 = Low
+    -- 5 = Faible
     Zombies = 3,
-    -- Default=Urban Focused
-    -- 1 = Urban Focused
+    -- Par d�faut=Focalis�s en ville
+    -- 1 = Focalis�s en ville
     Distribution = 1,
-    -- Default=1 Hour
-    -- 1 = 15 Minutes
-    -- 2 = 30 Minutes
-    -- 3 = 1 Hour
-    -- 4 = 2 Hours
-    -- 5 = 3 Hours
-    -- 6 = 4 Hours
-    -- 7 = 5 Hours
-    -- 8 = 6 Hours
-    -- 9 = 7 Hours
-    -- 10 = 8 Hours
-    -- 11 = 9 Hours
-    -- 12 = 10 Hours
-    -- 13 = 11 Hours
-    -- 14 = 12 Hours
-    -- 15 = 13 Hours
-    -- 16 = 14 Hours
-    -- 17 = 15 Hours
-    -- 18 = 16 Hours
-    -- 19 = 17 Hours
-    -- 20 = 18 Hours
-    -- 21 = 19 Hours
-    -- 22 = 20 Hours
-    -- 23 = 21 Hours
-    -- 24 = 22 Hours
-    -- 25 = 23 Hours
+    -- Par d�faut=1 heure
+    -- 1 = 15 minutes
+    -- 2 = 30 minutes
+    -- 3 = 1 heure
+    -- 4 = 2 heures
+    -- 5 = 3 heures
+    -- 6 = 4 heures
+    -- 7 = 5 heures
+    -- 8 = 12 heures
+    -- 9 = Temps r�el
+    -- 10 = 8 heures
+    -- 11 = 9 heures
+    -- 12 = 10 heures
+    -- 13 = 11 heures
+    -- 14 = 12 heures
+    -- 15 = 13 heures
+    -- 16 = 14 heures
+    -- 17 = 15 heures
+    -- 18 = 16 heures
+    -- 19 = 17 heures
+    -- 20 = 18 heures
+    -- 21 = 19 heures
+    -- 22 = 20 heures
+    -- 23 = 21 heures
+    -- 24 = 22 heures
+    -- 25 = 23 heures
     DayLength = 3,
     StartYear = 1,
-    -- Default=July
-    -- 1 = January
-    -- 2 = February
-    -- 3 = March
-    -- 4 = April
-    -- 5 = May
-    -- 6 = June
-    -- 7 = July
-    -- 8 = August
-    -- 9 = September
-    -- 10 = October
-    -- 11 = November
+    -- Par d�faut=Juillet
+    -- 1 = Janvier
+    -- 2 = F�vrier
+    -- 3 = Mars
+    -- 4 = Avril
+    -- 5 = Mai
+    -- 6 = Juin
+    -- 7 = Juillet
+    -- 8 = Ao�t
+    -- 9 = Septembre
+    -- 10 = Octobre
+    -- 11 = Novembre
     StartMonth = 8,
     StartDay = 1,
-    -- Default=9 AM
-    -- 1 = 7 AM
-    -- 2 = 9 AM
-    -- 3 = 12 PM
-    -- 4 = 2 PM
-    -- 5 = 5 PM
-    -- 6 = 9 PM
-    -- 7 = 12 AM
-    -- 8 = 2 AM
+    -- Par d�faut=9 heures
+    -- 1 = 7 heures
+    -- 2 = 9 heures
+    -- 3 = Midi
+    -- 4 = 14 heures
+    -- 5 = 17 heures
+    -- 6 = 21 heures
+    -- 7 = Minuit
+    -- 8 = 2 heures
     StartTime = 1,
-    -- Default=0-30 Days
-    -- 1 = Instant
-    -- 2 = 0-30 Days
-    -- 3 = 0-2 Months
-    -- 4 = 0-6 Months
-    -- 5 = 0-1 Year
-    -- 6 = 0-5 Years
-    -- 7 = 2-6 Months
+    -- Par d�faut=0-30 jours
+    -- 1 = Imm�diate
+    -- 2 = 0-30 jours
+    -- 3 = 0-2 mois
+    -- 4 = 0-6 mois
+    -- 5 = 0-1 ann�e
+    -- 6 = 0-5 ann�es
+    -- 7 = 2-6 mois
     WaterShut = 3,
-    -- Default=0-30 Days
-    -- 1 = Instant
-    -- 2 = 0-30 Days
-    -- 3 = 0-2 Months
-    -- 4 = 0-6 Months
-    -- 5 = 0-1 Year
-    -- 6 = 0-5 Years
-    -- 7 = 2-6 Months
+    -- Par d�faut=0-30 jours
+    -- 1 = Imm�diate
+    -- 2 = 0-30 jours
+    -- 3 = 0-2 mois
+    -- 4 = 0-6 mois
+    -- 5 = 0-1 ann�e
+    -- 6 = 0-5 ann�es
+    -- 7 = 2-6 mois
     ElecShut = 3,
-    -- Minimum=-1 Maximum=2147483647 Default=14
+    -- Minimum=-1 Maximum=2147483647 Par d�faut=14
     WaterShutModifier = 28,
-    -- Minimum=-1 Maximum=2147483647 Default=14
+    -- Minimum=-1 Maximum=2147483647 Par d�faut=14
     ElecShutModifier = 34,
-    -- Default=Rare
+    -- Par d�faut=Rare
     -- 1 = None (not recommended)
     -- 2 = Insanely Rare
-    -- 3 = Extremely Rare
+    -- 3 = Extr�mement rare
     -- 4 = Rare
     -- 5 = Normal
-    -- 6 = Common
+    -- 6 = Commun
     FoodLoot = 5,
-    -- Default=Rare
+    -- Par d�faut=Rare
     -- 1 = None (not recommended)
     -- 2 = Insanely Rare
-    -- 3 = Extremely Rare
+    -- 3 = Extr�mement rare
     -- 4 = Rare
     -- 5 = Normal
-    -- 6 = Common
+    -- 6 = Commun
     CannedFoodLoot = 5,
-    -- Default=Rare
+    -- Par d�faut=Rare
     -- 1 = None (not recommended)
     -- 2 = Insanely Rare
-    -- 3 = Extremely Rare
+    -- 3 = Extr�mement rare
     -- 4 = Rare
     -- 5 = Normal
-    -- 6 = Common
+    -- 6 = Commun
     LiteratureLoot = 5,
-    -- Seeds, Nails, Saws, Fishing Rods, various tools, etc... Default=Rare
+    -- Des graines, une scie, des clous, une canne � p�che, divers outils, etc. Par d�faut=Rare
     -- 1 = None (not recommended)
     -- 2 = Insanely Rare
-    -- 3 = Extremely Rare
+    -- 3 = Extr�mement rare
     -- 4 = Rare
     -- 5 = Normal
-    -- 6 = Common
+    -- 6 = Commun
     SurvivalGearsLoot = 5,
-    -- Default=Rare
+    -- Par d�faut=Rare
     -- 1 = None (not recommended)
     -- 2 = Insanely Rare
-    -- 3 = Extremely Rare
+    -- 3 = Extr�mement rare
     -- 4 = Rare
     -- 5 = Normal
-    -- 6 = Common
+    -- 6 = Commun
     MedicalLoot = 5,
-    -- Default=Rare
+    -- Par d�faut=Rare
     -- 1 = None (not recommended)
     -- 2 = Insanely Rare
-    -- 3 = Extremely Rare
+    -- 3 = Extr�mement rare
     -- 4 = Rare
     -- 5 = Normal
-    -- 6 = Common
+    -- 6 = Commun
     WeaponLoot = 5,
-    -- Default=Rare
+    -- Par d�faut=Rare
     -- 1 = None (not recommended)
     -- 2 = Insanely Rare
-    -- 3 = Extremely Rare
+    -- 3 = Extr�mement rare
     -- 4 = Rare
     -- 5 = Normal
-    -- 6 = Common
+    -- 6 = Commun
     RangedWeaponLoot = 5,
-    -- Default=Rare
+    -- Par d�faut=Rare
     -- 1 = None (not recommended)
     -- 2 = Insanely Rare
-    -- 3 = Extremely Rare
+    -- 3 = Extr�mement rare
     -- 4 = Rare
     -- 5 = Normal
-    -- 6 = Common
+    -- 6 = Commun
     AmmoLoot = 5,
-    -- Default=Rare
+    -- Par d�faut=Rare
     -- 1 = None (not recommended)
     -- 2 = Insanely Rare
-    -- 3 = Extremely Rare
+    -- 3 = Extr�mement rare
     -- 4 = Rare
     -- 5 = Normal
-    -- 6 = Common
+    -- 6 = Commun
     MechanicsLoot = 5,
-    -- Everything else. Also affects foraging for all items in Town/Road zones. Default=Rare
+    -- Everything else. Also affects foraging for all items in Town/Road zones. Par d�faut=Rare
     -- 1 = None (not recommended)
     -- 2 = Insanely Rare
-    -- 3 = Extremely Rare
+    -- 3 = Extr�mement rare
     -- 4 = Rare
     -- 5 = Normal
-    -- 6 = Common
+    -- 6 = Commun
     OtherLoot = 5,
-    -- Controls the global temperature. Default=Normal
-    -- 1 = Very Cold
-    -- 2 = Cold
+    -- Contr�le la temp�rature globale. Par d�faut=Normal
+    -- 1 = Tr�s froid
+    -- 2 = Froid
     -- 3 = Normal
-    -- 4 = Hot
+    -- 4 = Chaud
     Temperature = 3,
-    -- Controls how often it rains. Default=Normal
-    -- 1 = Very Dry
-    -- 2 = Dry
-    -- 3 = Normal
-    -- 4 = Rainy
+    -- Contr�le la fr�quence de la pluie. Par d�faut=Normale
+    -- 1 = Tr�s rare
+    -- 2 = Rare
+    -- 3 = Normale
+    -- 4 = Fr�quente
     Rain = 3,
-    -- Number of days until 100% growth. Default=Normal (100 Days)
-    -- 1 = Very Fast (20 Days)
-    -- 2 = Fast (50 Days)
-    -- 3 = Normal (100 Days)
-    -- 4 = Slow (200 Days)
+    -- Nombre de jours avant que la d�t�rioration ne soit totale. Par d�faut=Normale (100 jours)
+    -- 1 = Tr�s rapide (20 jours)
+    -- 2 = Rapide (50 jours)
+    -- 3 = Normale (100 jours)
+    -- 4 = Lente (200 jours)
     ErosionSpeed = 3,
-    -- Number of days until 100% growth. -1 means no growth. Zero means use the Erosion Speed option. Maximum 36,500 (100 years). Minimum=-1 Maximum=36500 Default=0
+    -- Nombre de jours avant que la d�t�rioration du monde soit � 100%.  -1 ne signifie pas de d�t�rioration.  Z�ro signifie qu'il faut utiliser l'option 'Vitesse de d�t�rioration'.  Maximum 36,500 (100 ans). Minimum=-1 Maximum=36500 Par d�faut=0
     ErosionDays = 0,
-    -- Modifies the base XP gain from actions by this number. Minimum=0,00 Maximum=1000,00 Default=1,00
+    -- Modifie le gain d'XP de base par actions via ce nombre. Minimum=0,00 Maximum=1000,00 Par d�faut=1,00
     XpMultiplier = 1.0,
     -- Determines if the XP multiplier affects passively levelled skills eg. Fitness and Strength.
     XpMultiplierAffectsPassive = true,
-    -- Use this to multiply or reduce engine general loudness. Minimum=0,00 Maximum=100,00 Default=1,00
+    -- � utiliser pour multiplier ou r�duire le volume g�n�ral des moteurs Minimum=0,00 Maximum=100,00 Par d�faut=1,00
     ZombieAttractionMultiplier = 5.0,
-    -- Governs whether cars are locked, need keys to start etc.
+    -- D�termine si les voitures sont verrouill�es, si elles ont besoin de cl�s pour d�marrer, etc.
     VehicleEasyUse = false,
-    -- Controls the speed of plant growth. Default=Normal
-    -- 1 = Very Fast
-    -- 2 = Fast
-    -- 3 = Normal
-    -- 4 = Slow
+    -- Contr�le la vitesse de croissance des plantations. Par d�faut=Normale
+    -- 1 = Tr�s rapide
+    -- 2 = Rapide
+    -- 3 = Normale
+    -- 4 = Lente
     Farming = 3,
-    -- Controls the time it takes for food to break down in a composter. Default=2 Weeks
-    -- 1 = 1 Week
-    -- 2 = 2 Weeks
-    -- 3 = 3 Weeks
-    -- 4 = 4 Weeks
-    -- 5 = 6 Weeks
-    -- 6 = 8 Weeks
-    -- 7 = 10 Weeks
+    -- Contr�le le temps qu'il faut pour que la nourriture se d�compose dans un composteur. Par d�faut=2 semaines
+    -- 1 = 1 semaine
+    -- 2 = 2 semaines
+    -- 3 = 3 semaines
+    -- 4 = 4 semaines
+    -- 5 = 6 semaines
+    -- 6 = 8 semaines
+    -- 7 = 10 semaines
     CompostTime = 2,
-    -- How fast character's hunger, thirst and fatigue will decrease. Default=Normal
-    -- 1 = Very Fast
-    -- 2 = Fast
-    -- 3 = Normal
-    -- 4 = Slow
+    -- Vitesse � laquelle la faim, la soif et la fatigue du personnage diminueront. Par d�faut=Normale
+    -- 1 = Tr�s rapide
+    -- 2 = Rapide
+    -- 3 = Normale
+    -- 4 = Lente
     StatsDecrease = 3,
-    -- Controls the abundance of fish and general forage. Default=Normal
-    -- 1 = Very Poor
-    -- 2 = Poor
-    -- 3 = Normal
-    -- 4 = Abundant
+    -- Contr�le l'abondance des poissons et de la recherche globale. Par d�faut=Normale
+    -- 1 = Tr�s pauvre
+    -- 2 = Pauvre
+    -- 3 = Normale
+    -- 4 = Abondante
     NatureAbundance = 3,
-    -- Default=Sometimes
-    -- 1 = Never
-    -- 2 = Extremely Rare
+    -- Par d�faut=Parfois
+    -- 1 = Jamais
+    -- 2 = Tr�s rare
     -- 3 = Rare
-    -- 4 = Sometimes
-    -- 5 = Often
+    -- 4 = Parfois
+    -- 5 = Souvent
     Alarm = 4,
-    -- How frequently homes and buildings will be discovered locked Default=Very Often
-    -- 1 = Never
-    -- 2 = Extremely Rare
+    -- � quelle fr�quence les maisons et les b�timents seront d�couverts verrouill�s. Par d�faut=Tr�s souvent
+    -- 1 = Jamais
+    -- 2 = Tr�s rare
     -- 3 = Rare
-    -- 4 = Sometimes
-    -- 5 = Often
+    -- 4 = Parfois
+    -- 5 = Souvent
     LockedHouses = 5,
-    -- Spawn with chips, water bottle, school bag, baseball bat and a hammer.
+    -- Si activ�, le joueur commencera avec des chips, une bouteille d'eau, un sac � dos, une batte de baseball et un marteau.
     StarterKit = false,
-    -- Nutritional value of food affects the player's condition.
+    -- Cochez-le pour utiliser le syst�me de nutrition avanc�e (gestion des calories, du poids...)
     Nutrition = true,
-    -- Define how fast the food will spoil inside or outside fridge. Default=Normal
-    -- 1 = Very Fast
-    -- 2 = Fast
-    -- 3 = Normal
-    -- 4 = Slow
+    -- D�finit � quelle vitesse la nourriture va p�rimer. Par d�faut=Normale
+    -- 1 = Tr�s rapide
+    -- 2 = Rapide
+    -- 3 = Normale
+    -- 4 = Lente
     FoodRotSpeed = 3,
-    -- Define how much a fridge will be effective. Default=Normal
-    -- 1 = Very Low
-    -- 2 = Low
-    -- 3 = Normal
-    -- 4 = High
+    -- D�finit � quel point le r�frig�rateur sera efficace. Par d�faut=Normale
+    -- 1 = Tr�s peu efficace
+    -- 2 = Peu efficace
+    -- 3 = Normale
+    -- 4 = Efficace
     FridgeFactor = 5,
-    -- Items will respawn in already-looted containers in towns and trailer parks. Items will not respawn in player-made containers. Default=None
-    -- 1 = None
-    -- 2 = Every Day
-    -- 3 = Every Week
-    -- 4 = Every Month
+    -- D�finit le temps durant lequel une zone ne doit pas �tre visit�e pour provoquer la r�apparition de butin. Par d�faut=Jamais
+    -- 1 = Jamais
+    -- 2 = Tous les jours
+    -- 3 = Toutes les semaines
+    -- 4 = Tous les mois
     LootRespawn = 1,
-    -- When > 0, loot will not respawn in zones that have been visited within this number of in-game hours. Minimum=0 Maximum=2147483647 Default=0
+    -- Quand > 0, le butin ne r�appara�tra pas dans les zones qui ont �t� visit�es durant ce nombre d'heures en jeu. Minimum=0 Maximum=2147483647 Par d�faut=0
     SeenHoursPreventLootRespawn = 0,
-    -- A comma-separated list of item types that will be removed after HoursForWorldItemRemoval hours.
+    -- Une liste de types d'objets s�par�s par des virgules, qui seront supprim�s apr�s HoursForWorldItemRemoval
     WorldItemRemovalList = "Base.Hat,Base.Glasses,Base.Maggots,EHE.EvacuationFlyer,EHE.EmergencyFlyer,EHE.QuarantineFlyer,EHE.PreventionFlyer,EHE.NoticeFlyer",
-    -- Number of hours since an item was dropped on the ground before it is removed.  Items are removed the next time that part of the map is loaded.  Zero means items are not removed. Minimum=0,00 Maximum=2147483647,00 Default=24,00
+    -- Nombres d'heures �coul�es depuis qu'un objet ait �t� jet� au sol avant d'�tre retir�. Les �l�ments au sol seront supprim�s lors du prochain chargement de cette partie de la carte. Z�ro signifie que les �l�ments ne seront pas supprim�s. Minimum=0,00 Maximum=2147483647,00 Par d�faut=24,00
     HoursForWorldItemRemoval = 0.0,
-    -- If true, any items *not* in WorldItemRemovalList will be removed.
+    -- Si activ�, tous les objets qui ne sont pas dans la liste des objets retir�s seront supprim�s.
     ItemRemovalListBlacklistToggle = false,
-    -- This will affect starting world erosion and food spoilage. Default=0
+    -- Ceci affectera la d�t�rioration du monde et la p�remption des aliments au lancement du serveur. Par d�faut=0
     -- 1 = 0
     -- 2 = 1
     -- 3 = 2
@@ -277,225 +277,225 @@ SandboxVars = {
     -- 11 = 10
     -- 12 = 11
     TimeSinceApo = 1,
-    -- Will influence how much water the plant will lose per day and their ability to avoid disease. Default=Normal
-    -- 1 = Very High
-    -- 2 = High
-    -- 3 = Normal
-    -- 4 = Low
+    -- Influencera la quantit� d'eau quotidienne que les plantes perdront et leur capacit� � �viter les maladies. Par d�faut=Normale
+    -- 1 = Tr�s forte
+    -- 2 = Forte
+    -- 3 = Normale
+    -- 4 = Basse
     PlantResilience = 3,
-    -- Controls the yield of plants when harvested. Default=Normal
-    -- 1 = Very Poor
-    -- 2 = Poor
-    -- 3 = Normal
-    -- 4 = Abundant
+    -- Contr�le le rendement des plantations lors de la r�colte. Par d�faut=Normale
+    -- 1 = Tr�s pauvre
+    -- 2 = Pauvre
+    -- 3 = Normale
+    -- 4 = Abondante
     PlantAbundance = 3,
-    -- Recovery from being tired from performing actions Default=Normal
-    -- 1 = Very Fast
-    -- 2 = Fast
-    -- 3 = Normal
-    -- 4 = Slow
+    -- R�cup�ration de la fatigue apr�s avoir effectu� des actions. Par d�faut=Normale
+    -- 1 = Tr�s rapide
+    -- 2 = Rapide
+    -- 3 = Normale
+    -- 4 = Lente
     EndRegen = 3,
-    -- How regularly helicopters pass over the event zone. Default=Once
-    -- 1 = Never
-    -- 2 = Once
-    -- 3 = Sometimes
+    -- Fr�quence de passage des h�licopt�res au-dessus de la zone de l'�v�nement. Par d�faut=Une fois
+    -- 1 = Jamais
+    -- 2 = Une fois
+    -- 3 = De temps en temps
     Helicopter = 3,
-    -- How often zombie attracting metagame events like distant gunshots will occur. Default=Sometimes
-    -- 1 = Never
-    -- 2 = Sometimes
+    -- Fr�quence des meta-�v�nements (coups de feu, cris, aboiements...) attirant les zombies. Par d�faut=De temps en temps
+    -- 1 = Jamais
+    -- 2 = De temps en temps
     MetaEvent = 2,
-    -- Governs night-time metagame events during the player's sleep. Default=Never
-    -- 1 = Never
-    -- 2 = Sometimes
+    -- Contr�le les m�ta-�v�nements nocturnes durant le sommeil du joueur. Par d�faut=Jamais
+    -- 1 = Jamais
+    -- 2 = De temps en temps
     SleepingEvent = 2,
-    -- Increase/decrease the chance of electrical generators spawning on the map. Default=Sometimes
-    -- 1 = Extremely Rare
+    -- Augmente / r�duit les chances d'apparition des groupes �lectrog�nes sur la carte. Par d�faut=Parfois
+    -- 1 = Tr�s rare
     -- 2 = Rare
-    -- 3 = Sometimes
-    -- 4 = Often
+    -- 3 = Parfois
+    -- 4 = Souvent
     GeneratorSpawning = 2,
-    -- How much fuel is consumed per in-game hour. Minimum=0,00 Maximum=100,00 Default=1,00
+    -- Combien de carburant est consomm� par heure en jeu. Minimum=0,00 Maximum=100,00 Par d�faut=1,00
     GeneratorFuelConsumption = 1.0,
-    -- Increase/decrease probability of discovering randomized safe houses on the map: either burnt out, containing loot stashes, dead survivor bodies etc. Default=Rare
-    -- 1 = Never
-    -- 2 = Extremely Rare
+    -- Augmente / r�duit la probabilit� de d�couvrir des maisons d'anciens survivants, g�n�r�es al�atoirement sur la carte, qu'elles soient br�l�es, remplies de r�serves, de cadavres, de survivants, etc. Par d�faut=Rare
+    -- 1 = Jamais
+    -- 2 = Tr�s rare
     -- 3 = Rare
-    -- 4 = Sometimes
-    -- 5 = Often
+    -- 4 = Parfois
+    -- 5 = Souvent
     SurvivorHouseChance = 4,
-    -- Default=Rare
-    -- 1 = Never
-    -- 2 = Extremely Rare
+    -- Par d�faut=Rare
+    -- 1 = Jamais
+    -- 2 = Tr�s rare
     -- 3 = Rare
-    -- 4 = Sometimes
-    -- 5 = Often
+    -- 4 = Parfois
+    -- 5 = Souvent
     VehicleStoryChance = 6,
-    -- Default=Rare
-    -- 1 = Never
-    -- 2 = Extremely Rare
+    -- Par d�faut=Rare
+    -- 1 = Jamais
+    -- 2 = Tr�s rare
     -- 3 = Rare
-    -- 4 = Sometimes
-    -- 5 = Often
+    -- 4 = Parfois
+    -- 5 = Souvent
     ZoneStoryChance = 6,
-    -- Impacts on how often a looted map will have annotations marked on it by a deceased survivor. Default=Sometimes
-    -- 1 = Never
-    -- 2 = Extremely Rare
+    -- Impacte les chances de trouver une carte annot�e sur un survivant d�c�d�. Par d�faut=Parfois
+    -- 1 = Jamais
+    -- 2 = Tr�s rare
     -- 3 = Rare
-    -- 4 = Sometimes
-    -- 5 = Often
+    -- 4 = Parfois
+    -- 5 = Souvent
     AnnotatedMapChance = 4,
-    -- Adds free points during character creation. Minimum=-100 Maximum=100 Default=0
+    -- Ajoute des points gratuits durant la cr�ation du personnage. Minimum=-100 Maximum=100 Par d�faut=0
     CharacterFreePoints = -12,
-    -- Gives player-built constructions extra hit points so they are more resistant to zombie damage. Default=Normal
-    -- 1 = Very Low
-    -- 2 = Low
-    -- 3 = Normal
-    -- 4 = High
+    -- Donne des points de vie bonus aux constructions des joueurs afin de les rendre plus r�sistantes aux zombies. Par d�faut=Normale
+    -- 1 = Tr�s basse
+    -- 2 = Basse
+    -- 3 = Normale
+    -- 4 = Haute
     ConstructionBonusPoints = 4,
-    -- Governs the ambient lighting at night. Default=Normal
-    -- 1 = Pitch Black
-    -- 2 = Dark
-    -- 3 = Normal
+    -- D�termine l'�clairage global la nuit. Par d�faut=Normale
+    -- 1 = Nuit noire
+    -- 2 = Sombre
+    -- 3 = Normale
     NightDarkness = 2,
-    -- Governs the time from dusk to dawn. Default=Normal
-    -- 1 = Always Night
-    -- 2 = Long
-    -- 3 = Normal
-    -- 4 = Short
+    -- D�termine la dur�e de la nuit, du cr�puscule jusqu'� l'aube. Par d�faut=Normale
+    -- 1 = Nuit permanente
+    -- 2 = Longue
+    -- 3 = Normale
+    -- 4 = Courte
     NightLength = 3,
-    -- Increase and decrease the impact injuries have on your body, and their healing time. Default=Normal
-    -- 1 = Low
-    -- 2 = Normal
+    -- Augmente ou diminue l'impact des blessures sur votre corps, et leur temps de gu�rison. Par d�faut=Normale
+    -- 1 = Basse
+    -- 2 = Normale
     InjurySeverity = 3,
-    -- Enable or disable broken limbs when survivors receive injuries from impacts, zombie damage and falls.
+    -- Active ou d�sactive les fractures des membres lorsque les survivants sont bless�s par des impacts, les d�g�ts de zombies et les chutes.
     BoneFracture = true,
-    -- How long before zombie bodies disappear. Minimum=-1,00 Maximum=2147483647,00 Default=216,00
+    -- Combien de temps avant que les cadavres de zombies disparaissent. Minimum=-1,00 Maximum=2147483647,00 Par d�faut=216,00
     HoursForCorpseRemoval = 216.0,
-    -- Governs impact that nearby decaying bodies has on the player's health and emotions. Default=Normal
-    -- 1 = None
-    -- 2 = Low
+    -- D�termine l'impact de la proximit� de corps en d�composition sur la sant� et les �motions des joueurs. Par d�faut=Normal
+    -- 1 = Aucun
+    -- 2 = Bas
     -- 3 = Normal
     DecayingCorpseHealthImpact = 3,
-    -- How much blood is sprayed on floor and walls. Default=Normal
-    -- 1 = None
-    -- 2 = Low
-    -- 3 = Normal
-    -- 4 = High
+    -- � quel point le sang gicle au sol et sur les murs. Par d�faut=Normale
+    -- 1 = Pas de sang
+    -- 2 = Basse
+    -- 3 = Normale
+    -- 4 = Haute
     BloodLevel = 3,
-    -- Governs how quickly clothing degrades, becomes dirty, and bloodied. Default=Normal
-    -- 1 = Disabled
-    -- 2 = Slow
-    -- 3 = Normal
+    -- D�termine la rapidit� � laquelle les v�tements s'usent, se salissent et se tachent de sang. Par d�faut=Normale
+    -- 1 = D�sactiv�e
+    -- 2 = Lente
+    -- 3 = Normale
     ClothingDegradation = 3,
     FireSpread = true,
-    -- Number of in-game days before rotten food is removed from the map. -1 means rotten food is never removed. Minimum=-1 Maximum=2147483647 Default=-1
+    -- Nombre de jours dans le jeu avant que la nourriture pourrie ne soit retir�e de la carte. -1 signifie que la nourriture pourrie ne sera jamais retir�e. Minimum=-1 Maximum=2147483647 Par d�faut=-1
     DaysForRottenFoodRemoval = -1,
-    -- If enabled, generators will work on exterior tiles, allowing for example to power gas pump.
+    -- Si activ�, les groupes �lectrog�nes fonctionneront en ext�rieur, ce qui permet par exemple d'alimenter les pompes � essence.
     AllowExteriorGenerator = true,
-    -- Controls the maximum intensity of fog. Default=Normal
-    -- 1 = Normal
-    -- 2 = Moderate
+    -- Contr�le l'intensit� maximale du brouillard. Par d�faut=Normale
+    -- 1 = Normale
+    -- 2 = Mod�r�e
     MaxFogIntensity = 1,
-    -- Controls the maximum intensity of rain. Default=Normal
-    -- 1 = Normal
-    -- 2 = Moderate
+    -- Contr�le l'intensit� maximale de la pluie. Par d�faut=Normale
+    -- 1 = Normale
+    -- 2 = Mod�r�e
     MaxRainFxIntensity = 1,
-    -- If disabled snow will not accumulate on ground but will still be visible on vegetation and rooftops.
+    -- Si d�sactiv�, la neige ne s'accumulera pas au sol, mais restera visible sur les toits et la v�g�tation.
     EnableSnowOnGround = true,
-    -- When enabled certain melee weapons will be able to strike multiple zombies in one hit.
+    -- Si activ�, certaines armes de m�l�e pourront frapper plusieurs zombies � la fois.
     MultiHitZombies = true,
-    -- Chance of being bitten when a zombie attacks from behind. Default=High
-    -- 1 = Low
-    -- 2 = Medium
+    -- Probabilit� d'�tre mordu par un zombie qui attaque par-derri�re. Par d�faut=Haute
+    -- 1 = Basse
+    -- 2 = Moyenne
     RearVulnerability = 3,
-    -- Disable to walk unimpeded while melee attacking.
+    -- D�sactivez pour marcher sans entrave lors des attaques de m�l�e.
     AttackBlockMovements = true,
     AllClothesUnlocked = false,
     -- if disabled, tainted water will not have a warning marking it as such
     EnableTaintedWaterText = true,
-    -- Governs how frequently cars are discovered on the map Default=Low
-    -- 1 = None
-    -- 2 = Very Low
-    -- 3 = Low
-    -- 4 = Normal
+    -- D�termine la fr�quence � laquelle vous pouvez trouver des v�hicules sur la carte. Par d�faut=Normal
+    -- 1 = Aucun
+    -- 2 = Bas
+    -- 3 = Normal
+    -- 4 = Haut
     CarSpawnRate = 5,
-    -- Governs the chances of finding vehicles with gas in the tank. Default=Low
-    -- 1 = Low
+    -- G�re les chances de trouver des v�hicules contenant du carburant. Par d�faut=Bas
+    -- 1 = Bas
     -- 2 = Normal
     ChanceHasGas = 2,
-    -- Governs how full gas tanks will be in discovered cars. Default=Low
-    -- 1 = Very Low
-    -- 2 = Low
+    -- G�re le niveau de carburant des v�hicules que vous d�couvrirez. Par d�faut=Bas
+    -- 1 = Tr�s bas
+    -- 2 = Bas
     -- 3 = Normal
-    -- 4 = High
-    -- 5 = Very High
+    -- 4 = Haut
+    -- 5 = Tr�s haut
     InitialGas = 2,
-    -- Governs how full gas tanks in fuel station will be, initially. Default=Normal
-    -- 1 = Empty
+    -- Permet de choisir l'�tat des r�serves d'essence dans les stations, au d�part. Par d�faut=Normal
+    -- 1 = Vide
     -- 2 = Super Low
-    -- 3 = Very Low
-    -- 4 = Low
+    -- 3 = Tr�s basse
+    -- 4 = Basse
     -- 5 = Normal
-    -- 6 = High
-    -- 7 = Very High
-    -- 8 = Full
+    -- 6 = �lev�e
+    -- 7 = Tr�s �lev�e
+    -- 8 = Plein
     FuelStationGas = 5,
-    -- How gas-hungry vehicles on the map are. Minimum=0,00 Maximum=100,00 Default=1,00
-    CarGasConsumption = 4,
-    -- Default=Rare
-    -- 1 = Never
-    -- 2 = Extremely Rare
+    -- D�termine � quel point les v�hicules sont gourmands en carburant. Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+    CarGasConsumption = 4.0,
+    -- Par d�faut=Rare
+    -- 1 = Jamais
+    -- 2 = Tr�s rare
     -- 3 = Rare
-    -- 4 = Sometimes
-    -- 5 = Often
+    -- 4 = Parfois
+    -- 5 = Souvent
     LockedCar = 4,
-    -- General condition of vehicles discovered on the map Default=Low
-    -- 1 = Very Low
-    -- 2 = Low
-    -- 3 = Normal
-    -- 4 = High
+    -- D�termine la condition g�n�rale des v�hicules d�couverts sur la carte. Par d�faut=Mauvais �tat
+    -- 1 = Tr�s mauvais �tat
+    -- 2 = Mauvais �tat
+    -- 3 = �tat correct
+    -- 4 = Bon �tat
     CarGeneralCondition = 3,
-    -- Governs the amount of damage dealt to vehicles that crash. Default=Normal
-    -- 1 = Very Low
-    -- 2 = Low
+    -- G�re les d�g�ts inflig�s aux v�hicules qui ont un accident. Par d�faut=Normal
+    -- 1 = Tr�s bas
+    -- 2 = Bas
     -- 3 = Normal
-    -- 4 = High
+    -- 4 = Haut
     CarDamageOnImpact = 1,
-    -- Damage received by the player from the car in a collision. Default=None
-    -- 1 = None
-    -- 2 = Low
-    -- 3 = Normal
-    -- 4 = High
+    -- D�g�ts re�us par les joueurs lors d'une collision avec un v�hicule. Par d�faut=Aucun
+    -- 1 = Aucun
+    -- 2 = Bas
+    -- 3 = Normaux
+    -- 4 = �lev�s
     DamageToPlayerFromHitByACar = 3,
-    -- Enable or disable traffic jams that spawn on the main roads of the map.
+    -- Active ou non les embouteillages et carambolages qui peuvent appara�tre sur les routes principales de la carte.
     TrafficJam = true,
-    -- How frequently cars will be discovered with an alarm. Default=Extremely Rare
-    -- 1 = Never
-    -- 2 = Extremely Rare
+    -- D�termine � quelle fr�quence les v�hicules poss�dant une alarme seront d�couverts. Par d�faut=Tr�s rare
+    -- 1 = Jamais
+    -- 2 = Tr�s rare
     -- 3 = Rare
-    -- 4 = Sometimes
-    -- 5 = Often
+    -- 4 = Parfois
+    -- 5 = Souvent
     CarAlarm = 4,
-    -- Enable or disable player getting damage from being in a car accident.
+    -- Active ou non les d�g�ts au joueur lors d'un accident.
     PlayerDamageFromCrash = true,
-    -- How many in-game hours before a wailing siren shuts off. Minimum=0,00 Maximum=168,00 Default=0,00
+    -- Combien d'heures en jeu avant que l'alarme de voiture ne cesse de retentir. Minimum=0,00 Maximum=168,00 Par d�faut=0,00
     SirenShutoffHours = 0.0,
-    --  Governs whether player can discover a car that has been maintained and cared for after the infection struck. Default=Low
+    -- Permet de savoir si le joueur peut d�couvrir un v�hicule qui a �t� entretenu depuis le d�but de l'infection. Par d�faut=Peu
     -- 1 = None
-    -- 2 = Low
-    -- 3 = Normal
+    -- 2 = Peu
+    -- 3 = Quelques-uns
     RecentlySurvivorVehicles = 2,
-    -- Enables vehicles to spawn.
+    -- Autorise l'apparition des v�hicules.
     EnableVehicles = true,
-    -- Governs if poisoning food is enabled. Default=True
+    -- Governs if poisoning food is enabled. Par d�faut=True
     -- 1 = True
     -- 2 = False
     EnablePoisoning = 1,
-    -- Default=In and around bodies
+    -- Par d�faut=In and around bodies
     -- 1 = In and around bodies
     -- 2 = In bodies only
     MaggotSpawn = 1,
-    -- The higher the value, the longer lightbulbs last before breaking. If 0, lightbulbs will never break. Does not affect vehicle headlights. Minimum=0,00 Maximum=1000,00 Default=1,00
+    -- The higher the value, the longer lightbulbs last before breaking. If 0, lightbulbs will never break. Does not affect vehicle headlights. Minimum=0,00 Maximum=1000,00 Par d�faut=1,00
     LightBulbLifespan = 4.0,
     Map = {
         AllowMiniMap = false,
@@ -503,115 +503,115 @@ SandboxVars = {
         MapAllKnown = false,
     },
     ZombieLore = {
-        -- Controls the zombie movement rate. Default=Fast Shamblers
-        -- 1 = Sprinters
-        -- 2 = Fast Shamblers
-        -- 3 = Shamblers
+        -- Contr�le le taux de d�placement des zombies. Par d�faut=Tra�neur rapide
+        -- 1 = Sprinteur
+        -- 2 = Tra�neur rapide
+        -- 3 = Tra�neur
         Speed = 2,
-        -- Controls the damage zombies inflict per attack. Default=Normal
-        -- 1 = Superhuman
-        -- 2 = Normal
-        -- 3 = Weak
+        -- Contr�le les d�g�ts que les zombies infligent � chaque attaque. Par d�faut=Normale
+        -- 1 = Surhumaine
+        -- 2 = Normale
+        -- 3 = Faible
         Strength = 2,
-        -- Controls the difficulty to kill zombies. Default=Normal
-        -- 1 = Tough
-        -- 2 = Normal
-        -- 3 = Fragile
+        -- Contr�le la difficult� � tuer les zombies. Par d�faut=Normaux
+        -- 1 = R�sistants
+        -- 2 = Normaux
+        -- 3 = Fragiles
         Toughness = 2,
-        -- Controls how the zombie virus spreads. Default=Blood + Saliva
-        -- 1 = Blood + Saliva
-        -- 2 = Saliva Only
-        -- 3 = Everyone's Infected
+        -- Contr�le comment le virus zombie se transmet. Par d�faut=Sang + Salive
+        -- 1 = Sang + Salive
+        -- 2 = Salive uniquement
+        -- 3 = Tout le monde est infect�
         Transmission = 2,
-        -- Controls how quickly the infection takes effect. Default=2-3 Days
-        -- 1 = Instant
-        -- 2 = 0-30 Seconds
-        -- 3 = 0-1 Minutes
-        -- 4 = 0-12 Hours
-        -- 5 = 2-3 Days
-        -- 6 = 1-2 Weeks
+        -- Contr�le � quelle vitesse l'infection se r�pand. Par d�faut=2-3 jours
+        -- 1 = Instantan�e
+        -- 2 = 0-30 secondes
+        -- 3 = 0-1 minutes
+        -- 4 = 0-12 heures
+        -- 5 = 2-3 jours
+        -- 6 = 1-2 semaines
         Mortality = 5,
-        -- Controls how quickly corpses rise as zombies. Default=0-1 Minutes
-        -- 1 = Instant
-        -- 2 = 0-30 Seconds
-        -- 3 = 0-1 Minutes
-        -- 4 = 0-12 Hours
-        -- 5 = 2-3 Days
+        -- Contr�le � quelle vitesse le cadavre se rel�ve en tant que zombie. Par d�faut=0-1 minutes
+        -- 1 = Instantan�
+        -- 2 = 0-30 secondes
+        -- 3 = 0-1 minutes
+        -- 4 = 0-12 heures
+        -- 5 = 2-3 jours
         Reanimate = 4,
-        -- Controls zombie intelligence. Default=Basic Navigation
-        -- 1 = Navigate + Use Doors
-        -- 2 = Navigate
-        -- 3 = Basic Navigation
+        -- Contr�le l'intelligence des zombies. Par d�faut=D�placements basiques
+        -- 1 = Se d�placer + ouvrir les portes
+        -- 2 = Se d�placer
+        -- 3 = D�placements basiques
         Cognition = 3,
-        -- Controls which zombies can crawl under vehicles. Default=Often
-        -- 1 = Crawlers Only
-        -- 2 = Extremely Rare
-        -- 3 = Rare
-        -- 4 = Sometimes
-        -- 5 = Often
-        -- 6 = Very Often
+        -- Contr�le quels zombies peuvent ramper sous les v�hicules. Par d�faut=Beaucoup
+        -- 1 = Rampants uniquement
+        -- 2 = Quasiment aucun
+        -- 3 = Quelques rares
+        -- 4 = Quelques-uns
+        -- 5 = Beaucoup
+        -- 6 = �norm�ment
         CrawlUnderVehicle = 7,
-        -- Controls how long zombies remember players after seeing or hearing. Default=Normal
-        -- 1 = Long
-        -- 2 = Normal
-        -- 3 = Short
-        -- 4 = None
+        -- Contr�le � quel point les zombies se souviennent d'un joueur apr�s l'avoir vu ou entendu. Par d�faut=Normale
+        -- 1 = Longue
+        -- 2 = Normale
+        -- 3 = Courte
+        -- 4 = Aucune
         Memory = 2,
-        -- Controls zombie vision radius. Default=Normal
-        -- 1 = Eagle
-        -- 2 = Normal
-        -- 3 = Poor
+        -- Contr�le le rayon de d�tection visuel des zombies. Par d�faut=Normale
+        -- 1 = Vue aiguis�e
+        -- 2 = Normale
+        -- 3 = Pauvre
         Sight = 2,
-        -- Controls zombie hearing radius. Default=Normal
-        -- 1 = Pinpoint
-        -- 2 = Normal
-        -- 3 = Poor
+        -- Contr�le le rayon de d�tection auditif des zombies. Par d�faut=Normale
+        -- 1 = Pr�cise
+        -- 2 = Normale
+        -- 3 = Pauvre
         Hearing = 2,
-        -- Zombies that have not seen/heard player can attack doors and constructions while roaming.
+        -- Les zombies n'ayant pas entendu/vu les joueurs peuvent attaquer les portes et les constructions lorsqu'ils errent.
         ThumpNoChasing = false,
-        -- Governs whether or not zombies can destroy player constructions and defences.
+        -- D�termine si les zombies peuvent d�truire ou non les constructions et d�fenses des joueurs.
         ThumpOnConstruction = true,
-        -- Governs whether zombies are more active during the day, or whether they act more nocturnally.  Active zombies will use the speed set in the "Speed" setting. Inactive zombies will be slower, and tend not to give chase. Default=Both
-        -- 1 = Both
-        -- 2 = Night
+        -- D�termine si les zombies sont plut�t actifs le jour ou la nuit.  Les zombies actifs utiliseront les param�tres du r�glage de la "VITESSE". Les zombies inactifs seront plus lents, et ne suivront pas beaucoup les joueurs. Par d�faut=Les deux
+        -- 1 = Les deux
+        -- 2 = Nocturne
         ActiveOnly = 1,
-        -- Allows zombies to trigger house alarms when breaking through windows and doors.
+        -- Permet aux zombies d'activer les alarmes de maison lorsqu'ils passent par des fen�tres ou des portes.
         TriggerHouseAlarm = true,
-        -- When enabled if multiple zombies are attacking they can drag you down to feed. Dependent on zombie strength.
+        -- Si activ�, quand plusieurs zombies attaquent simultan�ment, ils peuvent vous mettre � terre pour vous d�vorer. D�pends de leur force.
         ZombiesDragDown = true,
-        -- When enabled zombies will have a chance to lunge after climbing over a fence if you're too close.
+        -- Si activ�, les zombies auront une chance de se jeter en avant apr�s avoir franchi une barri�re si vous �tes trop pr�s
         ZombiesFenceLunge = true,
-        -- Default=Some zombies in the world will pretend to be dead
+        -- Par d�faut=Some zombies in the world will pretend to be dead
         -- 1 = Some zombies in the world will pretend to be dead
         -- 2 = Some zombies in the world, as well as some you 'kill', can pretend to be dead
         DisableFakeDead = 3,
     },
     ZombieConfig = {
-        -- Set by the "Zombie Count" population option. 4.0 = Insane, Very High = 3.0, 2.0 = High, 1.0 = Normal, 0.35 = Low, 0.0 = None. Minimum=0,00 Maximum=4,00 Default=1,00
+        -- Identique au r�glage \Nombre de zombies\ du mode Bac � Sable. 4.0 Minimum=0,00 Maximum=4,00 Par d�faut=1,00
         PopulationMultiplier = 2.0,
-        -- Adjusts the desired population at the start of the game. Minimum=0,00 Maximum=4,00 Default=1,00
+        -- Ajuste la population d�sir�e au d�but du jeu. Minimum=0,00 Maximum=4,00 Par d�faut=1,00
         PopulationStartMultiplier = 0.5,
-        -- Adjusts the desired population on the peak day. Minimum=0,00 Maximum=4,00 Default=1,50
+        -- Ajuste la population d�sir�e le jour de pic. Minimum=0,00 Maximum=4,00 Par d�faut=1,50
         PopulationPeakMultiplier = 1.5,
-        -- The day when the population reaches it's peak. Minimum=1 Maximum=365 Default=28
+        -- Le jour o� la population atteint le pic. Minimum=1 Maximum=365 Par d�faut=28
         PopulationPeakDay = 90,
-        -- The number of hours that must pass before zombies may respawn in a cell. If zero, spawning is disabled. Minimum=0,00 Maximum=8760,00 Default=72,00
+        -- Le nombre d'heures qui doit s'�couler avant que les zombies puissent r�appara�tre dans une cellule. Si z�ro, la r�apparition est annul�e. Minimum=0,00 Maximum=8760,00 Par d�faut=72,00
         RespawnHours = 0.0,
-        -- The number of hours that a chunk must be unseen before zombies may respawn in it. Minimum=0,00 Maximum=8760,00 Default=16,00
+        -- Le nombre d'heures durant lequel une cellule ne doit pas �tre visit�e avant que les zombies ne puissent y r�appara�tre. Minimum=0,00 Maximum=8760,00 Par d�faut=16,00
         RespawnUnseenHours = 8760.0,
-        -- The fraction of a cell's desired population that may respawn every RespawnHours. Minimum=0,00 Maximum=1,00 Default=0,10
+        -- La fraction de la population d�sir�e d'une cellule qui devrait r�appara�tre � chaque p�riode de r�apparition. (Cela multiplie le nombre de Z sur une m�me cellule � chaque r�apparition) Minimum=0,00 Maximum=1,00 Par d�faut=0,10
         RespawnMultiplier = 0.0,
-        -- The number of hours that must pass before zombies migrate to empty parts of the same cell. If zero, migration is disabled. Minimum=0,00 Maximum=8760,00 Default=12,00
+        -- Le nombre d'heures qui doit s'�couler avant que des zombies migrent vers des parties vides d'une m�me cellule. Minimum=0,00 Maximum=8760,00 Par d�faut=12,00
         RedistributeHours = 24.0,
-        -- The distance a zombie will try to walk towards the last sound it heard. Minimum=10 Maximum=1000 Default=100
+        -- La distance qu'un zombie essayera de parcourir vers le dernier son qu'il a entendu. Minimum=10 Maximum=1000 Par d�faut=100
         FollowSoundDistance = 1000,
-        -- The size of groups real zombies form when idle. Zero means zombies don't form groups. Groups don't form inside buildings or forest zones. Minimum=0 Maximum=1000 Default=20
+        -- La taille des groupes que les zombies forment lorsqu'ils ne sont pas occup�s. Z�ro veut dire que les zombies ne formeront pas de groupes. Les groupes ne se forment pas dans les b�timents ou les for�ts. Minimum=0 Maximum=1000 Par d�faut=20
         RallyGroupSize = 0,
-        -- The distance real zombies travel to form groups when idle. Minimum=5 Maximum=50 Default=20
+        -- La distance que les zombies parcourent pour former des groupes lorsqu'ils ne sont pas occup�s. Minimum=5 Maximum=50 Par d�faut=20
         RallyTravelDistance = 20,
-        -- The distance between zombie groups. Minimum=5 Maximum=25 Default=15
+        -- La distance entre les groupes de zombies. Minimum=5 Maximum=25 Par d�faut=15
         RallyGroupSeparation = 15,
-        -- How close members of a group stay to the group's leader. Minimum=1 Maximum=10 Default=3
+        -- Distance � laquelle les membres d'un groupe restent proches du chef de groupe. Minimum=1 Maximum=10 Par d�faut=3
         RallyGroupRadius = 3,
     },
     DAMN = {
@@ -1427,14 +1427,6 @@ SandboxVars = {
     Prisonner = {
         Inspect = true,
     },
-    InventoryTetris = {
-        EnableSearch = true,
-        -- Minimum=1 Maximum=250 Par d�faut=45
-        SearchTime = 45,
-        -- Minimum=0 Maximum=8 Par d�faut=0
-        BonusGridSize = 0,
-        EnableGravity = false,
-    },
     BuildingMenu = {
         isThumpable = true,
         EmptyBox1 = false,
@@ -1711,24 +1703,26 @@ SandboxVars = {
         EnabledStatusBars = true,
         Shame = 2,
     },
-    IGMAR = {
-        -- As long as this field matches the current resetID, an in-game map reset will not happen on the client side. If not, an in-game map reset will be triggered when the player joins the server for the first time with the mod and whenever the reset ID changes and no longer matches this field. Minimum=0 Maximum=2147483647 Default=698437230
-        AllowList = 698437230,
+    SWAZBF = {
+        Detection = true,
+        Destruction = true,
+        PlayerMessages = true,
+        Log = false,
     },
     GameNight = {
-        -- Display item names in game.
         DisplayItemNames = true,
-        -- Display the cursors of players on-screen. The cursors should not cause any form of traffic issues, however, the process involves sending tiny bits of data rapidly - this option is intended for people performing troubleshooting and using something that creates logs for network traffic. It is not recommended to play without visible cursors.
         DisplayPlayerCursors = true,
     },
-    SWAZBF = {
-        -- Detect attacks on zombies that can't get to the player. Safehouse zones are unaffected
-        Detection = true,
-        -- Attacking zombies that can't get to the player will destroy nearby fences/walls. Safehouse zones are unaffected
-        Destruction = true,
-        -- Allow a message to appear on top of the player when fence/wall is about to break and the moment it breaks
-        PlayerMessages = true,
-        -- Log coordinates, player name and killbox type
-        Log = false,
+    IGMAR = {
+        -- Minimum=0 Maximum=2147483647 Par d�faut=698437230
+        AllowList = 698437230,
+    },
+    InventoryTetris = {
+        EnableSearch = true,
+        -- Minimum=1 Maximum=250 Par d�faut=45
+        SearchTime = 45,
+        -- Minimum=0 Maximum=8 Par d�faut=0
+        BonusGridSize = 0,
+        EnableGravity = false,
     },
 }
