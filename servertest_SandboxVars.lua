@@ -1818,10 +1818,6 @@ SandboxVars = {
         DisplayItemNames = true,
         DisplayPlayerCursors = true,
     },
-    IGMAR = {
-        -- Minimum=0 Maximum=2147483647 Default=698437230
-        AllowList = 698437230,
-    },
     InventoryTetris = {
         EnableSearch = true,
         -- Minimum=1 Maximum=250 Default=45
