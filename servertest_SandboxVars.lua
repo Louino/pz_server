@@ -6,7 +6,7 @@ SandboxVars = {
     -- 3 = High
     -- 4 = Normal
     -- 5 = Low
-    Zombies = 3,
+    Zombies = 4,
     -- Default=Urban Focused
     -- 1 = Urban Focused
     Distribution = 1,
@@ -588,13 +588,13 @@ SandboxVars = {
     },
     ZombieConfig = {
         -- Set by the "Zombie Count" population option. 4.0 = Insane, Very High = 3.0, 2.0 = High, 1.0 = Normal, 0.35 = Low, 0.0 = None. Minimum=0.00 Maximum=4.00 Default=1.00
-        PopulationMultiplier = 2.0,
+        PopulationMultiplier = 1.0,
         -- Adjusts the desired population at the start of the game. Minimum=0.00 Maximum=4.00 Default=1.00
         PopulationStartMultiplier = 0.5,
         -- Adjusts the desired population on the peak day. Minimum=0.00 Maximum=4.00 Default=1.50
-        PopulationPeakMultiplier = 1.5,
+        PopulationPeakMultiplier = 2,
         -- The day when the population reaches it's peak. Minimum=1 Maximum=365 Default=28
-        PopulationPeakDay = 90,
+        PopulationPeakDay = 72,
         -- The number of hours that must pass before zombies may respawn in a cell. If zero, spawning is disabled. Minimum=0.00 Maximum=8760.00 Default=72.00
         RespawnHours = 0.0,
         -- The number of hours that a chunk must be unseen before zombies may respawn in it. Minimum=0.00 Maximum=8760.00 Default=16.00
@@ -1407,7 +1407,7 @@ SandboxVars = {
         RemoveAllAvatarFromInventoryIfYouDie = false,
         GlobalCarryActionFunction = true,
         -- Minimum=0 Maximum=2 Default=1
-        CarryAvatarAllowedFromPlayerWL = 1,
+        CarryAvatarAllowedFromPlayerWL = 0,
         TakeAvatarFromSafehouseIsNotYoursIsProhibited = false,
         TakeAvatarFromFactionIsNotYoursIsProhibited = false,
         GlobalItemActionFunction = false,
@@ -1765,7 +1765,7 @@ SandboxVars = {
     },
     FirstAidExpanded = {
         -- Minimum=0.00 Maximum=100.00 Default=0.22
-        SicknessOffset = 0.22,
+        SicknessOffset = 0.05,
         -- Minimum=0.00 Maximum=100.00 Default=100.00
         MaxSickness = 100.0,
         -- Minimum=0.00 Maximum=100.00 Default=0.00
@@ -1821,7 +1821,7 @@ SandboxVars = {
     InventoryTetris = {
         EnableSearch = true,
         -- Minimum=1 Maximum=250 Default=45
-        SearchTime = 45,
+        SearchTime = 30,
         -- Minimum=0 Maximum=8 Default=0
         BonusGridSize = 0,
         EnableGravity = false,
