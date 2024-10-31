@@ -1,269 +1,269 @@
 SandboxVars = {
     VERSION = 5,
-    -- Changer ceci active l'option avanc�e \Multiplicateur de Population\. Par d�faut=Normal
-    -- 1 = Hardcore
-    -- 2 = Tr�s �lev�
-    -- 3 = �lev�
+    -- Changing this sets the "Population Multiplier" advanced option. Default=Normal
+    -- 1 = Insane
+    -- 2 = Very High
+    -- 3 = High
     -- 4 = Normal
-    -- 5 = Faible
+    -- 5 = Low
     Zombies = 3,
-    -- Par d�faut=Focalis�s en ville
-    -- 1 = Focalis�s en ville
+    -- Default=Urban Focused
+    -- 1 = Urban Focused
     Distribution = 1,
-    -- Par d�faut=1 heure
-    -- 1 = 15 minutes
-    -- 2 = 30 minutes
-    -- 3 = 1 heure
-    -- 4 = 2 heures
-    -- 5 = 3 heures
-    -- 6 = 4 heures
-    -- 7 = 5 heures
-    -- 8 = 12 heures
-    -- 9 = Temps r�el
-    -- 10 = 8 heures
-    -- 11 = 9 heures
-    -- 12 = 10 heures
-    -- 13 = 11 heures
-    -- 14 = 12 heures
-    -- 15 = 13 heures
-    -- 16 = 14 heures
-    -- 17 = 15 heures
-    -- 18 = 16 heures
-    -- 19 = 17 heures
-    -- 20 = 18 heures
-    -- 21 = 19 heures
-    -- 22 = 20 heures
-    -- 23 = 21 heures
-    -- 24 = 22 heures
-    -- 25 = 23 heures
+    -- Default=1 Hour
+    -- 1 = 15 Minutes
+    -- 2 = 30 Minutes
+    -- 3 = 1 Hour
+    -- 4 = 2 Hours
+    -- 5 = 3 Hours
+    -- 6 = 4 Hours
+    -- 7 = 5 Hours
+    -- 8 = 6 Hours
+    -- 9 = 7 Hours
+    -- 10 = 8 Hours
+    -- 11 = 9 Hours
+    -- 12 = 10 Hours
+    -- 13 = 11 Hours
+    -- 14 = 12 Hours
+    -- 15 = 13 Hours
+    -- 16 = 14 Hours
+    -- 17 = 15 Hours
+    -- 18 = 16 Hours
+    -- 19 = 17 Hours
+    -- 20 = 18 Hours
+    -- 21 = 19 Hours
+    -- 22 = 20 Hours
+    -- 23 = 21 Hours
+    -- 24 = 22 Hours
+    -- 25 = 23 Hours
     DayLength = 3,
     StartYear = 1,
-    -- Par d�faut=Juillet
-    -- 1 = Janvier
-    -- 2 = F�vrier
-    -- 3 = Mars
-    -- 4 = Avril
-    -- 5 = Mai
-    -- 6 = Juin
-    -- 7 = Juillet
-    -- 8 = Ao�t
-    -- 9 = Septembre
-    -- 10 = Octobre
-    -- 11 = Novembre
+    -- Default=July
+    -- 1 = January
+    -- 2 = February
+    -- 3 = March
+    -- 4 = April
+    -- 5 = May
+    -- 6 = June
+    -- 7 = July
+    -- 8 = August
+    -- 9 = September
+    -- 10 = October
+    -- 11 = November
     StartMonth = 8,
     StartDay = 1,
-    -- Par d�faut=9 heures
-    -- 1 = 7 heures
-    -- 2 = 9 heures
-    -- 3 = Midi
-    -- 4 = 14 heures
-    -- 5 = 17 heures
-    -- 6 = 21 heures
-    -- 7 = Minuit
-    -- 8 = 2 heures
+    -- Default=9 AM
+    -- 1 = 7 AM
+    -- 2 = 9 AM
+    -- 3 = 12 PM
+    -- 4 = 2 PM
+    -- 5 = 5 PM
+    -- 6 = 9 PM
+    -- 7 = 12 AM
+    -- 8 = 2 AM
     StartTime = 1,
-    -- Par d�faut=0-30 jours
-    -- 1 = Imm�diate
-    -- 2 = 0-30 jours
-    -- 3 = 0-2 mois
-    -- 4 = 0-6 mois
-    -- 5 = 0-1 ann�e
-    -- 6 = 0-5 ann�es
-    -- 7 = 2-6 mois
+    -- Default=0-30 Days
+    -- 1 = Instant
+    -- 2 = 0-30 Days
+    -- 3 = 0-2 Months
+    -- 4 = 0-6 Months
+    -- 5 = 0-1 Year
+    -- 6 = 0-5 Years
+    -- 7 = 2-6 Months
     WaterShut = 3,
-    -- Par d�faut=0-30 jours
-    -- 1 = Imm�diate
-    -- 2 = 0-30 jours
-    -- 3 = 0-2 mois
-    -- 4 = 0-6 mois
-    -- 5 = 0-1 ann�e
-    -- 6 = 0-5 ann�es
-    -- 7 = 2-6 mois
+    -- Default=0-30 Days
+    -- 1 = Instant
+    -- 2 = 0-30 Days
+    -- 3 = 0-2 Months
+    -- 4 = 0-6 Months
+    -- 5 = 0-1 Year
+    -- 6 = 0-5 Years
+    -- 7 = 2-6 Months
     ElecShut = 3,
-    -- Minimum=-1 Maximum=2147483647 Par d�faut=14
+    -- Minimum=-1 Maximum=2147483647 Default=14
     WaterShutModifier = 28,
-    -- Minimum=-1 Maximum=2147483647 Par d�faut=14
+    -- Minimum=-1 Maximum=2147483647 Default=14
     ElecShutModifier = 34,
-    -- Par d�faut=Rare
+    -- Default=Rare
     -- 1 = None (not recommended)
     -- 2 = Insanely Rare
-    -- 3 = Extr�mement rare
+    -- 3 = Extremely Rare
     -- 4 = Rare
     -- 5 = Normal
-    -- 6 = Commun
+    -- 6 = Common
     FoodLoot = 5,
-    -- Par d�faut=Rare
+    -- Default=Rare
     -- 1 = None (not recommended)
     -- 2 = Insanely Rare
-    -- 3 = Extr�mement rare
+    -- 3 = Extremely Rare
     -- 4 = Rare
     -- 5 = Normal
-    -- 6 = Commun
+    -- 6 = Common
     CannedFoodLoot = 5,
-    -- Par d�faut=Rare
+    -- Default=Rare
     -- 1 = None (not recommended)
     -- 2 = Insanely Rare
-    -- 3 = Extr�mement rare
+    -- 3 = Extremely Rare
     -- 4 = Rare
     -- 5 = Normal
-    -- 6 = Commun
+    -- 6 = Common
     LiteratureLoot = 5,
-    -- Des graines, une scie, des clous, une canne � p�che, divers outils, etc. Par d�faut=Rare
+    -- Seeds, Nails, Saws, Fishing Rods, various tools, etc... Default=Rare
     -- 1 = None (not recommended)
     -- 2 = Insanely Rare
-    -- 3 = Extr�mement rare
+    -- 3 = Extremely Rare
     -- 4 = Rare
     -- 5 = Normal
-    -- 6 = Commun
+    -- 6 = Common
     SurvivalGearsLoot = 5,
-    -- Par d�faut=Rare
+    -- Default=Rare
     -- 1 = None (not recommended)
     -- 2 = Insanely Rare
-    -- 3 = Extr�mement rare
+    -- 3 = Extremely Rare
     -- 4 = Rare
     -- 5 = Normal
-    -- 6 = Commun
+    -- 6 = Common
     MedicalLoot = 5,
-    -- Par d�faut=Rare
+    -- Default=Rare
     -- 1 = None (not recommended)
     -- 2 = Insanely Rare
-    -- 3 = Extr�mement rare
+    -- 3 = Extremely Rare
     -- 4 = Rare
     -- 5 = Normal
-    -- 6 = Commun
+    -- 6 = Common
     WeaponLoot = 5,
-    -- Par d�faut=Rare
+    -- Default=Rare
     -- 1 = None (not recommended)
     -- 2 = Insanely Rare
-    -- 3 = Extr�mement rare
+    -- 3 = Extremely Rare
     -- 4 = Rare
     -- 5 = Normal
-    -- 6 = Commun
+    -- 6 = Common
     RangedWeaponLoot = 5,
-    -- Par d�faut=Rare
+    -- Default=Rare
     -- 1 = None (not recommended)
     -- 2 = Insanely Rare
-    -- 3 = Extr�mement rare
+    -- 3 = Extremely Rare
     -- 4 = Rare
     -- 5 = Normal
-    -- 6 = Commun
+    -- 6 = Common
     AmmoLoot = 5,
-    -- Par d�faut=Rare
+    -- Default=Rare
     -- 1 = None (not recommended)
     -- 2 = Insanely Rare
-    -- 3 = Extr�mement rare
+    -- 3 = Extremely Rare
     -- 4 = Rare
     -- 5 = Normal
-    -- 6 = Commun
+    -- 6 = Common
     MechanicsLoot = 5,
-    -- Everything else. Also affects foraging for all items in Town/Road zones. Par d�faut=Rare
+    -- Everything else. Also affects foraging for all items in Town/Road zones. Default=Rare
     -- 1 = None (not recommended)
     -- 2 = Insanely Rare
-    -- 3 = Extr�mement rare
+    -- 3 = Extremely Rare
     -- 4 = Rare
     -- 5 = Normal
-    -- 6 = Commun
+    -- 6 = Common
     OtherLoot = 5,
-    -- Contr�le la temp�rature globale. Par d�faut=Normal
-    -- 1 = Tr�s froid
-    -- 2 = Froid
+    -- Controls the global temperature. Default=Normal
+    -- 1 = Very Cold
+    -- 2 = Cold
     -- 3 = Normal
-    -- 4 = Chaud
+    -- 4 = Hot
     Temperature = 3,
-    -- Contr�le la fr�quence de la pluie. Par d�faut=Normale
-    -- 1 = Tr�s rare
-    -- 2 = Rare
-    -- 3 = Normale
-    -- 4 = Fr�quente
+    -- Controls how often it rains. Default=Normal
+    -- 1 = Very Dry
+    -- 2 = Dry
+    -- 3 = Normal
+    -- 4 = Rainy
     Rain = 3,
-    -- Nombre de jours avant que la d�t�rioration ne soit totale. Par d�faut=Normale (100 jours)
-    -- 1 = Tr�s rapide (20 jours)
-    -- 2 = Rapide (50 jours)
-    -- 3 = Normale (100 jours)
-    -- 4 = Lente (200 jours)
+    -- Number of days until 100% growth. Default=Normal (100 Days)
+    -- 1 = Very Fast (20 Days)
+    -- 2 = Fast (50 Days)
+    -- 3 = Normal (100 Days)
+    -- 4 = Slow (200 Days)
     ErosionSpeed = 3,
-    -- Nombre de jours avant que la d�t�rioration du monde soit � 100%.  -1 ne signifie pas de d�t�rioration.  Z�ro signifie qu'il faut utiliser l'option 'Vitesse de d�t�rioration'.  Maximum 36,500 (100 ans). Minimum=-1 Maximum=36500 Par d�faut=0
+    -- Number of days until 100% growth. -1 means no growth. Zero means use the Erosion Speed option. Maximum 36,500 (100 years). Minimum=-1 Maximum=36500 Default=0
     ErosionDays = 0,
-    -- Modifie le gain d'XP de base par actions via ce nombre. Minimum=0,00 Maximum=1000,00 Par d�faut=1,00
+    -- Modifies the base XP gain from actions by this number. Minimum=0.00 Maximum=1000.00 Default=1.00
     XpMultiplier = 1.0,
     -- Determines if the XP multiplier affects passively levelled skills eg. Fitness and Strength.
     XpMultiplierAffectsPassive = true,
-    -- � utiliser pour multiplier ou r�duire le volume g�n�ral des moteurs Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+    -- Use this to multiply or reduce engine general loudness. Minimum=0.00 Maximum=100.00 Default=1.00
     ZombieAttractionMultiplier = 5.0,
-    -- D�termine si les voitures sont verrouill�es, si elles ont besoin de cl�s pour d�marrer, etc.
+    -- Governs whether cars are locked, need keys to start etc.
     VehicleEasyUse = false,
-    -- Contr�le la vitesse de croissance des plantations. Par d�faut=Normale
-    -- 1 = Tr�s rapide
-    -- 2 = Rapide
-    -- 3 = Normale
-    -- 4 = Lente
+    -- Controls the speed of plant growth. Default=Normal
+    -- 1 = Very Fast
+    -- 2 = Fast
+    -- 3 = Normal
+    -- 4 = Slow
     Farming = 3,
-    -- Contr�le le temps qu'il faut pour que la nourriture se d�compose dans un composteur. Par d�faut=2 semaines
-    -- 1 = 1 semaine
-    -- 2 = 2 semaines
-    -- 3 = 3 semaines
-    -- 4 = 4 semaines
-    -- 5 = 6 semaines
-    -- 6 = 8 semaines
-    -- 7 = 10 semaines
+    -- Controls the time it takes for food to break down in a composter. Default=2 Weeks
+    -- 1 = 1 Week
+    -- 2 = 2 Weeks
+    -- 3 = 3 Weeks
+    -- 4 = 4 Weeks
+    -- 5 = 6 Weeks
+    -- 6 = 8 Weeks
+    -- 7 = 10 Weeks
     CompostTime = 2,
-    -- Vitesse � laquelle la faim, la soif et la fatigue du personnage diminueront. Par d�faut=Normale
-    -- 1 = Tr�s rapide
-    -- 2 = Rapide
-    -- 3 = Normale
-    -- 4 = Lente
+    -- How fast character's hunger, thirst and fatigue will decrease. Default=Normal
+    -- 1 = Very Fast
+    -- 2 = Fast
+    -- 3 = Normal
+    -- 4 = Slow
     StatsDecrease = 3,
-    -- Contr�le l'abondance des poissons et de la recherche globale. Par d�faut=Normale
-    -- 1 = Tr�s pauvre
-    -- 2 = Pauvre
-    -- 3 = Normale
-    -- 4 = Abondante
+    -- Controls the abundance of fish and general forage. Default=Normal
+    -- 1 = Very Poor
+    -- 2 = Poor
+    -- 3 = Normal
+    -- 4 = Abundant
     NatureAbundance = 3,
-    -- Par d�faut=Parfois
-    -- 1 = Jamais
-    -- 2 = Tr�s rare
+    -- Default=Sometimes
+    -- 1 = Never
+    -- 2 = Extremely Rare
     -- 3 = Rare
-    -- 4 = Parfois
-    -- 5 = Souvent
+    -- 4 = Sometimes
+    -- 5 = Often
     Alarm = 4,
-    -- � quelle fr�quence les maisons et les b�timents seront d�couverts verrouill�s. Par d�faut=Tr�s souvent
-    -- 1 = Jamais
-    -- 2 = Tr�s rare
+    -- How frequently homes and buildings will be discovered locked Default=Very Often
+    -- 1 = Never
+    -- 2 = Extremely Rare
     -- 3 = Rare
-    -- 4 = Parfois
-    -- 5 = Souvent
+    -- 4 = Sometimes
+    -- 5 = Often
     LockedHouses = 5,
-    -- Si activ�, le joueur commencera avec des chips, une bouteille d'eau, un sac � dos, une batte de baseball et un marteau.
+    -- Spawn with chips, water bottle, school bag, baseball bat and a hammer.
     StarterKit = false,
-    -- Cochez-le pour utiliser le syst�me de nutrition avanc�e (gestion des calories, du poids...)
+    -- Nutritional value of food affects the player's condition.
     Nutrition = true,
-    -- D�finit � quelle vitesse la nourriture va p�rimer. Par d�faut=Normale
-    -- 1 = Tr�s rapide
-    -- 2 = Rapide
-    -- 3 = Normale
-    -- 4 = Lente
+    -- Define how fast the food will spoil inside or outside fridge. Default=Normal
+    -- 1 = Very Fast
+    -- 2 = Fast
+    -- 3 = Normal
+    -- 4 = Slow
     FoodRotSpeed = 3,
-    -- D�finit � quel point le r�frig�rateur sera efficace. Par d�faut=Normale
-    -- 1 = Tr�s peu efficace
-    -- 2 = Peu efficace
-    -- 3 = Normale
-    -- 4 = Efficace
+    -- Define how much a fridge will be effective. Default=Normal
+    -- 1 = Very Low
+    -- 2 = Low
+    -- 3 = Normal
+    -- 4 = High
     FridgeFactor = 5,
-    -- D�finit le temps durant lequel une zone ne doit pas �tre visit�e pour provoquer la r�apparition de butin. Par d�faut=Jamais
-    -- 1 = Jamais
-    -- 2 = Tous les jours
-    -- 3 = Toutes les semaines
-    -- 4 = Tous les mois
+    -- Items will respawn in already-looted containers in towns and trailer parks. Items will not respawn in player-made containers. Default=None
+    -- 1 = None
+    -- 2 = Every Day
+    -- 3 = Every Week
+    -- 4 = Every Month
     LootRespawn = 1,
-    -- Quand > 0, le butin ne r�appara�tra pas dans les zones qui ont �t� visit�es durant ce nombre d'heures en jeu. Minimum=0 Maximum=2147483647 Par d�faut=0
+    -- When > 0, loot will not respawn in zones that have been visited within this number of in-game hours. Minimum=0 Maximum=2147483647 Default=0
     SeenHoursPreventLootRespawn = 0,
-    -- Une liste de types d'objets s�par�s par des virgules, qui seront supprim�s apr�s HoursForWorldItemRemoval
+    -- A comma-separated list of item types that will be removed after HoursForWorldItemRemoval hours.
     WorldItemRemovalList = "Base.Hat,Base.Glasses,Base.Maggots,EHE.EvacuationFlyer,EHE.EmergencyFlyer,EHE.QuarantineFlyer,EHE.PreventionFlyer,EHE.NoticeFlyer",
-    -- Nombres d'heures �coul�es depuis qu'un objet ait �t� jet� au sol avant d'�tre retir�. Les �l�ments au sol seront supprim�s lors du prochain chargement de cette partie de la carte. Z�ro signifie que les �l�ments ne seront pas supprim�s. Minimum=0,00 Maximum=2147483647,00 Par d�faut=24,00
+    -- Number of hours since an item was dropped on the ground before it is removed.  Items are removed the next time that part of the map is loaded.  Zero means items are not removed. Minimum=0.00 Maximum=2147483647.00 Default=24.00
     HoursForWorldItemRemoval = 0.0,
-    -- Si activ�, tous les objets qui ne sont pas dans la liste des objets retir�s seront supprim�s.
+    -- If true, any items *not* in WorldItemRemovalList will be removed.
     ItemRemovalListBlacklistToggle = false,
-    -- Ceci affectera la d�t�rioration du monde et la p�remption des aliments au lancement du serveur. Par d�faut=0
+    -- This will affect starting world erosion and food spoilage. Default=0
     -- 1 = 0
     -- 2 = 1
     -- 3 = 2
@@ -277,225 +277,225 @@ SandboxVars = {
     -- 11 = 10
     -- 12 = 11
     TimeSinceApo = 1,
-    -- Influencera la quantit� d'eau quotidienne que les plantes perdront et leur capacit� � �viter les maladies. Par d�faut=Normale
-    -- 1 = Tr�s forte
-    -- 2 = Forte
-    -- 3 = Normale
-    -- 4 = Basse
+    -- Will influence how much water the plant will lose per day and their ability to avoid disease. Default=Normal
+    -- 1 = Very High
+    -- 2 = High
+    -- 3 = Normal
+    -- 4 = Low
     PlantResilience = 3,
-    -- Contr�le le rendement des plantations lors de la r�colte. Par d�faut=Normale
-    -- 1 = Tr�s pauvre
-    -- 2 = Pauvre
-    -- 3 = Normale
-    -- 4 = Abondante
+    -- Controls the yield of plants when harvested. Default=Normal
+    -- 1 = Very Poor
+    -- 2 = Poor
+    -- 3 = Normal
+    -- 4 = Abundant
     PlantAbundance = 3,
-    -- R�cup�ration de la fatigue apr�s avoir effectu� des actions. Par d�faut=Normale
-    -- 1 = Tr�s rapide
-    -- 2 = Rapide
-    -- 3 = Normale
-    -- 4 = Lente
+    -- Recovery from being tired from performing actions Default=Normal
+    -- 1 = Very Fast
+    -- 2 = Fast
+    -- 3 = Normal
+    -- 4 = Slow
     EndRegen = 3,
-    -- Fr�quence de passage des h�licopt�res au-dessus de la zone de l'�v�nement. Par d�faut=Une fois
-    -- 1 = Jamais
-    -- 2 = Une fois
-    -- 3 = De temps en temps
+    -- How regularly helicopters pass over the event zone. Default=Once
+    -- 1 = Never
+    -- 2 = Once
+    -- 3 = Sometimes
     Helicopter = 3,
-    -- Fr�quence des meta-�v�nements (coups de feu, cris, aboiements...) attirant les zombies. Par d�faut=De temps en temps
-    -- 1 = Jamais
-    -- 2 = De temps en temps
+    -- How often zombie attracting metagame events like distant gunshots will occur. Default=Sometimes
+    -- 1 = Never
+    -- 2 = Sometimes
     MetaEvent = 2,
-    -- Contr�le les m�ta-�v�nements nocturnes durant le sommeil du joueur. Par d�faut=Jamais
-    -- 1 = Jamais
-    -- 2 = De temps en temps
+    -- Governs night-time metagame events during the player's sleep. Default=Never
+    -- 1 = Never
+    -- 2 = Sometimes
     SleepingEvent = 2,
-    -- Augmente / r�duit les chances d'apparition des groupes �lectrog�nes sur la carte. Par d�faut=Parfois
-    -- 1 = Tr�s rare
+    -- Increase/decrease the chance of electrical generators spawning on the map. Default=Sometimes
+    -- 1 = Extremely Rare
     -- 2 = Rare
-    -- 3 = Parfois
-    -- 4 = Souvent
+    -- 3 = Sometimes
+    -- 4 = Often
     GeneratorSpawning = 2,
-    -- Combien de carburant est consomm� par heure en jeu. Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+    -- How much fuel is consumed per in-game hour. Minimum=0.00 Maximum=100.00 Default=1.00
     GeneratorFuelConsumption = 1.0,
-    -- Augmente / r�duit la probabilit� de d�couvrir des maisons d'anciens survivants, g�n�r�es al�atoirement sur la carte, qu'elles soient br�l�es, remplies de r�serves, de cadavres, de survivants, etc. Par d�faut=Rare
-    -- 1 = Jamais
-    -- 2 = Tr�s rare
+    -- Increase/decrease probability of discovering randomized safe houses on the map: either burnt out, containing loot stashes, dead survivor bodies etc. Default=Rare
+    -- 1 = Never
+    -- 2 = Extremely Rare
     -- 3 = Rare
-    -- 4 = Parfois
-    -- 5 = Souvent
+    -- 4 = Sometimes
+    -- 5 = Often
     SurvivorHouseChance = 4,
-    -- Par d�faut=Rare
-    -- 1 = Jamais
-    -- 2 = Tr�s rare
+    -- Default=Rare
+    -- 1 = Never
+    -- 2 = Extremely Rare
     -- 3 = Rare
-    -- 4 = Parfois
-    -- 5 = Souvent
+    -- 4 = Sometimes
+    -- 5 = Often
     VehicleStoryChance = 6,
-    -- Par d�faut=Rare
-    -- 1 = Jamais
-    -- 2 = Tr�s rare
+    -- Default=Rare
+    -- 1 = Never
+    -- 2 = Extremely Rare
     -- 3 = Rare
-    -- 4 = Parfois
-    -- 5 = Souvent
+    -- 4 = Sometimes
+    -- 5 = Often
     ZoneStoryChance = 6,
-    -- Impacte les chances de trouver une carte annot�e sur un survivant d�c�d�. Par d�faut=Parfois
-    -- 1 = Jamais
-    -- 2 = Tr�s rare
+    -- Impacts on how often a looted map will have annotations marked on it by a deceased survivor. Default=Sometimes
+    -- 1 = Never
+    -- 2 = Extremely Rare
     -- 3 = Rare
-    -- 4 = Parfois
-    -- 5 = Souvent
+    -- 4 = Sometimes
+    -- 5 = Often
     AnnotatedMapChance = 4,
-    -- Ajoute des points gratuits durant la cr�ation du personnage. Minimum=-100 Maximum=100 Par d�faut=0
+    -- Adds free points during character creation. Minimum=-100 Maximum=100 Default=0
     CharacterFreePoints = -12,
-    -- Donne des points de vie bonus aux constructions des joueurs afin de les rendre plus r�sistantes aux zombies. Par d�faut=Normale
-    -- 1 = Tr�s basse
-    -- 2 = Basse
-    -- 3 = Normale
-    -- 4 = Haute
+    -- Gives player-built constructions extra hit points so they are more resistant to zombie damage. Default=Normal
+    -- 1 = Very Low
+    -- 2 = Low
+    -- 3 = Normal
+    -- 4 = High
     ConstructionBonusPoints = 4,
-    -- D�termine l'�clairage global la nuit. Par d�faut=Normale
-    -- 1 = Nuit noire
-    -- 2 = Sombre
-    -- 3 = Normale
+    -- Governs the ambient lighting at night. Default=Normal
+    -- 1 = Pitch Black
+    -- 2 = Dark
+    -- 3 = Normal
     NightDarkness = 2,
-    -- D�termine la dur�e de la nuit, du cr�puscule jusqu'� l'aube. Par d�faut=Normale
-    -- 1 = Nuit permanente
-    -- 2 = Longue
-    -- 3 = Normale
-    -- 4 = Courte
+    -- Governs the time from dusk to dawn. Default=Normal
+    -- 1 = Always Night
+    -- 2 = Long
+    -- 3 = Normal
+    -- 4 = Short
     NightLength = 3,
-    -- Augmente ou diminue l'impact des blessures sur votre corps, et leur temps de gu�rison. Par d�faut=Normale
-    -- 1 = Basse
-    -- 2 = Normale
+    -- Increase and decrease the impact injuries have on your body, and their healing time. Default=Normal
+    -- 1 = Low
+    -- 2 = Normal
     InjurySeverity = 3,
-    -- Active ou d�sactive les fractures des membres lorsque les survivants sont bless�s par des impacts, les d�g�ts de zombies et les chutes.
+    -- Enable or disable broken limbs when survivors receive injuries from impacts, zombie damage and falls.
     BoneFracture = true,
-    -- Combien de temps avant que les cadavres de zombies disparaissent. Minimum=-1,00 Maximum=2147483647,00 Par d�faut=216,00
+    -- How long before zombie bodies disappear. Minimum=-1.00 Maximum=2147483647.00 Default=216.00
     HoursForCorpseRemoval = 216.0,
-    -- D�termine l'impact de la proximit� de corps en d�composition sur la sant� et les �motions des joueurs. Par d�faut=Normal
-    -- 1 = Aucun
-    -- 2 = Bas
+    -- Governs impact that nearby decaying bodies has on the player's health and emotions. Default=Normal
+    -- 1 = None
+    -- 2 = Low
     -- 3 = Normal
     DecayingCorpseHealthImpact = 3,
-    -- � quel point le sang gicle au sol et sur les murs. Par d�faut=Normale
-    -- 1 = Pas de sang
-    -- 2 = Basse
-    -- 3 = Normale
-    -- 4 = Haute
+    -- How much blood is sprayed on floor and walls. Default=Normal
+    -- 1 = None
+    -- 2 = Low
+    -- 3 = Normal
+    -- 4 = High
     BloodLevel = 3,
-    -- D�termine la rapidit� � laquelle les v�tements s'usent, se salissent et se tachent de sang. Par d�faut=Normale
-    -- 1 = D�sactiv�e
-    -- 2 = Lente
-    -- 3 = Normale
+    -- Governs how quickly clothing degrades, becomes dirty, and bloodied. Default=Normal
+    -- 1 = Disabled
+    -- 2 = Slow
+    -- 3 = Normal
     ClothingDegradation = 3,
     FireSpread = true,
-    -- Nombre de jours dans le jeu avant que la nourriture pourrie ne soit retir�e de la carte. -1 signifie que la nourriture pourrie ne sera jamais retir�e. Minimum=-1 Maximum=2147483647 Par d�faut=-1
+    -- Number of in-game days before rotten food is removed from the map. -1 means rotten food is never removed. Minimum=-1 Maximum=2147483647 Default=-1
     DaysForRottenFoodRemoval = -1,
-    -- Si activ�, les groupes �lectrog�nes fonctionneront en ext�rieur, ce qui permet par exemple d'alimenter les pompes � essence.
+    -- If enabled, generators will work on exterior tiles, allowing for example to power gas pump.
     AllowExteriorGenerator = true,
-    -- Contr�le l'intensit� maximale du brouillard. Par d�faut=Normale
-    -- 1 = Normale
-    -- 2 = Mod�r�e
+    -- Controls the maximum intensity of fog. Default=Normal
+    -- 1 = Normal
+    -- 2 = Moderate
     MaxFogIntensity = 1,
-    -- Contr�le l'intensit� maximale de la pluie. Par d�faut=Normale
-    -- 1 = Normale
-    -- 2 = Mod�r�e
+    -- Controls the maximum intensity of rain. Default=Normal
+    -- 1 = Normal
+    -- 2 = Moderate
     MaxRainFxIntensity = 1,
-    -- Si d�sactiv�, la neige ne s'accumulera pas au sol, mais restera visible sur les toits et la v�g�tation.
+    -- If disabled snow will not accumulate on ground but will still be visible on vegetation and rooftops.
     EnableSnowOnGround = true,
-    -- Si activ�, certaines armes de m�l�e pourront frapper plusieurs zombies � la fois.
+    -- When enabled certain melee weapons will be able to strike multiple zombies in one hit.
     MultiHitZombies = true,
-    -- Probabilit� d'�tre mordu par un zombie qui attaque par-derri�re. Par d�faut=Haute
-    -- 1 = Basse
-    -- 2 = Moyenne
+    -- Chance of being bitten when a zombie attacks from behind. Default=High
+    -- 1 = Low
+    -- 2 = Medium
     RearVulnerability = 3,
-    -- D�sactivez pour marcher sans entrave lors des attaques de m�l�e.
+    -- Disable to walk unimpeded while melee attacking.
     AttackBlockMovements = true,
     AllClothesUnlocked = false,
     -- if disabled, tainted water will not have a warning marking it as such
     EnableTaintedWaterText = true,
-    -- D�termine la fr�quence � laquelle vous pouvez trouver des v�hicules sur la carte. Par d�faut=Normal
-    -- 1 = Aucun
-    -- 2 = Bas
-    -- 3 = Normal
-    -- 4 = Haut
+    -- Governs how frequently cars are discovered on the map Default=Low
+    -- 1 = None
+    -- 2 = Very Low
+    -- 3 = Low
+    -- 4 = Normal
     CarSpawnRate = 4,
-    -- G�re les chances de trouver des v�hicules contenant du carburant. Par d�faut=Bas
-    -- 1 = Bas
+    -- Governs the chances of finding vehicles with gas in the tank. Default=Low
+    -- 1 = Low
     -- 2 = Normal
     ChanceHasGas = 2,
-    -- G�re le niveau de carburant des v�hicules que vous d�couvrirez. Par d�faut=Bas
-    -- 1 = Tr�s bas
-    -- 2 = Bas
+    -- Governs how full gas tanks will be in discovered cars. Default=Low
+    -- 1 = Very Low
+    -- 2 = Low
     -- 3 = Normal
-    -- 4 = Haut
-    -- 5 = Tr�s haut
+    -- 4 = High
+    -- 5 = Very High
     InitialGas = 2,
-    -- Permet de choisir l'�tat des r�serves d'essence dans les stations, au d�part. Par d�faut=Normal
-    -- 1 = Vide
+    -- Governs how full gas tanks in fuel station will be, initially. Default=Normal
+    -- 1 = Empty
     -- 2 = Super Low
-    -- 3 = Tr�s basse
-    -- 4 = Basse
+    -- 3 = Very Low
+    -- 4 = Low
     -- 5 = Normal
-    -- 6 = �lev�e
-    -- 7 = Tr�s �lev�e
-    -- 8 = Plein
+    -- 6 = High
+    -- 7 = Very High
+    -- 8 = Full
     FuelStationGas = 5,
-    -- D�termine � quel point les v�hicules sont gourmands en carburant. Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+    -- How gas-hungry vehicles on the map are. Minimum=0.00 Maximum=100.00 Default=1.00
     CarGasConsumption = 4.0,
-    -- Par d�faut=Rare
-    -- 1 = Jamais
-    -- 2 = Tr�s rare
+    -- Default=Rare
+    -- 1 = Never
+    -- 2 = Extremely Rare
     -- 3 = Rare
-    -- 4 = Parfois
-    -- 5 = Souvent
+    -- 4 = Sometimes
+    -- 5 = Often
     LockedCar = 4,
-    -- D�termine la condition g�n�rale des v�hicules d�couverts sur la carte. Par d�faut=Mauvais �tat
-    -- 1 = Tr�s mauvais �tat
-    -- 2 = Mauvais �tat
-    -- 3 = �tat correct
-    -- 4 = Bon �tat
-    CarGeneralCondition = 3,
-    -- G�re les d�g�ts inflig�s aux v�hicules qui ont un accident. Par d�faut=Normal
-    -- 1 = Tr�s bas
-    -- 2 = Bas
+    -- General condition of vehicles discovered on the map Default=Low
+    -- 1 = Very Low
+    -- 2 = Low
     -- 3 = Normal
-    -- 4 = Haut
+    -- 4 = High
+    CarGeneralCondition = 3,
+    -- Governs the amount of damage dealt to vehicles that crash. Default=Normal
+    -- 1 = Very Low
+    -- 2 = Low
+    -- 3 = Normal
+    -- 4 = High
     CarDamageOnImpact = 1,
-    -- D�g�ts re�us par les joueurs lors d'une collision avec un v�hicule. Par d�faut=Aucun
-    -- 1 = Aucun
-    -- 2 = Bas
-    -- 3 = Normaux
-    -- 4 = �lev�s
-    DamageToPlayerFromHitByACar = 3,
-    -- Active ou non les embouteillages et carambolages qui peuvent appara�tre sur les routes principales de la carte.
-    TrafficJam = true,
-    -- D�termine � quelle fr�quence les v�hicules poss�dant une alarme seront d�couverts. Par d�faut=Tr�s rare
-    -- 1 = Jamais
-    -- 2 = Tr�s rare
-    -- 3 = Rare
-    -- 4 = Parfois
-    -- 5 = Souvent
-    CarAlarm = 4,
-    -- Active ou non les d�g�ts au joueur lors d'un accident.
-    PlayerDamageFromCrash = true,
-    -- Combien d'heures en jeu avant que l'alarme de voiture ne cesse de retentir. Minimum=0,00 Maximum=168,00 Par d�faut=0,00
-    SirenShutoffHours = 0.0,
-    -- Permet de savoir si le joueur peut d�couvrir un v�hicule qui a �t� entretenu depuis le d�but de l'infection. Par d�faut=Peu
+    -- Damage received by the player from the car in a collision. Default=None
     -- 1 = None
-    -- 2 = Peu
-    -- 3 = Quelques-uns
+    -- 2 = Low
+    -- 3 = Normal
+    -- 4 = High
+    DamageToPlayerFromHitByACar = 3,
+    -- Enable or disable traffic jams that spawn on the main roads of the map.
+    TrafficJam = true,
+    -- How frequently cars will be discovered with an alarm. Default=Extremely Rare
+    -- 1 = Never
+    -- 2 = Extremely Rare
+    -- 3 = Rare
+    -- 4 = Sometimes
+    -- 5 = Often
+    CarAlarm = 4,
+    -- Enable or disable player getting damage from being in a car accident.
+    PlayerDamageFromCrash = true,
+    -- How many in-game hours before a wailing siren shuts off. Minimum=0.00 Maximum=168.00 Default=0.00
+    SirenShutoffHours = 0.0,
+    --  Governs whether player can discover a car that has been maintained and cared for after the infection struck. Default=Low
+    -- 1 = None
+    -- 2 = Low
+    -- 3 = Normal
     RecentlySurvivorVehicles = 2,
-    -- Autorise l'apparition des v�hicules.
+    -- Enables vehicles to spawn.
     EnableVehicles = true,
-    -- Governs if poisoning food is enabled. Par d�faut=True
+    -- Governs if poisoning food is enabled. Default=True
     -- 1 = True
     -- 2 = False
     EnablePoisoning = 1,
-    -- Par d�faut=In and around bodies
+    -- Default=In and around bodies
     -- 1 = In and around bodies
     -- 2 = In bodies only
     MaggotSpawn = 1,
-    -- The higher the value, the longer lightbulbs last before breaking. If 0, lightbulbs will never break. Does not affect vehicle headlights. Minimum=0,00 Maximum=1000,00 Par d�faut=1,00
+    -- The higher the value, the longer lightbulbs last before breaking. If 0, lightbulbs will never break. Does not affect vehicle headlights. Minimum=0.00 Maximum=1000.00 Default=1.00
     LightBulbLifespan = 4.0,
     Map = {
         AllowMiniMap = false,
@@ -503,115 +503,115 @@ SandboxVars = {
         MapAllKnown = false,
     },
     ZombieLore = {
-        -- Contr�le le taux de d�placement des zombies. Par d�faut=Tra�neur rapide
-        -- 1 = Sprinteur
-        -- 2 = Tra�neur rapide
-        -- 3 = Tra�neur
+        -- Controls the zombie movement rate. Default=Fast Shamblers
+        -- 1 = Sprinters
+        -- 2 = Fast Shamblers
+        -- 3 = Shamblers
         Speed = 2,
-        -- Contr�le les d�g�ts que les zombies infligent � chaque attaque. Par d�faut=Normale
-        -- 1 = Surhumaine
-        -- 2 = Normale
-        -- 3 = Faible
+        -- Controls the damage zombies inflict per attack. Default=Normal
+        -- 1 = Superhuman
+        -- 2 = Normal
+        -- 3 = Weak
         Strength = 2,
-        -- Contr�le la difficult� � tuer les zombies. Par d�faut=Normaux
-        -- 1 = R�sistants
-        -- 2 = Normaux
-        -- 3 = Fragiles
+        -- Controls the difficulty to kill zombies. Default=Normal
+        -- 1 = Tough
+        -- 2 = Normal
+        -- 3 = Fragile
         Toughness = 2,
-        -- Contr�le comment le virus zombie se transmet. Par d�faut=Sang + Salive
-        -- 1 = Sang + Salive
-        -- 2 = Salive uniquement
-        -- 3 = Tout le monde est infect�
+        -- Controls how the zombie virus spreads. Default=Blood + Saliva
+        -- 1 = Blood + Saliva
+        -- 2 = Saliva Only
+        -- 3 = Everyone's Infected
         Transmission = 2,
-        -- Contr�le � quelle vitesse l'infection se r�pand. Par d�faut=2-3 jours
-        -- 1 = Instantan�e
-        -- 2 = 0-30 secondes
-        -- 3 = 0-1 minutes
-        -- 4 = 0-12 heures
-        -- 5 = 2-3 jours
-        -- 6 = 1-2 semaines
+        -- Controls how quickly the infection takes effect. Default=2-3 Days
+        -- 1 = Instant
+        -- 2 = 0-30 Seconds
+        -- 3 = 0-1 Minutes
+        -- 4 = 0-12 Hours
+        -- 5 = 2-3 Days
+        -- 6 = 1-2 Weeks
         Mortality = 5,
-        -- Contr�le � quelle vitesse le cadavre se rel�ve en tant que zombie. Par d�faut=0-1 minutes
-        -- 1 = Instantan�
-        -- 2 = 0-30 secondes
-        -- 3 = 0-1 minutes
-        -- 4 = 0-12 heures
-        -- 5 = 2-3 jours
+        -- Controls how quickly corpses rise as zombies. Default=0-1 Minutes
+        -- 1 = Instant
+        -- 2 = 0-30 Seconds
+        -- 3 = 0-1 Minutes
+        -- 4 = 0-12 Hours
+        -- 5 = 2-3 Days
         Reanimate = 4,
-        -- Contr�le l'intelligence des zombies. Par d�faut=D�placements basiques
-        -- 1 = Se d�placer + ouvrir les portes
-        -- 2 = Se d�placer
-        -- 3 = D�placements basiques
+        -- Controls zombie intelligence. Default=Basic Navigation
+        -- 1 = Navigate + Use Doors
+        -- 2 = Navigate
+        -- 3 = Basic Navigation
         Cognition = 3,
-        -- Contr�le quels zombies peuvent ramper sous les v�hicules. Par d�faut=Beaucoup
-        -- 1 = Rampants uniquement
-        -- 2 = Quasiment aucun
-        -- 3 = Quelques rares
-        -- 4 = Quelques-uns
-        -- 5 = Beaucoup
-        -- 6 = �norm�ment
+        -- Controls which zombies can crawl under vehicles. Default=Often
+        -- 1 = Crawlers Only
+        -- 2 = Extremely Rare
+        -- 3 = Rare
+        -- 4 = Sometimes
+        -- 5 = Often
+        -- 6 = Very Often
         CrawlUnderVehicle = 7,
-        -- Contr�le � quel point les zombies se souviennent d'un joueur apr�s l'avoir vu ou entendu. Par d�faut=Normale
-        -- 1 = Longue
-        -- 2 = Normale
-        -- 3 = Courte
-        -- 4 = Aucune
+        -- Controls how long zombies remember players after seeing or hearing. Default=Normal
+        -- 1 = Long
+        -- 2 = Normal
+        -- 3 = Short
+        -- 4 = None
         Memory = 2,
-        -- Contr�le le rayon de d�tection visuel des zombies. Par d�faut=Normale
-        -- 1 = Vue aiguis�e
-        -- 2 = Normale
-        -- 3 = Pauvre
+        -- Controls zombie vision radius. Default=Normal
+        -- 1 = Eagle
+        -- 2 = Normal
+        -- 3 = Poor
         Sight = 2,
-        -- Contr�le le rayon de d�tection auditif des zombies. Par d�faut=Normale
-        -- 1 = Pr�cise
-        -- 2 = Normale
-        -- 3 = Pauvre
+        -- Controls zombie hearing radius. Default=Normal
+        -- 1 = Pinpoint
+        -- 2 = Normal
+        -- 3 = Poor
         Hearing = 2,
-        -- Les zombies n'ayant pas entendu/vu les joueurs peuvent attaquer les portes et les constructions lorsqu'ils errent.
+        -- Zombies that have not seen/heard player can attack doors and constructions while roaming.
         ThumpNoChasing = false,
-        -- D�termine si les zombies peuvent d�truire ou non les constructions et d�fenses des joueurs.
+        -- Governs whether or not zombies can destroy player constructions and defences.
         ThumpOnConstruction = true,
-        -- D�termine si les zombies sont plut�t actifs le jour ou la nuit.  Les zombies actifs utiliseront les param�tres du r�glage de la "VITESSE". Les zombies inactifs seront plus lents, et ne suivront pas beaucoup les joueurs. Par d�faut=Les deux
-        -- 1 = Les deux
-        -- 2 = Nocturne
+        -- Governs whether zombies are more active during the day, or whether they act more nocturnally.  Active zombies will use the speed set in the "Speed" setting. Inactive zombies will be slower, and tend not to give chase. Default=Both
+        -- 1 = Both
+        -- 2 = Night
         ActiveOnly = 1,
-        -- Permet aux zombies d'activer les alarmes de maison lorsqu'ils passent par des fen�tres ou des portes.
+        -- Allows zombies to trigger house alarms when breaking through windows and doors.
         TriggerHouseAlarm = true,
-        -- Si activ�, quand plusieurs zombies attaquent simultan�ment, ils peuvent vous mettre � terre pour vous d�vorer. D�pends de leur force.
+        -- When enabled if multiple zombies are attacking they can drag you down to feed. Dependent on zombie strength.
         ZombiesDragDown = true,
-        -- Si activ�, les zombies auront une chance de se jeter en avant apr�s avoir franchi une barri�re si vous �tes trop pr�s
+        -- When enabled zombies will have a chance to lunge after climbing over a fence if you're too close.
         ZombiesFenceLunge = true,
-        -- Par d�faut=Some zombies in the world will pretend to be dead
+        -- Default=Some zombies in the world will pretend to be dead
         -- 1 = Some zombies in the world will pretend to be dead
         -- 2 = Some zombies in the world, as well as some you 'kill', can pretend to be dead
         DisableFakeDead = 3,
     },
     ZombieConfig = {
-        -- Identique au r�glage \Nombre de zombies\ du mode Bac � Sable. 4.0 Minimum=0,00 Maximum=4,00 Par d�faut=1,00
+        -- Set by the "Zombie Count" population option. 4.0 = Insane, Very High = 3.0, 2.0 = High, 1.0 = Normal, 0.35 = Low, 0.0 = None. Minimum=0.00 Maximum=4.00 Default=1.00
         PopulationMultiplier = 2.0,
-        -- Ajuste la population d�sir�e au d�but du jeu. Minimum=0,00 Maximum=4,00 Par d�faut=1,00
+        -- Adjusts the desired population at the start of the game. Minimum=0.00 Maximum=4.00 Default=1.00
         PopulationStartMultiplier = 0.5,
-        -- Ajuste la population d�sir�e le jour de pic. Minimum=0,00 Maximum=4,00 Par d�faut=1,50
+        -- Adjusts the desired population on the peak day. Minimum=0.00 Maximum=4.00 Default=1.50
         PopulationPeakMultiplier = 1.5,
-        -- Le jour o� la population atteint le pic. Minimum=1 Maximum=365 Par d�faut=28
+        -- The day when the population reaches it's peak. Minimum=1 Maximum=365 Default=28
         PopulationPeakDay = 90,
-        -- Le nombre d'heures qui doit s'�couler avant que les zombies puissent r�appara�tre dans une cellule. Si z�ro, la r�apparition est annul�e. Minimum=0,00 Maximum=8760,00 Par d�faut=72,00
+        -- The number of hours that must pass before zombies may respawn in a cell. If zero, spawning is disabled. Minimum=0.00 Maximum=8760.00 Default=72.00
         RespawnHours = 0.0,
-        -- Le nombre d'heures durant lequel une cellule ne doit pas �tre visit�e avant que les zombies ne puissent y r�appara�tre. Minimum=0,00 Maximum=8760,00 Par d�faut=16,00
+        -- The number of hours that a chunk must be unseen before zombies may respawn in it. Minimum=0.00 Maximum=8760.00 Default=16.00
         RespawnUnseenHours = 8760.0,
-        -- La fraction de la population d�sir�e d'une cellule qui devrait r�appara�tre � chaque p�riode de r�apparition. (Cela multiplie le nombre de Z sur une m�me cellule � chaque r�apparition) Minimum=0,00 Maximum=1,00 Par d�faut=0,10
+        -- The fraction of a cell's desired population that may respawn every RespawnHours. Minimum=0.00 Maximum=1.00 Default=0.10
         RespawnMultiplier = 0.0,
-        -- Le nombre d'heures qui doit s'�couler avant que des zombies migrent vers des parties vides d'une m�me cellule. Minimum=0,00 Maximum=8760,00 Par d�faut=12,00
+        -- The number of hours that must pass before zombies migrate to empty parts of the same cell. If zero, migration is disabled. Minimum=0.00 Maximum=8760.00 Default=12.00
         RedistributeHours = 24.0,
-        -- La distance qu'un zombie essayera de parcourir vers le dernier son qu'il a entendu. Minimum=10 Maximum=1000 Par d�faut=100
+        -- The distance a zombie will try to walk towards the last sound it heard. Minimum=10 Maximum=1000 Default=100
         FollowSoundDistance = 1000,
-        -- La taille des groupes que les zombies forment lorsqu'ils ne sont pas occup�s. Z�ro veut dire que les zombies ne formeront pas de groupes. Les groupes ne se forment pas dans les b�timents ou les for�ts. Minimum=0 Maximum=1000 Par d�faut=20
+        -- The size of groups real zombies form when idle. Zero means zombies don't form groups. Groups don't form inside buildings or forest zones. Minimum=0 Maximum=1000 Default=20
         RallyGroupSize = 0,
-        -- La distance que les zombies parcourent pour former des groupes lorsqu'ils ne sont pas occup�s. Minimum=5 Maximum=50 Par d�faut=20
+        -- The distance real zombies travel to form groups when idle. Minimum=5 Maximum=50 Default=20
         RallyTravelDistance = 20,
-        -- La distance entre les groupes de zombies. Minimum=5 Maximum=25 Par d�faut=15
+        -- The distance between zombie groups. Minimum=5 Maximum=25 Default=15
         RallyGroupSeparation = 15,
-        -- Distance � laquelle les membres d'un groupe restent proches du chef de groupe. Minimum=1 Maximum=10 Par d�faut=3
+        -- How close members of a group stay to the group's leader. Minimum=1 Maximum=10 Default=3
         RallyGroupRadius = 3,
     },
     DAMN = {
@@ -787,257 +787,257 @@ SandboxVars = {
     MoreSmokes = {
         Loot = 2,
         Moodle = true,
-        -- Minimum=1 Maximum=10 Par d�faut=2
+        -- Minimum=1 Maximum=10 Default=2
         Kits = 2,
-        -- Minimum=1 Maximum=10 Par d�faut=2
+        -- Minimum=1 Maximum=10 Default=2
         Magazines = 2,
         RareMagazines = false,
-        -- Minimum=1 Maximum=10 Par d�faut=2
+        -- Minimum=1 Maximum=10 Default=2
         Seeds = 2,
         YesCannabis = true,
-        -- Minimum=1 Maximum=10 Par d�faut=2
+        -- Minimum=1 Maximum=10 Default=2
         Cannabis = 2,
         YesTobacco = true,
-        -- Minimum=1 Maximum=10 Par d�faut=2
+        -- Minimum=1 Maximum=10 Default=2
         Tobacco = 2,
-        -- Minimum=1 Maximum=10 Par d�faut=2
+        -- Minimum=1 Maximum=10 Default=2
         Edibles = 2,
-        -- Minimum=1 Maximum=10 Par d�faut=2
+        -- Minimum=1 Maximum=10 Default=2
         Glassware = 2,
-        -- Minimum=1 Maximum=50 Par d�faut=2
+        -- Minimum=1 Maximum=50 Default=2
         Munchies = 2,
-        -- Minimum=1 Maximum=50 Par d�faut=2
+        -- Minimum=1 Maximum=50 Default=2
         StonerPerk = 2,
-        -- Minimum=1 Maximum=50 Par d�faut=2
+        -- Minimum=1 Maximum=50 Default=2
         Paranoid = 2,
-        -- Minimum=0 Maximum=5 Par d�faut=0
+        -- Minimum=0 Maximum=5 Default=0
         CultivationBonus = 0,
-        -- Minimum=1 Maximum=50 Par d�faut=2
+        -- Minimum=1 Maximum=50 Default=2
         StonedIncreaseMulti = 2,
-        -- Minimum=1 Maximum=50 Par d�faut=2
+        -- Minimum=1 Maximum=50 Default=2
         StonedDecreaseMulti = 2,
         TimerInfo = true,
-        -- Minimum=1 Maximum=20 Par d�faut=10
+        -- Minimum=1 Maximum=20 Default=10
         DryCureChange = 10,
-        -- Minimum=0 Maximum=10 Par d�faut=2
+        -- Minimum=0 Maximum=10 Default=2
         HarvestAdd = 2,
-        -- Minimum=12 Maximum=250 Par d�faut=90
+        -- Minimum=12 Maximum=250 Default=90
         GrowTimer = 90,
-        -- Minimum=12 Maximum=250 Par d�faut=90
+        -- Minimum=12 Maximum=250 Default=90
         RotTimer = 90,
     },
     Collections = {
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         RequiredBooks = 1.0,
         ComicsSection = false,
         AnthroComics = true,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         AnthroComicSpawnRate = 1.0,
         Manga = false,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         MangaSpawnRate = 1.0,
         ContemporaryComics = true,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         ContemporaryComicsSpawnRate = 1.0,
         VintageComics = true,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         VintageComicsSpawnRate = 1.0,
         ComicBox = true,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         ComicBoxSpawnRate = 1.0,
         MedalsSection = false,
         Medals = true,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         MedalsSpawnRate = 1.0,
         MedalsRare = true,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         MedalsRareSpawnRate = 1.0,
         MedalsSilly = true,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         MedalsSillySpawnRate = 1.0,
         CansSection = false,
         Cans = true,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         CansSpawnRate = 1.0,
         HeadwearSection = false,
         Helm = true,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         HelmSpawnRate = 1.0,
         Hat = true,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         HatSpawnRate = 1.0,
     },
     newcontainersnc = {
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         ammocan30 = 1.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         ammocan50 = 1.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         basket = 1.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         basket_forage = 1.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         beveragejug = 1.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         breadbox = 1.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         canteen = 1.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         canteenmilitary = 1.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         canvastote = 1.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         cardboard_large = 1.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         cardboard_medium = 1.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         cardboard_small = 1.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         cdbinder = 1.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         cdcase = 1.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         coffeecan = 1.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         componentkit = 1.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         cookiejar = 1.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         cutleryroll = 1.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         dishtub = 1.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         donutbox = 1.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         fakerock = 1.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         filefolder = 1.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         fishingcreel = 1.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         flask = 1.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         foragepouch = 1.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         halfgaljug = 1.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         hardwareorganizer = 1.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         jewelrybox = 1.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         jugempty = 1.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         kindlingbox = 1.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         kidsflask = 1.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         lockbox = 1.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         milkcrate = 1.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         milkcratelong = 1.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         petcarrier = 1.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         piggybank = 1.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         pitcherempty_01 = 1.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         pitcherempty_02 = 1.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         pizzabox = 1.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         plastictote_large = 1.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         plastictote_medium = 1.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         plastictote_small = 1.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         plasticware = 1.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         plasticware_small = 1.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         plasticware_tall = 1.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         roadsidekit = 1.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         roughbox = 1.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         sandwichbagbox = 1.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         sandwichbag = 1.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         shoebox = 1.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         shoppingbasket = 1.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         spicerack = 1.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         spiffokeeper = 1.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         tacklebox = 1.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         tackleboxlarge = 1.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         tissuebox = 1.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         travelkit = 1.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         trunkorganizer = 1.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         woodcarrier = 1.0,
     },
     zReV2 = {
-        -- Minimum=10 Maximum=30000 Par d�faut=200
+        -- Minimum=10 Maximum=30000 Default=200
         SpecZombieSpawnChance = 200,
-        -- Minimum=0 Maximum=100 Par d�faut=10
+        -- Minimum=0 Maximum=100 Default=10
         DefaultVaccineSpawnChance = 10,
-        -- Minimum=0 Maximum=100 Par d�faut=30
+        -- Minimum=0 Maximum=100 Default=30
         ScalpelTweezersSpawnChance = 30,
-        -- Minimum=0 Maximum=100 Par d�faut=30
+        -- Minimum=0 Maximum=100 Default=30
         TubeOrSyringeOrFlaskSpawnChance = 30,
-        -- Minimum=0 Maximum=100 Par d�faut=30
+        -- Minimum=0 Maximum=100 Default=30
         TongsSpawnChance = 30,
-        -- Minimum=20 Maximum=60 Par d�faut=30
+        -- Minimum=20 Maximum=60 Default=30
         chanceToNormal = 30,
-        -- Minimum=5 Maximum=30 Par d�faut=10
+        -- Minimum=5 Maximum=30 Default=10
         chanceToRare = 10,
-        -- Minimum=0,00 Maximum=2,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=2.00 Default=1.00
         BookInWorldSpawnChance = 1.0,
         AntibodyPower = 2,
-        -- Minimum=6 Maximum=24 Par d�faut=12
+        -- Minimum=6 Maximum=24 Default=12
         AntibodyPower2 = 12,
         ResearchType = 3,
-        -- Minimum=4 Maximum=30 Par d�faut=10
+        -- Minimum=4 Maximum=30 Default=10
         ResearchRand = 10,
-        -- Minimum=6 Maximum=16 Par d�faut=8
+        -- Minimum=6 Maximum=16 Default=8
         ResearchReduceHealth = 8,
-        -- Minimum=15 Maximum=50 Par d�faut=42
+        -- Minimum=15 Maximum=50 Default=42
         ResearchMinHealthNotification = 42,
     },
     PompsItems = {
         ZombieLoot = true,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         ZombieLootSpawnRate = 1.0,
         StallionMilk = true,
         EasterStuff = true,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         CandySpawnRate = 1.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         SnacksSpawnRate = 1.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         CannedGoodsSpawnRate = 1.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         RefrigeratedGoodsSpawnRate = 1.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         FrozenGoodsSpawnRate = 1.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         MiscSpawnRate = 1.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         DrinksSpawnRate = 1.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         EnergyDrinkSpawnRate = 1.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         LiquorSpawnRate = 1.0,
         Littering = true,
     },
@@ -1053,69 +1053,69 @@ SandboxVars = {
         ZombieLootSpawn = 4,
     },
     BLTRandomZombies = {
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=2,00
+        -- Minimum=0.00 Maximum=100.00 Default=2.00
         Crawler = 7.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=15,00
+        -- Minimum=0.00 Maximum=100.00 Default=15.00
         Shambler = 70.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=78,00
+        -- Minimum=0.00 Maximum=100.00 Default=78.00
         FastShambler = 20.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=5,00
+        -- Minimum=0.00 Maximum=100.00 Default=5.00
         Sprinter = 3.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=0,00
+        -- Minimum=0.00 Maximum=100.00 Default=0.00
         Fragile = 25.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=100,00
+        -- Minimum=0.00 Maximum=100.00 Default=100.00
         NormalTough = 50.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=0,00
+        -- Minimum=0.00 Maximum=100.00 Default=0.00
         Tough = 25.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=0,00
+        -- Minimum=0.00 Maximum=100.00 Default=0.00
         Smart = 5.0,
-        -- Minimum=1000 Maximum=60000 Par d�faut=7500
+        -- Minimum=1000 Maximum=60000 Default=7500
         Frequency = 7500,
     },
     AirbobbelzLoot = {
-        -- Minimum=0 Maximum=100000000 Par d�faut=100
+        -- Minimum=0 Maximum=100000000 Default=100
         GlobalMultiplier = 100,
-        -- Minimum=0 Maximum=100 Par d�faut=20
+        -- Minimum=0 Maximum=100 Default=20
         ChanceMaxCondition = 20,
-        -- Minimum=0 Maximum=100 Par d�faut=10
+        -- Minimum=0 Maximum=100 Default=10
         MinimumCondition = 10,
-        -- Minimum=0 Maximum=100 Par d�faut=20
+        -- Minimum=0 Maximum=100 Default=20
         ChanceMaxDrainable = 20,
-        -- Minimum=0 Maximum=100 Par d�faut=20
+        -- Minimum=0 Maximum=100 Default=20
         MinimumDrainable = 20,
-        -- Minimum=0 Maximum=100000000 Par d�faut=100
+        -- Minimum=0 Maximum=100000000 Default=100
         OutfitMultiplier = 100,
-        -- Minimum=0 Maximum=100000000 Par d�faut=100
+        -- Minimum=0 Maximum=100000000 Default=100
         BagContentsMultiplier = 100,
-        -- Minimum=0 Maximum=1000 Par d�faut=12
+        -- Minimum=0 Maximum=1000 Default=12
         GunLooseBulletsRolls = 12,
-        -- Minimum=0 Maximum=1000 Par d�faut=100
+        -- Minimum=0 Maximum=1000 Default=100
         GunLooseBulletsMultiplier = 100,
-        -- Minimum=0 Maximum=100000000 Par d�faut=100
+        -- Minimum=0 Maximum=100000000 Default=100
         AmmoMultiplier = 100,
-        -- Minimum=0 Maximum=100000000 Par d�faut=100
+        -- Minimum=0 Maximum=100000000 Default=100
         AmmoBoxMultiplier = 100,
-        -- Minimum=0 Maximum=100000000 Par d�faut=100
+        -- Minimum=0 Maximum=100000000 Default=100
         MeleeMultiplier = 100,
-        -- Minimum=0 Maximum=100000000 Par d�faut=100
+        -- Minimum=0 Maximum=100000000 Default=100
         PistolMultiplier = 100,
-        -- Minimum=0 Maximum=100000000 Par d�faut=100
+        -- Minimum=0 Maximum=100000000 Default=100
         LongGunMultiplier = 100,
-        -- Minimum=0 Maximum=100000000 Par d�faut=100
+        -- Minimum=0 Maximum=100000000 Default=100
         OtherGunsMultiplier = 100,
-        -- Minimum=0 Maximum=100000000 Par d�faut=100
+        -- Minimum=0 Maximum=100000000 Default=100
         CannedFoodMultiplier = 100,
-        -- Minimum=0 Maximum=100000000 Par d�faut=100
+        -- Minimum=0 Maximum=100000000 Default=100
         OtherFoodMultiplier = 100,
-        -- Minimum=0 Maximum=100000000 Par d�faut=100
+        -- Minimum=0 Maximum=100000000 Default=100
         ResourceMultiplier = 100,
-        -- Minimum=0 Maximum=100000000 Par d�faut=100
+        -- Minimum=0 Maximum=100000000 Default=100
         BagMultiplier = 100,
-        -- Minimum=0 Maximum=100000000 Par d�faut=100
+        -- Minimum=0 Maximum=100000000 Default=100
         GunBagMultiplier = 100,
-        -- Minimum=0 Maximum=100000000 Par d�faut=100
+        -- Minimum=0 Maximum=100000000 Default=100
         JunkMultiplier = 100,
-        -- Minimum=0 Maximum=100000000 Par d�faut=100
+        -- Minimum=0 Maximum=100000000 Default=100
         ExtraMultiplier = 100,
         ExtraRollEach = "",
         ExtraRollOne1 = "",
@@ -1124,40 +1124,40 @@ SandboxVars = {
         RemoveItems = "",
     },
     HNDLBR = {
-        -- Minimum=0,01 Maximum=5,00 Par d�faut=0,15
+        -- Minimum=0.01 Maximum=5.00 Default=0.15
         PrepperChance = 0.1,
         PrepperWeaponPack = 3,
         DoomsdayPrepper = true,
     },
     BardInteractiveMusic = {
-        -- Minimum=1 Maximum=10000 Par d�faut=40
+        -- Minimum=1 Maximum=10000 Default=40
         SoundRange = 40,
     },
     Blackouts = {
-        -- Minimum=0 Maximum=100 Par d�faut=10
+        -- Minimum=0 Maximum=100 Default=10
         Chance = 10,
-        -- Minimum=0 Maximum=100 Par d�faut=25
+        -- Minimum=0 Maximum=100 Default=25
         Recovery = 25,
         WeatherEvent = true,
         RampUp = true,
-        -- Minimum=1 Maximum=744 Par d�faut=168
+        -- Minimum=1 Maximum=744 Default=168
         InitialCooldown = 168,
-        -- Minimum=1 Maximum=744 Par d�faut=1
+        -- Minimum=1 Maximum=744 Default=1
         Duration = 1,
-        -- Minimum=1 Maximum=744 Par d�faut=24
+        -- Minimum=1 Maximum=744 Default=24
         Cooldown = 24,
-        -- Minimum=0 Maximum=4015 Par d�faut=0
+        -- Minimum=0 Maximum=4015 Default=0
         Override = 0,
     },
     ExpandedHeli = {
-        -- Minimum=0 Maximum=999 Par d�faut=0
+        -- Minimum=0 Maximum=999 Default=0
         StartDay = 0,
-        -- Minimum=1 Maximum=999 Par d�faut=90
+        -- Minimum=1 Maximum=999 Default=90
         SchedulerDuration = 90,
         ContinueScheduling = true,
         ContinueSchedulingLateGameOnly = true,
         WeatherImpactsEvents = true,
-        -- Minimum=0,00 Maximum=1000,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=1000.00 Default=1.00
         CrashChanceMulti = 1.0,
         AirRaidSirenEvent = true,
         Frequency_jet = 3,
@@ -1190,11 +1190,11 @@ SandboxVars = {
         FAConditionAmount = 5,
     },
     Plumbing = {
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=0,01
+        -- Minimum=0.00 Maximum=100.00 Default=0.01
         PumpFilterUsage = 0.014,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=0,00
+        -- Minimum=0.00 Maximum=100.00 Default=0.00
         PumpEfficiencyLoss = 0.004,
-        -- Minimum=1 Maximum=100 Par d�faut=12
+        -- Minimum=1 Maximum=100 Default=12
         PumpMaxWater = 12,
     },
     SleepWithFriends = {
@@ -1204,92 +1204,92 @@ SandboxVars = {
         AutoWake = 1,
     },
     HTC_EHE_MilitaryDrop = {
-        -- Minimum=1 Maximum=8640 Par d�faut=168
+        -- Minimum=1 Maximum=8640 Default=168
         TimeBetweenCall = 168,
-        -- Minimum=1,00 Maximum=200,00 Par d�faut=151,40
+        -- Minimum=1.00 Maximum=200.00 Default=151.40
         Frequency = 151.4,
-        -- Minimum=0 Maximum=1000 Par d�faut=30
+        -- Minimum=0 Maximum=1000 Default=30
         MaxZSpawn = 30,
-        -- Minimum=0 Maximum=1000 Par d�faut=3
+        -- Minimum=0 Maximum=1000 Default=3
         MinZSpawn = 3,
         noteDropRate = 3,
         onlyArmyAndPoliceCorpse = true,
-        -- Minimum=0 Maximum=100 Par d�faut=6
+        -- Minimum=0 Maximum=100 Default=6
         rollsLootBox = 6,
     },
     KYRRealWeatherMod = {
-        -- Minimum=20 Maximum=65 Par d�faut=40
+        -- Minimum=20 Maximum=65 Default=40
         LatitudeVariation = 40,
-        -- Minimum=0 Maximum=50 Par d�faut=35
+        -- Minimum=0 Maximum=50 Default=35
         Maxtemp = 42,
-        -- Minimum=-170 Maximum=0 Par d�faut=-15
+        -- Minimum=-170 Maximum=0 Default=-15
         Mintemp = -25,
-        -- Minimum=7 Maximum=40 Par d�faut=9
+        -- Minimum=7 Maximum=40 Default=9
         SeasonVariation = 12,
     },
     FWOFitness = {
         InitialPerkBonus = true,
         currentExerciseRegularityBonus = true,
-        -- Minimum=0 Maximum=100 Par d�faut=25
+        -- Minimum=0 Maximum=100 Default=25
         currentExerciseOffset = 25,
-        -- Minimum=0,01 Maximum=100,00 Par d�faut=5,00
+        -- Minimum=0.01 Maximum=100.00 Default=5.00
         currentExerciseRate = 5.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=6,00
+        -- Minimum=0.00 Maximum=100.00 Default=6.00
         AverageExerciseRegularityBonus = 6.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=0,30
+        -- Minimum=0.00 Maximum=100.00 Default=0.30
         LevelBonus = 0.3,
         SpaceOutExercise = true,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=0,90
+        -- Minimum=0.00 Maximum=100.00 Default=0.90
         SpaceOutExerciseNegative = 0.9,
         RestedBonus = true,
-        -- Minimum=0,00 Maximum=10,00 Par d�faut=0,90
+        -- Minimum=0.00 Maximum=10.00 Default=0.90
         RestedBonusNegative = 0.9,
-        -- Minimum=0,01 Maximum=10,00 Par d�faut=1,00
+        -- Minimum=0.01 Maximum=10.00 Default=1.00
         XPMultiplier = 1.0,
-        -- Minimum=0,00 Maximum=10,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=10.00 Default=1.00
         PassiveMultiplier = 1.0,
-        -- Minimum=0,00 Maximum=10,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=10.00 Default=1.00
         BoredomMultiplier = 1.0,
-        -- Minimum=0,00 Maximum=10,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=10.00 Default=1.00
         UnhappynessMultiplier = 1.0,
         DropBags = false,
         KeepBagsOn = true,
     },
     FWOWorkingTreadmill = {
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         StrengthXPMultiply = 1.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         SprintingXPMultiply = 1.0,
         TreadmillDropBags = false,
         BenchpressDropBags = false,
         BenchTreadKeepBagsOn = true,
     },
     RebalancedCalorieBurning = {
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         CalorieMultiplier = 1.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         IdleMultiplier = 1.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         WalkingMultiplier = 1.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         RunningMultiplier = 1.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         SprintingMultiplier = 1.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         AsleepMultiplier = 1.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         SittingMultiplier = 1.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         TimedActionMultiplier = 1.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         CarryMultiplier = 1.0,
     },
     ZombiesHearYourMicrophone = {
         respectEnableVOIP = true,
         visualRadius = false,
-        -- Minimum=1,50 Maximum=100,00 Par d�faut=1,50
+        -- Minimum=1.50 Maximum=100.00 Default=1.50
         multiplier = 1.5,
-        -- Minimum=0,00 Maximum=1,00 Par d�faut=0,66
+        -- Minimum=0.00 Maximum=1.00 Default=0.66
         sneakReduce = 0.66,
         skillsInfluence = 2,
         traitsInfluence = 1,
@@ -1302,33 +1302,33 @@ SandboxVars = {
         TMRRadioWeatherBroadcast = true,
         TMRRadioSongAnnouncements = true,
         TMRRadioHordeNightBroadcast = true,
-        -- Minimum=88000 Maximum=108000 Par d�faut=94000
+        -- Minimum=88000 Maximum=108000 Default=94000
         TMRChannel1 = 94000,
-        -- Minimum=88000 Maximum=108000 Par d�faut=94200
+        -- Minimum=88000 Maximum=108000 Default=94200
         TMRChannel2 = 94200,
-        -- Minimum=88000 Maximum=108000 Par d�faut=94400
+        -- Minimum=88000 Maximum=108000 Default=94400
         TMRChannel3 = 94400,
-        -- Minimum=88000 Maximum=108000 Par d�faut=94600
+        -- Minimum=88000 Maximum=108000 Default=94600
         TMRChannel4 = 94600,
-        -- Minimum=88000 Maximum=108000 Par d�faut=94800
+        -- Minimum=88000 Maximum=108000 Default=94800
         TMRChannel5 = 94800,
     },
     addMecanicSound = {
-        -- Minimum=1 Maximum=20 Par d�faut=10
+        -- Minimum=1 Maximum=20 Default=10
         timeMultiplier = 10,
     },
     MoreImmersiveVehicles = {
-        -- Minimum=0 Maximum=100 Par d�faut=5
+        -- Minimum=0 Maximum=100 Default=5
         ParkOpenedDoorChance = 5,
-        -- Minimum=0 Maximum=100 Par d�faut=10
+        -- Minimum=0 Maximum=100 Default=10
         ParkOpenedTrunkDoorChance = 10,
-        -- Minimum=0 Maximum=100 Par d�faut=5
+        -- Minimum=0 Maximum=100 Default=5
         ParkOpenedWindowChance = 5,
-        -- Minimum=0 Maximum=100 Par d�faut=35
+        -- Minimum=0 Maximum=100 Default=35
         RoadOpenedDoorChance = 35,
-        -- Minimum=0 Maximum=100 Par d�faut=45
+        -- Minimum=0 Maximum=100 Default=45
         RoadOpenedTrunkDoorChance = 45,
-        -- Minimum=0 Maximum=100 Par d�faut=20
+        -- Minimum=0 Maximum=100 Default=20
         RoadOpenedWindowChance = 20,
     },
     interiorLock = {
@@ -1339,21 +1339,21 @@ SandboxVars = {
         GiveHouseKeysWhenFirstPlayerSpawn = true,
     },
     FoodPickiness = {
-        -- Minimum=-100 Maximum=100 Par d�faut=0
+        -- Minimum=-100 Maximum=100 Default=0
         BasePickiness = 0,
-        -- Minimum=-100 Maximum=100 Par d�faut=0
+        -- Minimum=-100 Maximum=100 Default=0
         BaseRepulsivenessLimit = 0,
-        -- Minimum=0 Maximum=100 Par d�faut=1
+        -- Minimum=0 Maximum=100 Default=1
         DailyOffset = 1,
-        -- Minimum=0 Maximum=100 Par d�faut=20
+        -- Minimum=0 Maximum=100 Default=20
         ConsumptionOffset = 20,
-        -- Minimum=1 Maximum=100 Par d�faut=50
+        -- Minimum=1 Maximum=100 Default=50
         HungerMultiplier = 50,
     },
     FancyHandwork = {
-        -- Minimum=0 Maximum=11 Par d�faut=3
+        -- Minimum=0 Maximum=11 Default=3
         ExperiencedAim = 3,
-        -- Minimum=0,01 Maximum=60,00 Par d�faut=1,00
+        -- Minimum=0.01 Maximum=60.00 Default=1.00
         TurnDelaySec = 1.0,
         DisableTurn = 2,
         TurnBehavior = 2,
@@ -1366,20 +1366,20 @@ SandboxVars = {
         AlwaysUnarmed = true,
     },
     TOC = {
-        -- Minimum=1 Maximum=10 Par d�faut=1
+        -- Minimum=1 Maximum=10 Default=1
         CicatrizationSpeed = 1,
-        -- Minimum=0 Maximum=5 Par d�faut=1
+        -- Minimum=0 Maximum=5 Default=1
         WoundDirtynessMultiplier = 1,
-        -- Minimum=1 Maximum=3 Par d�faut=2
+        -- Minimum=1 Maximum=3 Default=2
         SurgeonAbilityImportance = 3,
         EnableZombieAmputations = false,
-        -- Minimum=0 Maximum=10 Par d�faut=4
+        -- Minimum=0 Maximum=10 Default=4
         ZombieAmputationDamageThreshold = 4,
-        -- Minimum=0 Maximum=100 Par d�faut=25
+        -- Minimum=0 Maximum=100 Default=25
         ZombieAmputationDamageChance = 25,
     },
     RVInterior = {
-        -- Minimum=0 Maximum=100 Par d�faut=20
+        -- Minimum=0 Maximum=100 Default=20
         SafeZombieDistance = 20,
         NotWhenChased = false,
     },
@@ -1397,29 +1397,29 @@ SandboxVars = {
         FullProtectDuringRespawn = false,
     },
     AvatarMOD = {
-        -- Minimum=0 Maximum=365 Par d�faut=0
+        -- Minimum=0 Maximum=365 Default=0
         AutoCleanAvatarsItemsFromDisconnectionTimeElapsed = 0,
-        -- Minimum=0 Maximum=9999 Par d�faut=10
+        -- Minimum=0 Maximum=9999 Default=10
         AvatarWeight = 10,
         OptionnalInfosOnAvatar = true,
         CrashOrAltF4InfosOnPlayerConnect = false,
         AvatarOnlyOneInInventory = true,
         RemoveAllAvatarFromInventoryIfYouDie = false,
         GlobalCarryActionFunction = true,
-        -- Minimum=0 Maximum=2 Par d�faut=1
+        -- Minimum=0 Maximum=2 Default=1
         CarryAvatarAllowedFromPlayerWL = 1,
         TakeAvatarFromSafehouseIsNotYoursIsProhibited = false,
         TakeAvatarFromFactionIsNotYoursIsProhibited = false,
         GlobalItemActionFunction = false,
-        -- Minimum=0 Maximum=100 Par d�faut=50
+        -- Minimum=0 Maximum=100 Default=50
         inventoryWeightLimitOfAvatar = 50,
-        -- Minimum=0 Maximum=100 Par d�faut=7
+        -- Minimum=0 Maximum=100 Default=7
         itemWeightLimitGiveToAvatar = 7,
-        -- Minimum=0 Maximum=10000 Par d�faut=100
+        -- Minimum=0 Maximum=10000 Default=100
         GiveTakeItemTimeDelay = 100,
-        -- Minimum=0 Maximum=100000 Par d�faut=0
+        -- Minimum=0 Maximum=100000 Default=0
         ActionItemIsAllowedFromDisconectionTimeElapsed = 0,
-        -- Minimum=0 Maximum=2 Par d�faut=2
+        -- Minimum=0 Maximum=2 Default=2
         GiveTakeItemAllowedFromPlayerWL = 2,
         TakeGiveAvatarItemFromSafehouseIsNotYoursIsProhibited = false,
         TakeGiveAvatarItemFromFactionIsNotYoursIsProhibited = false,
@@ -1541,108 +1541,108 @@ SandboxVars = {
         blowTorchUses = 3,
         bucketAsphaltMixtureUses = 3,
         bucketConcreteUses = 3,
-        -- Minimum=1 Maximum=100 Par d�faut=6
+        -- Minimum=1 Maximum=100 Default=6
         bigWallWoodCount = 6,
-        -- Minimum=1 Maximum=100 Par d�faut=6
+        -- Minimum=1 Maximum=100 Default=6
         bigWallNailsCount = 6,
-        -- Minimum=1 Maximum=100 Par d�faut=3
+        -- Minimum=1 Maximum=100 Default=3
         smallWallWoodCount = 3,
-        -- Minimum=1 Maximum=100 Par d�faut=4
+        -- Minimum=1 Maximum=100 Default=4
         smallWallNailsCount = 4,
-        -- Minimum=1 Maximum=100 Par d�faut=6
+        -- Minimum=1 Maximum=100 Default=6
         bigObjectsWoodCount = 6,
-        -- Minimum=1 Maximum=100 Par d�faut=8
+        -- Minimum=1 Maximum=100 Default=8
         bigObjectsNailsCount = 8,
-        -- Minimum=1 Maximum=100 Par d�faut=4
+        -- Minimum=1 Maximum=100 Default=4
         smallObjectsWoodCount = 4,
-        -- Minimum=1 Maximum=100 Par d�faut=6
+        -- Minimum=1 Maximum=100 Default=6
         smallObjectsNailsCount = 6,
-        -- Minimum=1 Maximum=100 Par d�faut=2
+        -- Minimum=1 Maximum=100 Default=2
         glassPaneCount = 2,
-        -- Minimum=1 Maximum=100 Par d�faut=4
+        -- Minimum=1 Maximum=100 Default=4
         metalBarsCount = 4,
-        -- Minimum=1 Maximum=100 Par d�faut=10
+        -- Minimum=1 Maximum=100 Default=10
         screwsCount = 10,
-        -- Minimum=1 Maximum=100 Par d�faut=10
+        -- Minimum=1 Maximum=100 Default=10
         scrapMetalCountForFences = 10,
-        -- Minimum=1 Maximum=100 Par d�faut=5
+        -- Minimum=1 Maximum=100 Default=5
         scrapMetalCountForElectrical = 5,
-        -- Minimum=1 Maximum=100 Par d�faut=5
+        -- Minimum=1 Maximum=100 Default=5
         sheetMetalCountForWalls = 5,
-        -- Minimum=1 Maximum=100 Par d�faut=4
+        -- Minimum=1 Maximum=100 Default=4
         sheetMetalCountForDoors = 4,
-        -- Minimum=1 Maximum=100 Par d�faut=4
+        -- Minimum=1 Maximum=100 Default=4
         sheetMetalCountForContainers = 4,
-        -- Minimum=1 Maximum=100 Par d�faut=4
+        -- Minimum=1 Maximum=100 Default=4
         sheetMetalCountForFixturesAndAppliances = 4,
-        -- Minimum=1 Maximum=100 Par d�faut=1
+        -- Minimum=1 Maximum=100 Default=1
         sheetMetalCountForRoofingAndFloors = 1,
-        -- Minimum=1 Maximum=100 Par d�faut=2
+        -- Minimum=1 Maximum=100 Default=2
         smallSheetMetalCountForRoofingAndFloors = 2,
         EmptyBox1 = false,
         SkillsDivider = false,
-        -- Minimum=1 Maximum=10 Par d�faut=5
+        -- Minimum=1 Maximum=10 Default=5
         bigObjectsCarpentrySkill = 5,
-        -- Minimum=1 Maximum=10 Par d�faut=4
+        -- Minimum=1 Maximum=10 Default=4
         smallObjectsCarpentrySkill = 4,
-        -- Minimum=0,05 Maximum=100,00 Par d�faut=2,50
+        -- Minimum=0.05 Maximum=100.00 Default=2.50
         carpentryXpPerLevel = 2.5,
-        -- Minimum=0,05 Maximum=100,00 Par d�faut=3,50
+        -- Minimum=0.05 Maximum=100.00 Default=3.50
         metalweldingXpPerLevel = 3.5,
-        -- Minimum=0,05 Maximum=100,00 Par d�faut=5,00
+        -- Minimum=0.05 Maximum=100.00 Default=5.00
         electricalXpPerLevel = 5.0,
         EmptyBox2 = false,
         SpecialObjectsRecipesDivider = false,
-        -- Minimum=1 Maximum=9998 Par d�faut=1500
+        -- Minimum=1 Maximum=9998 Default=1500
         maxWaterWellStorageAmount = 1500,
-        -- Minimum=0,10 Maximum=10,00 Par d�faut=1,00
+        -- Minimum=0.10 Maximum=10.00 Default=1.00
         waterWellRainIntensityMul = 1.0,
         waterWellHourlyRefillRateInterval = "1;5",
-        -- Minimum=1 Maximum=100 Par d�faut=15
+        -- Minimum=1 Maximum=100 Default=15
         plankCountForMilitaryCrate = 15,
-        -- Minimum=1 Maximum=100 Par d�faut=10
+        -- Minimum=1 Maximum=100 Default=10
         nailsCountForMilitaryCrate = 10,
-        -- Minimum=1 Maximum=10 Par d�faut=9
+        -- Minimum=1 Maximum=10 Default=9
         militaryCrateCarpentrySkill = 9,
     },
     HypothermiaKillsDE = {
-        -- Minimum=21,00 Maximum=32,00 Par d�faut=30,00
+        -- Minimum=21.00 Maximum=32.00 Default=30.00
         HypothermiaThreshold = 30.0,
-        -- Minimum=0 Maximum=100 Par d�faut=60
+        -- Minimum=0 Maximum=100 Default=60
         HypothermiaDamageChance = 60,
         DamageType = 2,
-        -- Minimum=0,01 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.01 Maximum=100.00 Default=1.00
         DamageAmountConstant = 1.0,
-        -- Minimum=21,00 Maximum=32,00 Par d�faut=30,00
+        -- Minimum=21.00 Maximum=32.00 Default=30.00
         DamageLinearCalc = 30.0,
     },
     StoryItemSpawner = {
-        -- Minimum=0 Maximum=1000 Par d�faut=5
+        -- Minimum=0 Maximum=1000 Default=5
         StartDay = 5,
-        -- Minimum=0 Maximum=1000 Par d�faut=100
+        -- Minimum=0 Maximum=1000 Default=100
         PeakDay = 100,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         ChanceOnFloorMultiplierStartDay = 1.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=0,20
+        -- Minimum=0.00 Maximum=100.00 Default=0.20
         ChanceOnFloorMultiplierPeakDay = 0.2,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         ChanceOnFurnitureMultiplierStartDay = 1.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=0,20
+        -- Minimum=0.00 Maximum=100.00 Default=0.20
         ChanceOnFurnitureMultiplierPeakDay = 0.2,
-        -- Minimum=0 Maximum=1000 Par d�faut=3
+        -- Minimum=0 Maximum=1000 Default=3
         RoomLootBaseChanceOnFloor = 3,
-        -- Minimum=0 Maximum=1000 Par d�faut=25
+        -- Minimum=0 Maximum=1000 Default=25
         RoomLootBaseChanceOnFurniture = 25,
     },
     Bicycles = {
         Exhaustion = true,
-        -- Minimum=0,00 Maximum=1,00 Par d�faut=0,39
+        -- Minimum=0.00 Maximum=1.00 Default=0.39
         ExhaustionDrain = 0.39,
         FitnessExperience = true,
-        -- Minimum=0 Maximum=500 Par d�faut=15
+        -- Minimum=0 Maximum=500 Default=15
         FitnessExpGain = 15,
         Warmth = true,
-        -- Minimum=0,00 Maximum=1,00 Par d�faut=0,10
+        -- Minimum=0.00 Maximum=1.00 Default=0.10
         WarmthGain = 0.1,
     },
     FishingPlus = {
@@ -1659,45 +1659,45 @@ SandboxVars = {
         SkipFixers = "",
     },
     FirstAidExpanded = {
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=0,22
+        -- Minimum=0.00 Maximum=100.00 Default=0.22
         SicknessOffset = 0.22,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=100,00
+        -- Minimum=0.00 Maximum=100.00 Default=100.00
         MaxSickness = 100.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=0,00
+        -- Minimum=0.00 Maximum=100.00 Default=0.00
         LowGrade = 0.0,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=0,80
+        -- Minimum=0.00 Maximum=100.00 Default=0.80
         MidGrade = 0.8,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,40
+        -- Minimum=0.00 Maximum=100.00 Default=1.40
         SevereGrade = 1.4,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=0,05
+        -- Minimum=0.00 Maximum=100.00 Default=0.05
         Treatment1Boost = 0.05,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=0,10
+        -- Minimum=0.00 Maximum=100.00 Default=0.10
         Treatment2Boost = 0.1,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=0,20
+        -- Minimum=0.00 Maximum=100.00 Default=0.20
         Treatment3Boost = 0.2,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=0,30
+        -- Minimum=0.00 Maximum=100.00 Default=0.30
         Treatment3Healing = 0.3,
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=30,00
+        -- Minimum=0.00 Maximum=100.00 Default=30.00
         BulletFractureChance = 30.0,
     },
     Excrementum = {
-        -- Minimum=0,00 Maximum=100,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
         StomachMultiplier = 1.0,
-        -- Minimum=1,00 Maximum=100,00 Par d�faut=10,00
+        -- Minimum=1.00 Maximum=100.00 Default=10.00
         ChymeMultiplier = 10.0,
-        -- Minimum=0,00 Maximum=3000,00 Par d�faut=300,00
+        -- Minimum=0.00 Maximum=3000.00 Default=300.00
         DefecateIntMinutes = 300.0,
-        -- Minimum=0,00 Maximum=5000,00 Par d�faut=1320,00
+        -- Minimum=0.00 Maximum=5000.00 Default=1320.00
         ColonMinutes = 1320.0,
-        -- Minimum=50,00 Maximum=150,00 Par d�faut=80,00
+        -- Minimum=50.00 Maximum=150.00 Default=80.00
         ColonBaseThreshold = 80.0,
-        -- Minimum=0,00 Maximum=10,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=10.00 Default=1.00
         UrinateIncreaseMultiplier = 1.0,
-        -- Minimum=0,00 Maximum=10,00 Par d�faut=1,00
+        -- Minimum=0.00 Maximum=10.00 Default=1.00
         UrinatePassiveMultiplier = 1.0,
-        -- Minimum=50,00 Maximum=500,00 Par d�faut=50,00
+        -- Minimum=50.00 Maximum=500.00 Default=50.00
         StomachVolume = 50.0,
-        -- Minimum=50,00 Maximum=1000,00 Par d�faut=100,00
+        -- Minimum=50.00 Maximum=1000.00 Default=100.00
         AdditionalStomachVolume = 100.0,
         OverlayIsAllowed = true,
         EnabledStatusBars = true,
@@ -1714,14 +1714,14 @@ SandboxVars = {
         DisplayPlayerCursors = true,
     },
     IGMAR = {
-        -- Minimum=0 Maximum=2147483647 Par d�faut=698437230
+        -- Minimum=0 Maximum=2147483647 Default=698437230
         AllowList = 698437230,
     },
     InventoryTetris = {
         EnableSearch = true,
-        -- Minimum=1 Maximum=250 Par d�faut=45
+        -- Minimum=1 Maximum=250 Default=45
         SearchTime = 45,
-        -- Minimum=0 Maximum=8 Par d�faut=0
+        -- Minimum=0 Maximum=8 Default=0
         BonusGridSize = 0,
         EnableGravity = false,
     },
