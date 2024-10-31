@@ -1,5 +1,5 @@
 function SpawnRegions()
 	return {
-		{ name = "Irvington, KY", file = "media/maps/Irvington, KY/spawnpoints.lua" },
+		{ name = "Winchester, KY", file = "media/maps/Winchester, KY/spawnpoints.lua" },
 	}
 end

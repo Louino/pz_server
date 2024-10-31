@@ -232,7 +232,7 @@ SandboxVars = {
     -- 3 = Rare
     -- 4 = Sometimes
     -- 5 = Often
-    LockedHouses = 5,
+    LockedHouses = 4,
     -- Spawn with chips, water bottle, school bag, baseball bat and a hammer.
     StarterKit = false,
     -- Nutritional value of food affects the player's condition.
@@ -345,7 +345,7 @@ SandboxVars = {
     -- 5 = Often
     AnnotatedMapChance = 4,
     -- Adds free points during character creation. Minimum=-100 Maximum=100 Default=0
-    CharacterFreePoints = -12,
+    CharacterFreePoints = -6,
     -- Gives player-built constructions extra hit points so they are more resistant to zombie damage. Default=Normal
     -- 1 = Very Low
     -- 2 = Low
@@ -604,7 +604,7 @@ SandboxVars = {
         -- The number of hours that must pass before zombies migrate to empty parts of the same cell. If zero, migration is disabled. Minimum=0.00 Maximum=8760.00 Default=12.00
         RedistributeHours = 24.0,
         -- The distance a zombie will try to walk towards the last sound it heard. Minimum=10 Maximum=1000 Default=100
-        FollowSoundDistance = 1000,
+        FollowSoundDistance = 200,
         -- The size of groups real zombies form when idle. Zero means zombies don't form groups. Groups don't form inside buildings or forest zones. Minimum=0 Maximum=1000 Default=20
         RallyGroupSize = 0,
         -- The distance real zombies travel to form groups when idle. Minimum=5 Maximum=50 Default=20
@@ -1428,110 +1428,215 @@ SandboxVars = {
         Inspect = true,
     },
     BuildingMenu = {
+        -- Turn <SPACE><RGB:1,0.8,0> OFF <RGB:1,1,1><SPACE> to make structures built using the Building Menu immune to zombie damage.
         isThumpable = true,
+        -- This is only a line separator, checking it has no effect.
         EmptyBox1 = false,
+        -- This is only a line separator, checking it has no effect.
         WallsCategoryDivider = false,
+        -- Enable to add wooden walls structures. <LINE><LINE> <RGB:1,0,0> EXIT AND REENTER SAVE TO APPLY CHANGES!
         woodWallsSubCategory = true,
+        -- Enable to add clapboard walls structures. <LINE><LINE> <RGB:1,0,0> EXIT AND REENTER SAVE TO APPLY CHANGES!
         clapboardWallsSubCategory = true,
+        -- Enable to add stone walls structures. <LINE><LINE> <RGB:1,0,0> EXIT AND REENTER SAVE TO APPLY CHANGES!
         stoneWallsSubCategory = true,
+        -- Enable to add brick walls structures. <LINE><LINE> <RGB:1,0,0> EXIT AND REENTER SAVE TO APPLY CHANGES!
         brickWallsSubCategory = true,
+        -- Enable to add cinderblock walls structures. <LINE><LINE> <RGB:1,0,0> EXIT AND REENTER SAVE TO APPLY CHANGES!
         cinderblockWallsSubCategory = true,
+        -- Enable to add painted walls structures. <LINE><LINE> <RGB:1,0,0> EXIT AND REENTER SAVE TO APPLY CHANGES!
         paintedWallsSubCategory = true,
+        -- Enable to add arched window walls structures. <LINE><LINE> <RGB:1,0,0> EXIT AND REENTER SAVE TO APPLY CHANGES!
         archedWindowWallsSubCategory = true,
+        -- Enable to add commercial walls structures. <LINE><LINE> <RGB:1,0,0> EXIT AND REENTER SAVE TO APPLY CHANGES!
         commercialWallsSubCategory = true,
+        -- Enable to add industrial walls structures. <LINE><LINE> <RGB:1,0,0> EXIT AND REENTER SAVE TO APPLY CHANGES!
         industrialWallsSubCategory = true,
+        -- This is only a line separator, checking it has no effect.
         EmptyBox2 = false,
+        -- This is only a line separator, checking it has no effect.
         RoofsCategoryDivider = false,
+        -- Enable to add roof structures, such as shingles, shake shingles, glass. <LINE><LINE> <RGB:1,0,0> EXIT AND REENTER SAVE TO APPLY CHANGES!
         roofsCategory = true,
+        -- This is only a line separator, checking it has no effect.
         EmptyBox3 = false,
+        -- This is only a line separator, checking it has no effect.
         DoorsCategoryDivider = false,
+        -- Enable to add Wooden, Low, Panel, Metal, Glass doors. <LINE><LINE> <RGB:1,0,0> EXIT AND REENTER SAVE TO APPLY CHANGES!
         doorsSubCategory = true,
+        -- Enable to add 3 and 4 Tile Garage Doors. <LINE><LINE> <RGB:1,0,0> EXIT AND REENTER SAVE TO APPLY CHANGES!
         garageDoorsSubCategory = true,
+        -- This is only a line separator, checking it has no effect.
         EmptyBox4 = false,
+        -- This is only a line separator, checking it has no effect.
         ArchitecturePlusCategoryDivider = false,
+        -- Enable to add Door Trims, Crown Molding, Edge Detailing, Floor Molding and Wall Panels. <LINE><LINE> <RGB:1,0,0> EXIT AND REENTER SAVE TO APPLY CHANGES!
         architecturePlusCategory = true,
+        -- This is only a line separator, checking it has no effect.
         EmptyBox5 = false,
+        -- This is only a line separator, checking it has no effect.
         WindowsCategoryDivider = false,
+        -- Enable to add Windows. <LINE><LINE> <RGB:1,0,0> EXIT AND REENTER SAVE TO APPLY CHANGES!
         windowsCategory = true,
+        -- This is only a line separator, checking it has no effect.
         EmptyBox6 = false,
+        -- This is only a line separator, checking it has no effect.
         FencingCategoryDivider = false,
+        -- Enable to add High Fences. <LINE><LINE> <RGB:1,0,0> EXIT AND REENTER SAVE TO APPLY CHANGES!
         highFencesSubCategory = true,
+        -- Enable to add Low Fences and Railings. <LINE><LINE> <RGB:1,0,0> EXIT AND REENTER SAVE TO APPLY CHANGES!
         lowAndRailingFencesSubCategory = true,
+        -- Enable to add other Fences such as Hesco Barrier, Low Metal Fences, Brick Fences. <LINE><LINE> <RGB:1,0,0> EXIT AND REENTER SAVE TO APPLY CHANGES!
         otherFencesSubCategory = true,
+        -- This is only a line separator, checking it has no effect.
         EmptyBox7 = false,
+        -- This is only a line separator, checking it has no effect.
         FloorsCategoryDivider = false,
+        -- Enable to add Low Fences and Railings. <LINE><LINE> <RGB:1,0,0> EXIT AND REENTER SAVE TO APPLY CHANGES!
         floorsCategory = true,
+        -- This is only a line separator, checking it has no effect.
         EmptyBox8 = false,
+        -- This is only a line separator, checking it has no effect.
         StairsCategoryDivider = false,
+        -- Enable to add Stairs. <LINE><LINE> <RGB:1,0,0> EXIT AND REENTER SAVE TO APPLY CHANGES!
         stairsCategory = true,
+        -- This is only a line separator, checking it has no effect.
         EmptyBox9 = false,
+        -- This is only a line separator, checking it has no effect.
         RoadworkCategoryDivider = false,
+        -- Enable to add asphalt. <LINE><LINE> <RGB:1,0,0> EXIT AND REENTER SAVE TO APPLY CHANGES!
         roadworkAsphaltSubCategory = true,
-        roadworkOverlaysSubCategory = false,
-        roadworkSidewalkEdgeSubCategory = false,
-        roadworkDirtandGrassSubCategory = false,
+        -- Enable to add overlays such as Grime and Street Cracks. <LINE><LINE> <RGB:1,0,0> EXIT AND REENTER SAVE TO APPLY CHANGES!
+        roadworkOverlaysSubCategory = true,
+        -- Enable to add Sidewalk Edge Overlays. <LINE><LINE> <RGB:1,0,0> EXIT AND REENTER SAVE TO APPLY CHANGES!
+        roadworkSidewalkEdgeSubCategory = true,
+        -- Enable to add Dirt and Grass tiles. <LINE><LINE> <RGB:1,0,0> EXIT AND REENTER SAVE TO APPLY CHANGES!
+        roadworkDirtandGrassSubCategory = true,
+        -- Enable to add Painted Road Markings. <LINE><LINE> <RGB:1,0,0> EXIT AND REENTER SAVE TO APPLY CHANGES!
         roadworkPaintedRoadMarkingsSubCategory = true,
+        -- This is only a line separator, checking it has no effect.
         EmptyBox10 = false,
+        -- This is only a line separator, checking it has no effect.
         ContainersCategoryDivider = false,
+        -- Enable to add Kitchen Counters, Upper Counters. <LINE><LINE> <RGB:1,0,0> EXIT AND REENTER SAVE TO APPLY CHANGES!
         kitchenCountersSubCategory = true,
+        -- Enable to add Restaurant, Cafe, Bar, Diner Counters. <LINE><LINE> <RGB:1,0,0> EXIT AND REENTER SAVE TO APPLY CHANGES!
         commercialCountersSubCategory = true,
+        -- Enable to add simple Crates, Military Crates(100 capacity), Cardboard Boxes. <LINE><LINE> <RGB:1,0,0> EXIT AND REENTER SAVE TO APPLY CHANGES!
         cratesSubCategory = true,
+        -- Enable to add Metal Containers, Large Metal Shelves, Lockers. <LINE><LINE> <RGB:1,0,0> EXIT AND REENTER SAVE TO APPLY CHANGES!
         metalContainersSubCategory = true,
-        clothesRacksSubCategory = false,
+        -- Enable to add Clothes Racks and Mannequins. <LINE><LINE> <RGB:1,0,0> EXIT AND REENTER SAVE TO APPLY CHANGES!
+        clothesRacksSubCategory = true,
+        -- Enable to add trash cans. <LINE><LINE> <RGB:1,0,0> EXIT AND REENTER SAVE TO APPLY CHANGES!
         trashCansSubCategory = true,
+        -- Enable to add Other Containers Subcategory. <LINE><LINE> <RGB:1,0,0> EXIT AND REENTER SAVE TO APPLY CHANGES!
         containersOthersSubCategory = true,
+        -- This is only a line separator, checking it has no effect.
         EmptyBox11 = false,
+        -- This is only a line separator, checking it has no effect.
         RecreationalCategoryDivider = false,
+        -- Enable to add jukeboxes, pianos and such. <LINE><LINE> <RGB:1,0,0> EXIT AND REENTER SAVE TO APPLY CHANGES!
         musicSubCategory = false,
+        -- This is only a line separator, checking it has no effect.
         EmptyBox12 = false,
+        -- This is only a line separator, checking it has no effect.
         FurnitureCategoryDivider = false,
-        tablesSubCategory = false,
-        bedsSubCategory = false,
-        seatingFurnitureSubCategory = false,
+        -- Enable to add Small and Large Tables. <LINE><LINE> <RGB:1,0,0> EXIT AND REENTER SAVE TO APPLY CHANGES!
+        tablesSubCategory = true,
+        -- Enable to add Simple and Large Beds. <LINE><LINE> <RGB:1,0,0> EXIT AND REENTER SAVE TO APPLY CHANGES!
+        bedsSubCategory = true,
+        -- Enable to add Benches, Couches, Chairs. <LINE><LINE> <RGB:1,0,0> EXIT AND REENTER SAVE TO APPLY CHANGES!
+        seatingFurnitureSubCategory = true,
+        -- Enable to add Bookshelves. <LINE><LINE> <RGB:1,0,0> EXIT AND REENTER SAVE TO APPLY CHANGES!
         bookshelvesSubCategory = true,
+        -- Enable to add Dressers, Drawers and Wardrobes. <LINE><LINE> <RGB:1,0,0> EXIT AND REENTER SAVE TO APPLY CHANGES!
         dressersAndWardrobesSubCategory = true,
+        -- This is only a line separator, checking it has no effect.
         EmptyBox13 = false,
+        -- This is only a line separator, checking it has no effect.
         DecorationsCategoryDivider = false,
+        -- Enable to add Rugs. <LINE><LINE> <RGB:1,0,0> EXIT AND REENTER SAVE TO APPLY CHANGES!
         rugsSubCategory = true,
+        -- Enable to add Curtains. <LINE><LINE> <RGB:1,0,0> EXIT AND REENTER SAVE TO APPLY CHANGES!
         curtainsSubCategory = false,
+        -- Enable to add Posters and Signs. <LINE><LINE> <RGB:1,0,0> EXIT AND REENTER SAVE TO APPLY CHANGES!
         postersAndSignsSubCategory = false,
+        -- Enable to add Graffiti. <LINE><LINE> <RGB:1,0,0> EXIT AND REENTER SAVE TO APPLY CHANGES!
         graffitiSubCategory = false,
+        -- Enable to add Other Decorations, such as road blocks, mailbox, barrier post, road cones, mail box. <LINE><LINE> <RGB:1,0,0> EXIT AND REENTER SAVE TO APPLY CHANGES!
         otherDecorationsSubCategory = false,
+        -- This is only a line separator, checking it has no effect.
         EmptyBox14 = false,
+        -- This is only a line separator, checking it has no effect.
         VegetationCategoryDivider = false,
+        -- Enable to add Flower Beds in Vegetation Category. <LINE><LINE> <RGB:1,0,0> EXIT AND REENTER SAVE TO APPLY CHANGES!
         flowerBedsSubCategory = true,
+        -- Enable to add Indoor Plants, such as Flower Pots in Vegetation Category. <LINE><LINE> <RGB:1,0,0> EXIT AND REENTER SAVE TO APPLY CHANGES!
         indoorPlantsSubCategory = true,
+        -- Enable to add Outdoor Plants, such as outdoor Flower Containers in Vegetation Category. <LINE><LINE> <RGB:1,0,0> EXIT AND REENTER SAVE TO APPLY CHANGES!
         outdoorPlantsSubCategory = true,
-        landscapingSubCategory = false,
+        -- Enable to add Landscaping Vegetation, such as Grass, Hedges, Wall Vines in Vegetation Category. <LINE><LINE> <RGB:1,0,0> EXIT AND REENTER SAVE TO APPLY CHANGES!
+        landscapingSubCategory = true,
+        -- This is only a line separator, checking it has no effect.
         EmptyBox15 = false,
+        -- This is only a line separator, checking it has no effect.
         SurvivalCategoryDivider = false,
-        fireplaceSubCategory = false,
-        generatorSubCategory = false,
-        metalDrums = false,
+        -- Enable to add Fireplace and Jambs. <LINE><LINE> <RGB:1,0,0> EXIT AND REENTER SAVE TO APPLY CHANGES!
+        fireplaceSubCategory = true,
+        -- Enable to add the Generator. <LINE><LINE> <RGB:1,0,0> EXIT AND REENTER SAVE TO APPLY CHANGES!
+        generatorSubCategory = true,
+        -- Enable to add metal drums. <LINE><LINE> <RGB:1,0,0> EXIT AND REENTER SAVE TO APPLY CHANGES!
+        metalDrums = true,
+        -- Enable to add water wells. <LINE><LINE> <RGB:1,0,0> EXIT AND REENTER SAVE TO APPLY CHANGES!
         waterWell = true,
+        -- This is only a line separator, checking it has no effect.
         EmptyBox16 = false,
+        -- This is only a line separator, checking it has no effect.
         AppliancesCategoryDivider = false,
-        lightingAppliances = false,
-        bathroomAppliances = false,
-        cookingAppliances = false,
-        fridgeAppliances = false,
-        laundryAppliances = false,
+        -- Enable to add Lighting Category. <LINE><LINE> <RGB:1,0,0> EXIT AND REENTER SAVE TO APPLY CHANGES!
+        lightingAppliances = true,
+        -- Enable to add Sinks, Toilets and other bathroom-related objects. <LINE><LINE> <RGB:1,0,0> EXIT AND REENTER SAVE TO APPLY CHANGES!
+        bathroomAppliances = true,
+        -- Enable to add Stoves, Ovens and other cooking-related objects. <LINE><LINE> <RGB:1,0,0> EXIT AND REENTER SAVE TO APPLY CHANGES!
+        cookingAppliances = true,
+        -- Enable to add Fridges and Freezers. <LINE><LINE> <RGB:1,0,0> EXIT AND REENTER SAVE TO APPLY CHANGES!
+        fridgeAppliances = true,
+        -- Enable to add Washers and Dryers. <LINE><LINE> <RGB:1,0,0> EXIT AND REENTER SAVE TO APPLY CHANGES!
+        laundryAppliances = true,
+        -- This is only a line separator, checking it has no effect.
         DaddyDirkieCategoryDivider = false,
+        -- Enable to add Daddy Dirkie furniture. <LINE><LINE> <RGB:1,0,0> EXIT AND REENTER SAVE TO APPLY CHANGES!
         daddyDirkieFurniture = true,
-        daddyDirkieRoadworkRamps = false,
+        -- Enable to add dirt, sand and asphalt ramps. <LINE><LINE> <RGB:1,0,0> EXIT AND REENTER SAVE TO APPLY CHANGES!
+        daddyDirkieRoadworkRamps = true,
+        -- Enable to add secret entrances. <LINE><LINE> <RGB:1,0,0> EXIT AND REENTER SAVE TO APPLY CHANGES!
         daddyDirkieSecretEntrances = true,
+        -- Enable to add forest survival structures. <LINE><LINE> <RGB:1,0,0> EXIT AND REENTER SAVE TO APPLY CHANGES!
         daddyDirkieForestSurvival = true,
+        -- This is only a line separator, checking it has no effect.
         DylanCategoryDivider = false,
-        dylanBarricades = false,
+        -- Enable to add barricades. <LINE><LINE> <RGB:1,0,0> EXIT AND REENTER SAVE TO APPLY CHANGES!
+        dylanBarricades = true,
+        -- This is only a line separator, checking it has no effect.
         MelosTilesCategoryDivider = false,
+        -- Enable to add Castle structures. <LINE><LINE> <RGB:1,0,0> EXIT AND REENTER SAVE TO APPLY CHANGES!
         melosTilesCastleWalls = true,
+        -- Enable to add Castle structures. <LINE><LINE> <RGB:1,0,0> EXIT AND REENTER SAVE TO APPLY CHANGES!
         melosTilesBathroomWalls = true,
+        -- This is only a line separator, checking it has no effect.
         PertsPartyCategoryDivider = false,
+        -- Enable to add ginger bread structures, christmas lighting. <LINE><LINE> <RGB:1,0,0> EXIT AND REENTER SAVE TO APPLY CHANGES!
         pertsPartyChristmas = true,
+        -- Enable to add Halloween Decorations. <LINE><LINE> <RGB:1,0,0> EXIT AND REENTER SAVE TO APPLY CHANGES!
         pertsPartyHalloween = true,
+        -- This is only a line separator, checking it has no effect.
         SimonMDCategoryDivider = false,
+        -- Enable to add secret entrances. <LINE><LINE> <RGB:1,0,0> EXIT AND REENTER SAVE TO APPLY CHANGES!
         simonMDSecretEntrances = true,
+        -- This is only a line separator, checking it has no effect.
         TryHonestyCategoryDivider = false,
+        -- Enable to add chinatown objects. <LINE><LINE> <RGB:1,0,0> EXIT AND REENTER SAVE TO APPLY CHANGES!
         tryHonestyChinatown = true,
     },
     BuildingMenuRecipes = {
@@ -1726,3 +1831,4 @@ SandboxVars = {
         EnableGravity = false,
     },
 }
+
