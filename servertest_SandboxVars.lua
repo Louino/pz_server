@@ -1221,11 +1221,11 @@ SandboxVars = {
         -- Minimum=20 Maximum=65 Default=40
         LatitudeVariation = 40,
         -- Minimum=0 Maximum=50 Default=35
-        Maxtemp = 38,
+        Maxtemp = 35,
         -- Minimum=-170 Maximum=0 Default=-15
-        Mintemp = -28,
+        Mintemp = -20,
         -- Minimum=7 Maximum=40 Default=9
-        SeasonVariation = 12,
+        SeasonVariation = 9,
     },
     FWOFitness = {
         InitialPerkBonus = true,
