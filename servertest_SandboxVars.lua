@@ -1054,13 +1054,13 @@ SandboxVars = {
     },
     BLTRandomZombies = {
         -- Minimum=0.00 Maximum=100.00 Default=2.00
-        Crawler = 7.0,
+        Crawler = 8.0,
         -- Minimum=0.00 Maximum=100.00 Default=15.00
         Shambler = 70.0,
         -- Minimum=0.00 Maximum=100.00 Default=78.00
         FastShambler = 20.0,
         -- Minimum=0.00 Maximum=100.00 Default=5.00
-        Sprinter = 3.0,
+        Sprinter = 2.0,
         -- Minimum=0.00 Maximum=100.00 Default=0.00
         Fragile = 25.0,
         -- Minimum=0.00 Maximum=100.00 Default=100.00
@@ -1199,7 +1199,7 @@ SandboxVars = {
     },
     SleepWithFriends = {
         RTorIG = 1,
-        SleepLength = "3.0",
+        SleepLength = "2.0",
         EndurMulti = "2.0",
         AutoWake = 1,
     },
@@ -1221,9 +1221,9 @@ SandboxVars = {
         -- Minimum=20 Maximum=65 Default=40
         LatitudeVariation = 40,
         -- Minimum=0 Maximum=50 Default=35
-        Maxtemp = 42,
+        Maxtemp = 38,
         -- Minimum=-170 Maximum=0 Default=-15
-        Mintemp = -25,
+        Mintemp = -28,
         -- Minimum=7 Maximum=40 Default=9
         SeasonVariation = 12,
     },
@@ -1765,9 +1765,9 @@ SandboxVars = {
     },
     FirstAidExpanded = {
         -- Minimum=0.00 Maximum=100.00 Default=0.22
-        SicknessOffset = 0.05,
+        SicknessOffset = 0.03,
         -- Minimum=0.00 Maximum=100.00 Default=100.00
-        MaxSickness = 100.0,
+        MaxSickness = 95.0,
         -- Minimum=0.00 Maximum=100.00 Default=0.00
         LowGrade = 0.0,
         -- Minimum=0.00 Maximum=100.00 Default=0.80
