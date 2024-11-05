@@ -530,14 +530,14 @@ SandboxVars = {
         -- 4 = 0-12 Hours
         -- 5 = 2-3 Days
         -- 6 = 1-2 Weeks
-        Mortality = 5,
+        Mortality = 6,
         -- Controls how quickly corpses rise as zombies. Default=0-1 Minutes
         -- 1 = Instant
         -- 2 = 0-30 Seconds
         -- 3 = 0-1 Minutes
         -- 4 = 0-12 Hours
         -- 5 = 2-3 Days
-        Reanimate = 4,
+        Reanimate = 5,
         -- Controls zombie intelligence. Default=Basic Navigation
         -- 1 = Navigate + Use Doors
         -- 2 = Navigate
@@ -1723,4 +1723,141 @@ SandboxVars = {
         BonusGridSize = 0,
         EnableGravity = false,
     },
+    lgd_antibodies_1_80_general_baseAntibodyGrowth = 150.0,
+    -- Each survived Knox infection provides this effect. Minimum=-300,00 Maximum=300,00 Default=0,00
+    lgd_antibodies_1_80_general_knoxInfectionsSurvivedEffect = 0.0,
+    -- Absolute effect won't be bigger that this value. Minimum=0,00 Maximum=300,00 Default=100,00
+    lgd_antibodies_1_80_general_knoxInfectionsSurvivedThreshold = 100.0,
+    -- Each passing day increases this effect. Minimum=-300,00 Maximum=300,00 Default=0,00
+    lgd_antibodies_1_80_general_knoxMutationEffect = 0.0,
+    -- Absolute effect won't be bigger that this value Minimum=0,00 Maximum=300,00 Default=100,00
+    lgd_antibodies_1_80_general_knoxMutationThreshold = 100.0,
+    -- Calculate number of days from Default=Character spawn
+    lgd_antibodies_1_80_general_knoxMutationStart = 2,
+    -- Adds hygiene panel to character window.
+    lgd_antibodies_1_80_general_hygienePanelEnabled = true,
+    -- Adds Knox diagnosis panel.
+    lgd_antibodies_1_80_general_diagnoseEnabled = true,
+    -- First-Aid skill requried. Minimum=0 Maximum=10 Default=2
+    lgd_antibodies_1_80_general_diagnoseSkillNeeded = 6,
+    -- Each treatment (disinfection, bandaging, poultice) applied provides this effect multiplied by doctor skill. Minimum=0,00 Maximum=10,00 Default=1,00
+    lgd_antibodies_1_80_general_doctorSkillTreatmentMod = 1.0,
+    -- Disables First-Aid level requirement.
+    lgd_antibodies_1_80_general_debug = false,
+    -- Points below 5 are regarded as negative effects, each multiplied by its respective value. Conversely, points exceeding 5 are considered positive effects, with each value being multiplied accordingly. Minimum=-100,00 Maximum=100,00 Default=5,00
+    lgd_antibodies_1_80_condition_fitness = 5.0,
+    -- Points below 5 are regarded as negative effects, each multiplied by its respective value. Conversely, points exceeding 5 are considered positive effects, with each value being multiplied accordingly. Minimum=-100,00 Maximum=100,00 Default=5,00
+    lgd_antibodies_1_80_condition_strength = 5.0,
+    -- Converted to 0 to -1 range, and multiplied by this effect. Minimum=-100,00 Maximum=100,00 Default=-10,00
+    lgd_antibodies_1_80_condition_fatigue = -10.0,
+    -- Converted to 0 to -1 range, and multiplied by this effect. Minimum=-100,00 Maximum=100,00 Default=-10,00
+    lgd_antibodies_1_80_condition_endurance = -10.0,
+    -- Converted to 0 to -1 range, and multiplied by this effect. Minimum=-100,00 Maximum=100,00 Default=-20,00
+    lgd_antibodies_1_80_condition_weight = -20.0,
+    -- Converted to 0 to -1 range, and multiplied by this effect. Minimum=-100,00 Maximum=100,00 Default=-20,00
+    lgd_antibodies_1_80_condition_thirst = -20.0,
+    -- Converted to 0 to -1 range, and multiplied by this effect. Minimum=-100,00 Maximum=100,00 Default=-10,00
+    lgd_antibodies_1_80_condition_sickness = -10.0,
+    -- Converted to 0 to -1 range, and multiplied by this effect. Minimum=-100,00 Maximum=100,00 Default=-10,00
+    lgd_antibodies_1_80_condition_foodSickness = -10.0,
+    -- Raw value is converted to -1 to 1 value, and multiplied by this effect. Minimum=-100,00 Maximum=100,00 Default=20,00
+    lgd_antibodies_1_80_condition_temperature = 20.0,
+    -- Raw value is converted to -1 to 1 value, and multiplied by this effect. Minimum=-100,00 Maximum=100,00 Default=10,00
+    lgd_antibodies_1_80_condition_drunkness = 10.0,
+    -- Raw value is converted to -1 to 1 value, and multiplied by this effect. Minimum=-100,00 Maximum=100,00 Default=-20,00
+    lgd_antibodies_1_80_condition_hunger = -20.0,
+    -- Raw value is converted to -1 to 1 value, and multiplied by this effect. Minimum=-100,00 Maximum=100,00 Default=-5,00
+    lgd_antibodies_1_80_condition_pain = -5.0,
+    -- Raw value is converted to -1 to 1 value, and multiplied by this effect. Minimum=-100,00 Maximum=100,00 Default=-5,00
+    lgd_antibodies_1_80_condition_stress = -5.0,
+    -- Raw value is converted to -1 to 1 value, and multiplied by this effect. Minimum=-100,00 Maximum=100,00 Default=-5,00
+    lgd_antibodies_1_80_condition_unhappiness = -5.0,
+    -- Raw value is converted to -1 to 1 value, and multiplied by this effect. Minimum=-100,00 Maximum=100,00 Default=-1,00
+    lgd_antibodies_1_80_condition_boredom = -1.0,
+    -- Raw value is converted to -1 to 1 value, and multiplied by this effect. Minimum=-100,00 Maximum=100,00 Default=-5,00
+    lgd_antibodies_1_80_condition_panic = -5.0,
+    -- Raw value is converted to -1 to 1 value, and multiplied by this effect. Minimum=-100,00 Maximum=100,00 Default=0,00
+    lgd_antibodies_1_80_condition_sanity = 0.0,
+    -- Raw value is converted to -1 to 1 value, and multiplied by this effect. Minimum=-100,00 Maximum=100,00 Default=0,00
+    lgd_antibodies_1_80_condition_anger = 0.0,
+    -- Raw value is converted to -1 to 1 value, and multiplied by this effect. Minimum=-100,00 Maximum=100,00 Default=0,00
+    lgd_antibodies_1_80_condition_fear = 0.0,
+    -- Multiplied by the doctor's skill and the treatment mod. Applied per affected body part independently (18 in total) Minimum=0,00 Maximum=10,00 Default=0,25
+    lgd_antibodies_1_80_wounds_bandaged = 0.25,
+    -- Multiplied by the doctor's skill and the treatment mod. Applied per affected body part independently (18 in total) Minimum=0,00 Maximum=10,00 Default=0,25
+    lgd_antibodies_1_80_wounds_cleanBandage = 0.25,
+    -- Multiplied by the doctor's skill and the treatment mod. Applied per affected body part independently (18 in total) Minimum=0,00 Maximum=10,00 Default=0,25
+    lgd_antibodies_1_80_wounds_sterilizedBandage = 0.25,
+    -- Multiplied by the doctor's skill and the treatment mod. Applied per affected body part independently (18 in total) Minimum=0,00 Maximum=10,00 Default=0,25
+    lgd_antibodies_1_80_wounds_sterilizedWound = 0.25,
+    -- Multiplied by the doctor's skill and the treatment mod. Applied per affected body part independently (18 in total) Minimum=0,00 Maximum=10,00 Default=1,00
+    lgd_antibodies_1_80_wounds_garlic = 1.0,
+    -- Multiplied by the doctor's skill and the treatment mod. Applied per affected body part independently (18 in total) Minimum=0,00 Maximum=10,00 Default=0,50
+    lgd_antibodies_1_80_wounds_plantain = 0.5,
+    -- Multiplied by the doctor's skill and the treatment mod. Applied per affected body part independently (18 in total) Minimum=0,00 Maximum=10,00 Default=0,25
+    lgd_antibodies_1_80_wounds_comfrey = 0.25,
+    -- Applied per affected body part independently (18 in total) Minimum=-10,00 Maximum=0,00 Default=-4,00
+    lgd_antibodies_1_80_wounds_deepWounded = -4.0,
+    -- Applied per affected body part independently (18 in total) Minimum=-10,00 Maximum=0,00 Default=-4,00
+    lgd_antibodies_1_80_wounds_bleeding = -4.0,
+    -- Applied per affected body part independently (18 in total) Minimum=-10,00 Maximum=0,00 Default=-3,00
+    lgd_antibodies_1_80_wounds_bitten = -3.0,
+    -- Applied per affected body part independently (18 in total) Minimum=-10,00 Maximum=0,00 Default=-2,00
+    lgd_antibodies_1_80_wounds_cut = -2.0,
+    -- Applied per affected body part independently (18 in total) Minimum=-10,00 Maximum=0,00 Default=-1,00
+    lgd_antibodies_1_80_wounds_scratched = -1.0,
+    -- Applied per affected body part independently (18 in total) Minimum=-10,00 Maximum=0,00 Default=-2,00
+    lgd_antibodies_1_80_wounds_burnt = -2.0,
+    -- Applied per affected body part independently (18 in total) Minimum=-10,00 Maximum=0,00 Default=-3,00
+    lgd_antibodies_1_80_wounds_needBurnWash = -3.0,
+    -- Applied per affected body part independently (18 in total) Minimum=-10,00 Maximum=0,00 Default=-1,00
+    lgd_antibodies_1_80_wounds_stiched = -1.0,
+    -- Applied per affected body part independently (18 in total) Minimum=-10,00 Maximum=0,00 Default=-3,00
+    lgd_antibodies_1_80_wounds_haveBullet = -3.0,
+    -- Applied per affected body part independently (18 in total) Minimum=-10,00 Maximum=0,00 Default=-2,00
+    lgd_antibodies_1_80_wounds_haveGlass = -2.0,
+    -- Applied per affected
+    -- body part independently (18 in total) Minimum=-10,00 Maximum=0,00 Default=-1,00
+    lgd_antibodies_1_80_infections_regular = -1.0,
+    -- Applied per affected
+    -- body part independently (18 in total) Minimum=-10,00 Maximum=0,00 Default=-2,00
+    lgd_antibodies_1_80_infections_virusScratch = -2.0,
+    -- Applied per affected
+    -- body part independently (18 in total) Minimum=-10,00 Maximum=0,00 Default=-3,00
+    lgd_antibodies_1_80_infections_virusCut = -3.0,
+    -- Applied per affected
+    -- body part independently (18 in total) Minimum=-10,00 Maximum=0,00 Default=-4,00
+    lgd_antibodies_1_80_infections_virusBite = -4.0,
+    -- Applied per affected body part independently (18 in total). Multiplied by sum of hygiene mods. Minimum=-100,00 Maximum=0,00 Default=-20,00
+    lgd_antibodies_1_80_hygiene_bloodEffect = -20.0,
+    -- Applied per affected body part independently (18 in total). Multiplied by sum of hygiene mods. Minimum=-100,00 Maximum=0,00 Default=-10,00
+    lgd_antibodies_1_80_hygiene_dirtEffect = -10.0,
+    -- Sum of all hygiene mods will be multipled by blood and dirt effect Minimum=0,00 Maximum=1,00 Default=0,25
+    lgd_antibodies_1_80_hygiene_bandaged = 0.25,
+    -- Sum of all hygiene mods will be multipled by blood and dirt effect Minimum=0,00 Maximum=1,00 Default=0,25
+    lgd_antibodies_1_80_hygiene_cleanBandage = 0.25,
+    -- Sum of all hygiene mods will be multipled by blood and dirt effect Minimum=0,00 Maximum=1,00 Default=0,25
+    lgd_antibodies_1_80_hygiene_sterilizedBandage = 0.25,
+    -- Sum of all hygiene mods will be multipled by blood and dirt effect Minimum=0,00 Maximum=1,00 Default=0,25
+    lgd_antibodies_1_80_hygiene_sterilizedWound = 0.25,
+    -- Sum of all hygiene mods will be multipled by blood and dirt effect Minimum=-10,00 Maximum=0,00 Default=-0,80
+    lgd_antibodies_1_80_hygiene_deepWounded = -0.8,
+    -- Sum of all hygiene mods will be multipled by blood and dirt effect Minimum=-10,00 Maximum=0,00 Default=-0,60
+    lgd_antibodies_1_80_hygiene_bleeding = -0.6,
+    -- Sum of all hygiene mods will be multipled by blood and dirt effect Minimum=-10,00 Maximum=0,00 Default=-0,40
+    lgd_antibodies_1_80_hygiene_bitten = -0.4,
+    -- Sum of all hygiene mods will be multipled by blood and dirt effect Minimum=-10,00 Maximum=0,00 Default=-0,20
+    lgd_antibodies_1_80_hygiene_cut = -0.2,
+    -- Sum of all hygiene mods will be multipled by blood and dirt effect Minimum=-10,00 Maximum=0,00 Default=-0,10
+    lgd_antibodies_1_80_hygiene_scratched = -0.1,
+    -- Sum of all hygiene mods will be multipled by blood and dirt effect Minimum=-10,00 Maximum=0,00 Default=-0,40
+    lgd_antibodies_1_80_hygiene_burnt = -0.4,
+    -- Sum of all hygiene mods will be multipled by blood and dirt effect Minimum=-10,00 Maximum=0,00 Default=-0,60
+    lgd_antibodies_1_80_hygiene_needBurnWash = -0.6,
+    -- Sum of all hygiene mods will be multipled by blood and dirt effect Minimum=-10,00 Maximum=0,00 Default=-0,10
+    lgd_antibodies_1_80_hygiene_stiched = -0.1,
+    -- Sum of all hygiene mods will be multipled by blood and dirt effect Minimum=-10,00 Maximum=0,00 Default=-0,60
+    lgd_antibodies_1_80_hygiene_haveBullet = -0.6,
+    -- Sum of all hygiene mods will be multipled by blood and dirt effect Minimum=-10,00 Maximum=0,00 Default=-0,40
+    lgd_antibodies_1_80_hygiene_haveGlass = -0.4,
 }
